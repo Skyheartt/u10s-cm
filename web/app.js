@@ -30,15 +30,26 @@ fetch("data/standings.json", { cache: "no-store" })
     app.replaceChildren(p(error.message || "The leaderboard could not be loaded.", "error"));
   });
 
+function knownTime(value) {
+  return typeof value === "number" && value > 0 && value < 4294967295 ? value : null;
+}
+
 function prepare(data) {
   const maps = data.maps || [];
   const players = (data.players || []).map((player) => {
     const records = new Map(player.records || []);
+    let count = 0;
+    for (const [index, value] of records) {
+      const time = knownTime(value);
+      const map = maps[index];
+      if (time != null && map && time <= map.cm) count += 1;
+    }
     return {
       id: player.id,
       name: player.name || player.id,
       records,
-      count: records.size,
+      count,
+      tracked: Boolean(player.tracked),
     };
   });
   players.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name) || a.id.localeCompare(b.id));
@@ -101,7 +112,7 @@ function updatedLabel() {
   const stamp = Number.isNaN(when.getTime())
     ? state.data.updatedAt
     : when.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
-  return `Updated ${stamp}. Refreshed about once an hour.`;
+  return `Updated ${stamp}. Refreshed about every 3 hours.`;
 }
 
 function boardView() {
@@ -252,6 +263,9 @@ function playerView() {
     el("h2", {}, [player.name]),
     el("p", { class: "lede" }, [`${player.count} of ${total} · ${percent}% · rank ${player.rank}`]),
   );
+  if (player.tracked) {
+    copy.append(el("p", { class: "meta" }, ["Personal bests are included on maps without the medal."]));
+  }
   head.append(copy, el("div", { class: "player-actions" }, [
     el("button", {
       class: "text-btn",
@@ -326,7 +340,7 @@ function mapSortSelect() {
   });
   const options = [
     ["number", "Map number"],
-    ["tight", "Tightest medal"],
+    ["tight", "Closest to the medal"],
     ["margin", "Largest margin"],
   ];
   for (const [value, label] of options) {
@@ -340,11 +354,12 @@ function mapSortSelect() {
 function filteredMaps(player) {
   const query = state.mapQuery.trim().toLowerCase();
   let rows = state.data.maps.map((map, index) => {
-    const time = player.records.get(index);
-    return { map, index, time: time == null ? null : time, gap: time == null ? null : time - map.cm };
+    const time = knownTime(player.records.get(index));
+    const medal = time != null && time <= map.cm;
+    return { map, index, time, medal, gap: time == null ? null : time - map.cm };
   });
-  if (state.mapFilter === "has") rows = rows.filter((row) => row.time != null);
-  if (state.mapFilter === "missing") rows = rows.filter((row) => row.time == null);
+  if (state.mapFilter === "has") rows = rows.filter((row) => row.medal);
+  if (state.mapFilter === "missing") rows = rows.filter((row) => !row.medal);
   if (query) rows = rows.filter((row) => row.map.name.toLowerCase().includes(query));
   if (state.mapSort === "tight") {
     rows.sort((a, b) => (a.gap == null) - (b.gap == null) || Math.abs(a.gap) - Math.abs(b.gap) || a.index - b.index);
@@ -375,7 +390,7 @@ function mapRows(rows, total) {
 
 function mapRow(row) {
   const line = el("div", { class: "map-row" });
-  const gapClass = row.gap == null ? "gap" : row.gap < 0 ? "gap under" : "gap";
+  const gapClass = row.gap == null ? "gap" : row.gap < 0 ? "gap under" : row.gap > 0 ? "gap over" : "gap";
   const link = el("a", {
     class: "external link-col",
     href: `https://trackmania.io/#/leaderboard/${encodeURIComponent(row.map.uid)}`,
@@ -464,6 +479,7 @@ function formatTime(ms) {
 
 function formatSigned(ms) {
   if (ms === 0) return "0.000";
+  if (ms > 0) return `+${formatTime(ms)}`;
   return formatTime(ms);
 }
 

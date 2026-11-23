@@ -7,4900 +7,6300 @@
       "uid": "_C5UDtcf7Vf3Dj25fxXAosRChzh",
       "mxId": 146226,
       "cm": 8419,
-      "authorTime": 8770
+      "authorTime": 8770,
+      "mapId": "e1e16768-3568-410d-aa5d-87c67dba21b1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_02",
       "uid": "Lt40QAM_WgkQLy6u7uj761smoNg",
       "mxId": 146227,
       "cm": 8039,
-      "authorTime": 8153
+      "authorTime": 8153,
+      "mapId": "27e241cc-853e-4b71-84b4-73723fa75635",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_03",
       "uid": "z4_4KxKnXG60r6ZdOt0OG1R7oyb",
       "mxId": 146228,
       "cm": 9562,
-      "authorTime": 9984
+      "authorTime": 9984,
+      "mapId": "7f44dbc1-a70f-48c7-84b1-63c0436cb96e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_04",
       "uid": "znU9BU_vFKoa7mlNl8pgELtfjS7",
       "mxId": 146229,
       "cm": 8376,
-      "authorTime": 8888
+      "authorTime": 8888,
+      "mapId": "50eb4262-3d11-4c7f-b126-da6a4cdcc35e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_05",
       "uid": "8zAR3kvtDNVwuV6dIEvKyIHaRY4",
       "mxId": 146230,
       "cm": 6718,
-      "authorTime": 7243
+      "authorTime": 7243,
+      "mapId": "9c9a0407-a110-44e7-95ec-a62a8ddae514",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_06",
       "uid": "NMRy3dYwpTwk9eHvu2pHi68Xp44",
       "mxId": 146231,
       "cm": 7090,
-      "authorTime": 7435
+      "authorTime": 7435,
+      "mapId": "228a2239-54b0-48bc-ae20-e7e20bfaa27d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_07",
       "uid": "xym0xIoHfTR36YgmilJm_zfvO41",
       "mxId": 146232,
       "cm": 7512,
-      "authorTime": 7915
+      "authorTime": 7915,
+      "mapId": "cd788135-1c6a-456b-b4de-7b937e429d1e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_08",
       "uid": "gavmPOTfgM5bPHSsxlw7EnkVtu8",
       "mxId": 146233,
       "cm": 7570,
-      "authorTime": 8188
+      "authorTime": 8188,
+      "mapId": "333a1366-2e2f-4968-b289-e08c396547a1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_09",
       "uid": "x9Abnfl1_2685nCYkdcXMV8tgKj",
       "mxId": 146234,
       "cm": 6518,
-      "authorTime": 7795
+      "authorTime": 7795,
+      "mapId": "5c35952c-0c01-4117-abfa-f0e610e6b327",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_10",
       "uid": "2Hq9gTxO5kXCSP_z67aJ67O0Ni9",
       "mxId": 146235,
       "cm": 7186,
-      "authorTime": 7373
+      "authorTime": 7373,
+      "mapId": "b637f5d2-4cd5-4ebb-a355-41fe4d9e92fc",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_11",
       "uid": "VwOG0q7xud33Vz3Yj6vUwkN4202",
       "mxId": 146236,
       "cm": 6887,
-      "authorTime": 9618
+      "authorTime": 9618,
+      "mapId": "121e6b8d-796d-446b-bccc-be338d441fd2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_12",
       "uid": "p728XoIeF4nB0lGu_ST9801R6G5",
       "mxId": 146237,
       "cm": 7120,
-      "authorTime": 7208
+      "authorTime": 7208,
+      "mapId": "980b2c85-a06f-48c8-9c28-47d8330dfef9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_13",
       "uid": "uOenO2Me2Za5chFI0KPprQD9dhm",
       "mxId": 146238,
       "cm": 9812,
-      "authorTime": 9987
+      "authorTime": 9987,
+      "mapId": "6d5843ad-1254-4353-80a2-a98878631f1f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_14",
       "uid": "9zSsYUD_wjECVkZGst63HTQvSA6",
       "mxId": 146239,
       "cm": 8762,
-      "authorTime": 9203
+      "authorTime": 9203,
+      "mapId": "d8891a66-e985-4e8f-9794-d8839bea68de",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_15",
       "uid": "mxJSGOcKDDYCSATFOm4HjNVG8ym",
       "mxId": 146240,
       "cm": 8596,
-      "authorTime": 9019
+      "authorTime": 9019,
+      "mapId": "fbcd9490-274c-4b79-b071-5f2042ee9d05",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_16",
       "uid": "E1cGnr6d0rE2nMt8B5Z4f3P5Wof",
       "mxId": 146241,
       "cm": 7718,
-      "authorTime": 8114
+      "authorTime": 8114,
+      "mapId": "e3f7a364-cdcd-4239-bca9-8fd6714d86d7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_17",
       "uid": "gcT3mnsWUFMBV1kldI8x3NaAdo7",
       "mxId": 146242,
       "cm": 8298,
-      "authorTime": 9088
+      "authorTime": 9088,
+      "mapId": "be4b6e34-bf91-439c-be3e-2d88b55a8ad0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_18",
       "uid": "e3mvEPcmZUwgu9YLXnDqzgIeFsk",
       "mxId": 146243,
       "cm": 6614,
-      "authorTime": 6828
+      "authorTime": 6828,
+      "mapId": "49bf4be6-110f-471a-a8d0-871d03209068",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_19",
       "uid": "JV1P1hVqtXgeca0LCfFEF34zkFh",
       "mxId": 146244,
       "cm": 9579,
-      "authorTime": 9792
+      "authorTime": 9792,
+      "mapId": "0e301dff-9481-4508-afe9-b0bb37720da5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_20",
       "uid": "Fh5NfFnQ4ATqfF57rrfGQnx2BJd",
       "mxId": 146245,
       "cm": 9144,
-      "authorTime": 9378
+      "authorTime": 9378,
+      "mapId": "e6c76eef-9c29-48f3-b4e5-9e28a5961c1f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_21",
       "uid": "6UeZdl25tShCAUHzEqz4Pxxljs",
       "mxId": 146246,
       "cm": 9336,
-      "authorTime": 9655
+      "authorTime": 9655,
+      "mapId": "1d2f4e45-a7e2-437a-8c26-e7e86b8a0a80",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_22",
       "uid": "xasmqLZsQMFzxLNXrcrRaINY2q2",
       "mxId": 146247,
       "cm": 9709,
-      "authorTime": 9988
+      "authorTime": 9988,
+      "mapId": "66d288cb-f2d2-4a3e-981a-760b229d9cc7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_23",
       "uid": "njcd0tsCJA5Jwi8MlK65oixajGl",
       "mxId": 146248,
       "cm": 9074,
-      "authorTime": 9487
+      "authorTime": 9487,
+      "mapId": "96cd280a-5992-4263-800c-d067c631356d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_24",
       "uid": "nveyUNGz4M5_Dx2N6CwQTfHKcOh",
       "mxId": 146249,
       "cm": 8921,
-      "authorTime": 9314
+      "authorTime": 9314,
+      "mapId": "86a4fe7f-e869-48e1-9412-ef80b1c4ddaf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_25",
       "uid": "3fod1_Bl031raiXRsBfm5Q8tXr4",
       "mxId": 146250,
       "cm": 9777,
-      "authorTime": 9806
+      "authorTime": 9806,
+      "mapId": "68d854b2-ad34-42b7-b0b9-4c1f3e36cbd2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_26",
       "uid": "mJGI83dwTAvMGFYQpWvY1vvssB9",
       "mxId": 146251,
       "cm": 9938,
-      "authorTime": 9975
+      "authorTime": 9975,
+      "mapId": "3eabd6db-be91-4ca8-8493-38df83f4cca8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_27",
       "uid": "pSeGCAHVl1VjNzIWdjxhKoGIMV9",
       "mxId": 146252,
       "cm": 9051,
-      "authorTime": 9462
+      "authorTime": 9462,
+      "mapId": "54815308-a574-419e-808f-eeee02814bfe",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_28",
       "uid": "PlMLwWjLnQjjueg7l2GMkjOF_La",
       "mxId": 146253,
       "cm": 7439,
-      "authorTime": 7666
+      "authorTime": 7666,
+      "mapId": "6926a31f-8942-4f55-b352-e1e15389093b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_29",
       "uid": "dh3HI1NwbS140bHTHi_dWvAYkW",
       "mxId": 146254,
       "cm": 8844,
-      "authorTime": 9014
+      "authorTime": 9014,
+      "mapId": "a35b5b59-aa68-4df4-999b-9b555cfba4d1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_30",
       "uid": "8T7gIuEcuf9XDV0eXPcuGobuq4h",
       "mxId": 146255,
       "cm": 9167,
-      "authorTime": 9328
+      "authorTime": 9328,
+      "mapId": "971489e2-03b2-4e25-98a4-29c9aff66374",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_31",
       "uid": "MN5G7vqblPnEdqrR_R9FbRuFsfl",
       "mxId": 146256,
       "cm": 8234,
-      "authorTime": 8425
+      "authorTime": 8425,
+      "mapId": "3553a3b2-8e5d-49e3-ada0-42e6435b406c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_32",
       "uid": "gMeKQv7E5ei4Kdd5oMvbl4bQpNg",
       "mxId": 146257,
       "cm": 9700,
-      "authorTime": 9864
+      "authorTime": 9864,
+      "mapId": "0648aff2-c6f4-4be4-b735-ff197725122a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_33",
       "uid": "g6v6l4afVH3WuIkI3vMseEyuzE0",
       "mxId": 146258,
       "cm": 9289,
-      "authorTime": 9503
+      "authorTime": 9503,
+      "mapId": "20bc288a-58e3-47d6-825f-0908c51c9be3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_34",
       "uid": "BPdvAfe0DUszA3PKCPlSWSgMWAc",
       "mxId": 146259,
       "cm": 7764,
-      "authorTime": 8081
+      "authorTime": 8081,
+      "mapId": "3fa3c891-0f1d-42f4-99bb-7e7589071463",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_35",
       "uid": "bMU_PvwuoyhG_m5OUebUT7YzF5f",
       "mxId": 146260,
       "cm": 9258,
-      "authorTime": 9498
+      "authorTime": 9498,
+      "mapId": "9b850fb7-6f5e-4961-ad69-bc12ced3fc4a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_36",
       "uid": "qJjxEpL0KxrgMAWkfV6jsvut2Qm",
       "mxId": 146261,
       "cm": 8650,
-      "authorTime": 9908
+      "authorTime": 9908,
+      "mapId": "b44e12e6-e025-4747-93b4-d56d02bf384b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_37",
       "uid": "Pm6ALD_Tq4vDlVwFIElFBX_tgGb",
       "mxId": 146262,
       "cm": 9769,
-      "authorTime": 9881
+      "authorTime": 9881,
+      "mapId": "b4713231-56d5-4589-bb61-e243e2e10a75",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_38",
       "uid": "dWOCAid2wseYBqM4y6B3vkcF1wb",
       "mxId": 146263,
       "cm": 4728,
-      "authorTime": 5490
+      "authorTime": 5490,
+      "mapId": "6f4638b6-7e4c-44e8-99d1-f33124d331dd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_39",
       "uid": "AT9SIVXcZDa9EWeWtoyTilV52L3",
       "mxId": 146264,
       "cm": 9688,
-      "authorTime": 9762
+      "authorTime": 9762,
+      "mapId": "b26e434e-42ef-4117-92c1-82921a6daacf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_40",
       "uid": "pM4_ak_7Ts22ib487Y6gbGthWk5",
       "mxId": 146265,
       "cm": 8951,
-      "authorTime": 9521
+      "authorTime": 9521,
+      "mapId": "5c425e23-1065-470b-97fd-6ffb10c7d6d3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_41",
       "uid": "EnlUlrL6eX1mjSXBt5KUK2YldEf",
       "mxId": 146266,
       "cm": 9319,
-      "authorTime": 9390
+      "authorTime": 9390,
+      "mapId": "df34b460-8707-4bf1-9f9d-c9fd2ab18c86",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_42",
       "uid": "Kwz7ERCIbxOLJ3r54scWJRKkg81",
       "mxId": 146267,
       "cm": 8223,
-      "authorTime": 8716
+      "authorTime": 8716,
+      "mapId": "a8d6d992-e341-499a-8297-c64b5c1834c6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_43",
       "uid": "prkDPOMrQ3Am6oHl4qcXknKSOk6",
       "mxId": 146268,
       "cm": 9373,
-      "authorTime": 9485
+      "authorTime": 9485,
+      "mapId": "16bfe331-8c39-43e7-884f-728c3c0b882a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_44",
       "uid": "FiXKn1cTVGHBTyykPO2k7tfKABj",
       "mxId": 146269,
       "cm": 9421,
-      "authorTime": 9924
+      "authorTime": 9924,
+      "mapId": "915e10cf-5034-46c9-ad2e-1b315a2375b0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_45",
       "uid": "AA4q5p8NdWATyOZtvTENGLTSCqj",
       "mxId": 146270,
       "cm": 9469,
-      "authorTime": 9517
+      "authorTime": 9517,
+      "mapId": "7327b99e-b30a-42ff-a3bf-01f20c48ba36",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_46",
       "uid": "SmaF2rKCNW0JewLWF1wV1W9Yo7e",
       "mxId": 146271,
       "cm": 8897,
-      "authorTime": 9173
+      "authorTime": 9173,
+      "mapId": "f39f4b8f-3a6b-4850-91bc-0412df88dea7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_47",
       "uid": "D6G0V3C3KV1nbqMhTydcz91cuO0",
       "mxId": 146272,
       "cm": 8765,
-      "authorTime": 9002
+      "authorTime": 9002,
+      "mapId": "9e241e12-5963-4fc7-81ea-e6c6f72b9f74",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_48",
       "uid": "qRAqOKs_UY63F_Jp22SQ79fzJBg",
       "mxId": 146273,
       "cm": 8464,
-      "authorTime": 9056
+      "authorTime": 9056,
+      "mapId": "7b01f143-54a5-41cb-a043-3dbe7debe7b7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_49",
       "uid": "yYse2YsTkP7xwKrMUwp7qFq05Hg",
       "mxId": 146274,
       "cm": 9540,
-      "authorTime": 9908
+      "authorTime": 9908,
+      "mapId": "7d4b318b-e3f6-4928-8103-054c67570d6f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_50",
       "uid": "CP7p2v1q_yPOg3VM5iiYrjyuBV0",
       "mxId": 146275,
       "cm": 9665,
-      "authorTime": 9830
+      "authorTime": 9830,
+      "mapId": "05912afb-85fd-4f40-a974-8b3815a66e77",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_51",
       "uid": "po9eWvZTznC2MiLEX_0zz3_YeLj",
       "mxId": 146276,
       "cm": 8147,
-      "authorTime": 8598
+      "authorTime": 8598,
+      "mapId": "330fe3f8-172e-461c-9c4b-b010f8528fe1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_52",
       "uid": "czP9NqRk3jPaekgFdbGbEWShPah",
       "mxId": 146277,
       "cm": 8021,
-      "authorTime": 8232
+      "authorTime": 8232,
+      "mapId": "c3eab7d6-dcb3-48ef-80de-3d0203526ab8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_53",
       "uid": "WBmVwvhkKSrN_OISAIsfI2zEbwd",
       "mxId": 146278,
       "cm": 8862,
-      "authorTime": 9052
+      "authorTime": 9052,
+      "mapId": "2b3628cb-4106-4afb-8472-3d056ef4c646",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_54",
       "uid": "jB5Evciy_vzAjw7to0O7w4sS0d2",
       "mxId": 146279,
       "cm": 9638,
-      "authorTime": 9750
+      "authorTime": 9750,
+      "mapId": "916eccc6-0a4b-4ae0-86ef-f8ff3f6ddbea",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_55",
       "uid": "9D4Is7vQW1rlvuRUQOAUpZld0il",
       "mxId": 146280,
       "cm": 9696,
-      "authorTime": 9836
+      "authorTime": 9836,
+      "mapId": "36820e80-5bda-4f83-a193-5ec69ac73b33",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_56",
       "uid": "mkROgTk6mFUDf5VJrY3x6qDM7r1",
       "mxId": 146281,
       "cm": 8776,
-      "authorTime": 8994
+      "authorTime": 8994,
+      "mapId": "6c1fefb4-4ce3-4761-b270-163bd32cd153",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_57",
       "uid": "pq8SQ00PfxWe4_W1ShME0L4PNYm",
       "mxId": 146282,
       "cm": 8257,
-      "authorTime": 8977
+      "authorTime": 8977,
+      "mapId": "9eb54ecd-0435-4c88-a9b9-3b73f62a7e4a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_58",
       "uid": "_HlvZRgCzFXgl8jhemLTF8q1ZEb",
       "mxId": 146283,
       "cm": 8401,
-      "authorTime": 8578
+      "authorTime": 8578,
+      "mapId": "bac19f80-9046-4b1f-a074-ed0d161feb40",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_59",
       "uid": "vB1xUlO9f1wbKKcV3fykYWxD6e2",
       "mxId": 146284,
       "cm": 8205,
-      "authorTime": 8961
+      "authorTime": 8961,
+      "mapId": "674fa636-f17c-40c8-9f20-1dfacedbb016",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_60",
       "uid": "5HqmbOJHNz1AFbpJ94Sz3btXQwj",
       "mxId": 146285,
       "cm": 8591,
-      "authorTime": 9145
+      "authorTime": 9145,
+      "mapId": "f22574dc-feb5-4b38-b7ce-3778fcfb37a3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_61",
       "uid": "1x5lznE9EhE5OP1IsvsLkLVFf",
       "mxId": 146286,
       "cm": 8160,
-      "authorTime": 8278
+      "authorTime": 8278,
+      "mapId": "54df0643-f520-4ef5-a0d1-1d8d60fe3182",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_62",
       "uid": "1utI7qfnG83ZNMfemK3ozw04ipe",
       "mxId": 146287,
       "cm": 9200,
-      "authorTime": 9381
+      "authorTime": 9381,
+      "mapId": "b8678f88-d888-46af-b503-38d2105d6caf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_63",
       "uid": "Y9n6SZLZ6UKHMBk43uyhP0QJIla",
       "mxId": 146288,
       "cm": 8022,
-      "authorTime": 9638
+      "authorTime": 9638,
+      "mapId": "3dbcffa4-783f-4dff-b172-87d21f27b9aa",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_64",
       "uid": "zFH6iFTnm27IzObk9hl1SzL3D7",
       "mxId": 146289,
       "cm": 9512,
-      "authorTime": 9632
+      "authorTime": 9632,
+      "mapId": "01b9791f-9791-4456-b217-6cb5fe89cca0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_65",
       "uid": "g6E5TSgY8_CAjCFWXsn2No4zC_j",
       "mxId": 146290,
       "cm": 6290,
-      "authorTime": 7046
+      "authorTime": 7046,
+      "mapId": "788d10aa-b8bb-4c4e-a7c4-1844c3189555",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_66",
       "uid": "8kl7cLtN9ThBmwuKvNHyPcn3Ndj",
       "mxId": 146291,
       "cm": 9541,
-      "authorTime": 9680
+      "authorTime": 9680,
+      "mapId": "a877111c-0670-4adf-ad6c-06cd51336261",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_67",
       "uid": "losDLifyGLDq4IEfmPWFQ0h_hM7",
       "mxId": 146292,
       "cm": 9458,
-      "authorTime": 9887
+      "authorTime": 9887,
+      "mapId": "c260b98f-dd30-407e-a10e-b9a0e1f28f7b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_68",
       "uid": "R7TXUnqCbbcOeKqIEp1L2ElmVoa",
       "mxId": 146293,
       "cm": 8888,
-      "authorTime": 9256
+      "authorTime": 9256,
+      "mapId": "9d435c94-cb31-4d4e-9ad8-f150ca9ba9ef",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_69",
       "uid": "_VuK_WsrxPrdq0gOKNO03Q5v7Sb",
       "mxId": 146294,
       "cm": 9101,
-      "authorTime": 9364
+      "authorTime": 9364,
+      "mapId": "8119d0e7-bf35-4d91-9aa4-fecc0f6d6814",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_70",
       "uid": "XAIOLSJfKxx70RT319wM6P45vKe",
       "mxId": 146295,
       "cm": 9510,
-      "authorTime": 9845
+      "authorTime": 9845,
+      "mapId": "12d08257-b976-4e8e-8a02-82a2006fc3dd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_71",
       "uid": "qjH0zOmgwWZbZKZ4ap3atHCQFik",
       "mxId": 146296,
       "cm": 9773,
-      "authorTime": 9998
+      "authorTime": 9998,
+      "mapId": "3122538c-b10f-45e3-9f6f-9d9e6a5e334d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_72",
       "uid": "I6EwG2pxZBJgxQ70R8USZ9ietN",
       "mxId": 146297,
       "cm": 8537,
-      "authorTime": 9300
+      "authorTime": 9300,
+      "mapId": "d21239b1-bbc6-4ccd-a7fa-46c876953562",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_73",
       "uid": "W8A9TLV9Cj5U5qsTQnGtw3ItB2h",
       "mxId": 146298,
       "cm": 9311,
-      "authorTime": 9669
+      "authorTime": 9669,
+      "mapId": "39f1f9c6-de7f-48d9-b4ff-62f3414e729f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_74",
       "uid": "ZZ4i2dA66A1ZPCOz5u92SxRGNui",
       "mxId": 146299,
       "cm": 8997,
-      "authorTime": 9110
+      "authorTime": 9110,
+      "mapId": "b2033215-f808-4760-8dd0-1eba454ea1d7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_75",
       "uid": "OMzWIp1AFvAz95WcBdWA5UkejK6",
       "mxId": 146300,
       "cm": 9753,
-      "authorTime": 9873
+      "authorTime": 9873,
+      "mapId": "30a38eb0-11bb-48fa-9ee4-5892022e446c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_76",
       "uid": "Qapy7Z6WHpezjYqafUBsfmzbkqe",
       "mxId": 146301,
       "cm": 9448,
-      "authorTime": 9888
+      "authorTime": 9888,
+      "mapId": "27b8a25e-b2ac-4b55-aa49-a82f39d12f11",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_77",
       "uid": "aaKWLmcTzJfhwdb06TtAppPir50",
       "mxId": 146302,
       "cm": 9213,
-      "authorTime": 9289
+      "authorTime": 9289,
+      "mapId": "c0290ae3-865d-43d3-8362-3d7dbcf109fe",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_78",
       "uid": "Z8XJeQoY7bee6fqNf3WSnBNXMag",
       "mxId": 146303,
       "cm": 9714,
-      "authorTime": 9914
+      "authorTime": 9914,
+      "mapId": "df98bcea-1064-4e1c-8b6f-e818b6e05498",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_79",
       "uid": "aluvuGMc2bGQzqW9lLVI6jCRDoi",
       "mxId": 146304,
       "cm": 9633,
-      "authorTime": 9798
+      "authorTime": 9798,
+      "mapId": "48683648-ff6c-4222-b3d3-f03a33b963a7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_80",
       "uid": "gIHy4i4p4zezkSctctvYYZmhJOb",
       "mxId": 146305,
       "cm": 8490,
-      "authorTime": 9055
+      "authorTime": 9055,
+      "mapId": "1ad6cf6d-e062-4863-8a6b-62739c74ec16",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_81",
       "uid": "SOVYNl60WSw17SeqcKksfr1pp9l",
       "mxId": 146306,
       "cm": 8626,
-      "authorTime": 9053
+      "authorTime": 9053,
+      "mapId": "12eba7f0-bd8e-42a3-9b97-da484ff39022",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_82",
       "uid": "XFuEnaGNwtLG3DqRWF9NF0cv2ll",
       "mxId": 146307,
       "cm": 8907,
-      "authorTime": 9198
+      "authorTime": 9198,
+      "mapId": "4b1ed021-ff48-44d2-b141-9606e2539f47",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_83",
       "uid": "WUYIzcMHOblXyfI4aMdNhKnXSq0",
       "mxId": 146308,
       "cm": 9608,
-      "authorTime": 9691
+      "authorTime": 9691,
+      "mapId": "64880e13-ad30-4b0e-a33f-1bc84bc597e1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_84",
       "uid": "0UAgWfKND8FcDrtr_0R7YR_59Me",
       "mxId": 146309,
       "cm": 9756,
-      "authorTime": 9793
+      "authorTime": 9793,
+      "mapId": "03365fa5-0fdd-411b-bd23-a3df5987dd8b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_85",
       "uid": "cM8DJi3aan3CFD_1mRQoa0qtuLd",
       "mxId": 146310,
       "cm": 8729,
-      "authorTime": 9005
+      "authorTime": 9005,
+      "mapId": "1f1e5b34-f1cd-48f6-97cc-1a4a4bf2467e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_86",
       "uid": "SsvVyU0ChWJoh0TfmT8c_D6UFN7",
       "mxId": 146311,
       "cm": 8988,
-      "authorTime": 9244
+      "authorTime": 9244,
+      "mapId": "c7914558-45cb-49da-be2f-23abbd922fa9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_87",
       "uid": "Y1DuehUQo_b28vwGjE84pO0RTxk",
       "mxId": 146312,
       "cm": 9410,
-      "authorTime": 9635
+      "authorTime": 9635,
+      "mapId": "e77d587c-219a-4495-89d0-d86c5f4b5554",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_88",
       "uid": "eTjjXQGYqVebHLGT8bM5NWZCV71",
       "mxId": 146313,
       "cm": 6124,
-      "authorTime": 6732
+      "authorTime": 6732,
+      "mapId": "ec46c3b5-7666-4817-a555-89e9d7216649",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_89",
       "uid": "5D0qf5cO6c0mArNGaWC3FNm9CV2",
       "mxId": 146314,
       "cm": 9776,
-      "authorTime": 9913
+      "authorTime": 9913,
+      "mapId": "31b73b76-813d-4568-ad0d-153cf58ae970",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_90",
       "uid": "tlUbKu3hK3CUJPrF7DjGTVrk4ci",
       "mxId": 146315,
       "cm": 9420,
-      "authorTime": 9657
+      "authorTime": 9657,
+      "mapId": "c549f74b-7c22-4faa-8022-cc3a0186483b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_91",
       "uid": "GC1V2f8LTlAlVl3B4gv9B3kAb19",
       "mxId": 146316,
       "cm": 8797,
-      "authorTime": 9122
+      "authorTime": 9122,
+      "mapId": "237274d6-1c27-4b90-8049-55428403b2e2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_92",
       "uid": "715ZzmKB8THzKWhnIvAv1jWH545",
       "mxId": 146317,
       "cm": 9397,
-      "authorTime": 9786
+      "authorTime": 9786,
+      "mapId": "3ef94a8b-a77c-4f3c-9e76-6e1092a59ae4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_93",
       "uid": "FlojKJ35VGU481irI3mLu2GziW4",
       "mxId": 146318,
       "cm": 8537,
-      "authorTime": 8634
+      "authorTime": 8634,
+      "mapId": "35a9a821-6a94-434c-9a27-8388a15f152e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_94",
       "uid": "m5zSplohwsdsuUwphVGxLFaF1T8",
       "mxId": 146319,
       "cm": 8998,
-      "authorTime": 9112
+      "authorTime": 9112,
+      "mapId": "b7bb57b6-9350-4d0a-87c5-812c4a5e3253",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_95",
       "uid": "_DtNYZrHiBcr6iFphUOEK8Lnc35",
       "mxId": 146320,
       "cm": 7672,
-      "authorTime": 7806
+      "authorTime": 7806,
+      "mapId": "2fdf9727-55b7-4f03-90d2-7f8e3bd904ae",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_96",
       "uid": "H36PU8O7K_ES_lvbcWOCDp1coVc",
       "mxId": 146321,
       "cm": 9751,
-      "authorTime": 9923
+      "authorTime": 9923,
+      "mapId": "b605d133-a820-4ffe-9464-2585bc52a437",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_97",
       "uid": "QFxRjAPTKSCOWj0QsWGdiyyGy78",
       "mxId": 146322,
       "cm": 9692,
-      "authorTime": 9841
+      "authorTime": 9841,
+      "mapId": "bb17444d-bc6d-4ad6-bfab-af76957f2dca",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_98",
       "uid": "ANGtp2ONIhZfAfB3McvMArqL6_6",
       "mxId": 146323,
       "cm": 9386,
-      "authorTime": 9665
+      "authorTime": 9665,
+      "mapId": "625694cc-48c4-44c6-90a2-8c8ce3dffada",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_99",
       "uid": "dUegVDruVOkktP6gyyXiXNDtBr6",
       "mxId": 146324,
       "cm": 9710,
-      "authorTime": 9863
+      "authorTime": 9863,
+      "mapId": "c4c95d35-8191-41e1-b809-18442195b0cb",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_100",
       "uid": "4d0SKh6scS_cLRtrtS_0Oh4GVK5",
       "mxId": 146325,
       "cm": 8757,
-      "authorTime": 8998
+      "authorTime": 8998,
+      "mapId": "33734c26-e2dc-48bd-9a3f-1b84e4a676b1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_101",
       "uid": "7dsAYIdv8ZapA0DsJjRD5XqAlN5",
       "mxId": 146345,
       "cm": 8812,
-      "authorTime": 8952
+      "authorTime": 8952,
+      "mapId": "e9143014-5cbc-440c-b616-5c7fc5eac281",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_102",
       "uid": "ohbD1E1THoaqmNp8kmlpPNXTQZk",
       "mxId": 146344,
       "cm": 9494,
-      "authorTime": 9593
+      "authorTime": 9593,
+      "mapId": "e0dcc8f7-1e8a-4ba7-93e1-70a7b4978a40",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_103",
       "uid": "16kfzvblNlpTsWVjS_RD06GYT20",
       "mxId": 146343,
       "cm": 9065,
-      "authorTime": 9275
+      "authorTime": 9275,
+      "mapId": "8b67fe32-653a-45f1-af9e-45bdf47c2b1c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_104",
       "uid": "WlpE6gyLZk5DfiXxeEbDYgmemmg",
       "mxId": 146341,
       "cm": 7222,
-      "authorTime": 8451
+      "authorTime": 8451,
+      "mapId": "1061a260-76f5-471c-8833-53defef08f5b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_105",
       "uid": "YSMI0K5FqKXTxrxxHnXyHDuc4gh",
       "mxId": 146342,
       "cm": 7114,
-      "authorTime": 9022
+      "authorTime": 9022,
+      "mapId": "5f793d2e-be72-47f6-bfa4-6c7eb365f6b1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_106",
       "uid": "IMAhAf7zUMQ6YnqLeWgoyMyEUy",
       "mxId": 146340,
       "cm": 9440,
-      "authorTime": 9565
+      "authorTime": 9565,
+      "mapId": "4fe5b789-64e4-46bc-8cc6-ac47b9a100ee",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_107",
       "uid": "8j2qrT4KMkMOmLImIRpxeiAtcTh",
       "mxId": 146339,
       "cm": 8868,
-      "authorTime": 8932
+      "authorTime": 8932,
+      "mapId": "77f0d905-ea99-472f-97cf-47dcaa75b455",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_108",
       "uid": "aFUC73OeUiceAG9R0T6QRSU0g8a",
       "mxId": 146337,
       "cm": 9367,
-      "authorTime": 9435
+      "authorTime": 9435,
+      "mapId": "a0f1c9ec-3ff0-4419-a1cd-17194a2372a0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_109",
       "uid": "XBtVZgaZjev_ojtDdCrr9b7iONb",
       "mxId": 146338,
       "cm": 9538,
-      "authorTime": 9807
+      "authorTime": 9807,
+      "mapId": "cd0895b9-f687-4a0b-bb2e-60dab837fd1e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_110",
       "uid": "Cu4OGLZKt7zhV7KzgXNZmPe5kSg",
       "mxId": 146336,
       "cm": 8943,
-      "authorTime": 9020
+      "authorTime": 9020,
+      "mapId": "12817fee-87ca-4547-8823-0c9eebd95833",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_111",
       "uid": "5PpKP5cPALrciBX9ZDhg6kNxnQa",
       "mxId": 146335,
       "cm": 8952,
-      "authorTime": 9088
+      "authorTime": 9088,
+      "mapId": "a881f832-8149-4cf9-acfd-154a0e4a1b34",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_112",
       "uid": "3ADKUXunERZl4V1Z2xHJV7t0eu7",
       "mxId": 146334,
       "cm": 9295,
-      "authorTime": 9997
+      "authorTime": 9997,
+      "mapId": "a294ba09-bcbc-481a-a6b3-cdfcc4d2369e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_113",
       "uid": "lUM4pLkzRZ0BKTv09luGAQNKwHm",
       "mxId": 146333,
       "cm": 7161,
-      "authorTime": 9594
+      "authorTime": 9594,
+      "mapId": "8a9072de-a7ed-4334-97bc-5929868a33c2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_114",
       "uid": "m8GEuFo7W3jhuRtB5hRnYQ0xJz8",
       "mxId": 146332,
       "cm": 9346,
-      "authorTime": 9452
+      "authorTime": 9452,
+      "mapId": "43acf534-1a04-47d8-8b3d-9f1be61f922f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_115",
       "uid": "N3G2siCzqrvP4ZEAPY_EumNWSH6",
       "mxId": 146331,
       "cm": 9610,
-      "authorTime": 9988
+      "authorTime": 9988,
+      "mapId": "f8510d29-0d8b-4322-9d62-694da59fd16d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_116",
       "uid": "oow4cakGUz7sNNygaUl72D0Cpyc",
       "mxId": 146330,
       "cm": 9158,
-      "authorTime": 9285
+      "authorTime": 9285,
+      "mapId": "89f74196-2565-42ff-8be0-7540353bdf58",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_117",
       "uid": "guc4B_W8_ktmny340grUw7GQUIl",
       "mxId": 146329,
       "cm": 9280,
-      "authorTime": 9408
+      "authorTime": 9408,
+      "mapId": "bacb3149-75c9-4bdf-8b6a-5d992229e2b2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_118",
       "uid": "Jw4GAdH0g7ixyhLYLr3egBrDWW6",
       "mxId": 146328,
       "cm": 9555,
-      "authorTime": 9594
+      "authorTime": 9594,
+      "mapId": "1549375f-f963-4ed3-b04f-12536f898093",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_119",
       "uid": "TTQk0H8C1q3Tc4SvxPIOI5No245",
       "mxId": 146327,
       "cm": 9841,
-      "authorTime": 9948
+      "authorTime": 9948,
+      "mapId": "7657de6d-3768-4f7f-92c1-ed6243c160f6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_120",
       "uid": "qnGEV6HMKd2ktr8LpGXnV8kOPGd",
       "mxId": 146326,
       "cm": 9460,
-      "authorTime": 9750
+      "authorTime": 9750,
+      "mapId": "910281ed-a0df-4ae7-af64-765513168ee9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_121",
       "uid": "uypha3wbiYsqnprIGfNXytIu194",
       "mxId": 146365,
       "cm": 9508,
-      "authorTime": 9587
+      "authorTime": 9587,
+      "mapId": "fb8df78a-ac64-4425-ac88-5f97865eeb2a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_122",
       "uid": "d0XHrPfYxSEH7w2pMf_9H3zNQ4a",
       "mxId": 146363,
       "cm": 9434,
-      "authorTime": 9651
+      "authorTime": 9651,
+      "mapId": "51f6d3f9-9838-4a38-9af1-ea22a5b0f45f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_123",
       "uid": "SlombYURz9pO8nbzgH_EFZIO9Mf",
       "mxId": 146364,
       "cm": 9188,
-      "authorTime": 9273
+      "authorTime": 9273,
+      "mapId": "dbfff6fc-886b-4398-a350-f1576d3a2692",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_124",
       "uid": "fgIlO0AFVsIskEuKI7CNupZQfPm",
       "mxId": 146362,
       "cm": 9361,
-      "authorTime": 9381
+      "authorTime": 9381,
+      "mapId": "c17fe7ff-1152-486f-8647-861f816c3580",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_125",
       "uid": "x9Pu8oykfxKzRxC1BSr2RoNCjkc",
       "mxId": 146361,
       "cm": 8779,
-      "authorTime": 8869
+      "authorTime": 8869,
+      "mapId": "f280e270-fe19-47a7-800f-3d30fc96eb07",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_126",
       "uid": "FQN3CyXd5Jwnl259vn5VS_H7W7b",
       "mxId": 146360,
       "cm": 9938,
-      "authorTime": 9971
+      "authorTime": 9971,
+      "mapId": "0d0704cc-feae-4ece-8c32-2eea4673faa4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_127",
       "uid": "PlwRU4dgXNamHvYzCv7rVgHxnO1",
       "mxId": 146359,
       "cm": 9762,
-      "authorTime": 9912
+      "authorTime": 9912,
+      "mapId": "8aa1c154-c938-4622-a5ea-ad948b36b926",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_128",
       "uid": "DrSz_YxVZmAwbOb7RHyARDfDtN6",
       "mxId": 146358,
       "cm": 7738,
-      "authorTime": 8352
+      "authorTime": 8352,
+      "mapId": "3464ce48-8699-4787-b333-62016f27eba2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_129",
       "uid": "0YxNXaRUF3Iq8xr5Lk1Dph1YIqg",
       "mxId": 146357,
       "cm": 9472,
-      "authorTime": 9730
+      "authorTime": 9730,
+      "mapId": "908198df-f43f-4aeb-938c-4a08636fd691",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_130",
       "uid": "ntXy1IcygL2ARtUvd9FWZx93Eok",
       "mxId": 146356,
       "cm": 6966,
-      "authorTime": 7384
+      "authorTime": 7384,
+      "mapId": "04c26a0d-1d9a-4292-b5ef-aee3233d1809",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_131",
       "uid": "CH2rCyJxyZcm7vJR_wJ8BAf46kf",
       "mxId": 146355,
       "cm": 9029,
-      "authorTime": 9072
+      "authorTime": 9072,
+      "mapId": "d7749c4e-d89b-4d8c-8a10-6057fbd447f2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_132",
       "uid": "Nb3wWEDkvbkTah638aLkjbZKikb",
       "mxId": 146354,
       "cm": 8946,
-      "authorTime": 9032
+      "authorTime": 9032,
+      "mapId": "5b9f334d-5fd6-42bd-9300-381fcd24e651",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_133",
       "uid": "Sk1Tlu5b0nehRIDJQc96fl0UlG6",
       "mxId": 146353,
       "cm": 9091,
-      "authorTime": 9364
+      "authorTime": 9364,
+      "mapId": "174d8965-7525-4dbb-a582-995b1ffd1189",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_134",
       "uid": "6icnARzqa2pAPkfLVbAW47i_S6",
       "mxId": 146352,
       "cm": 9702,
-      "authorTime": 9808
+      "authorTime": 9808,
+      "mapId": "8acac4b5-b42b-4f27-8153-cba9a72e09b2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_135",
       "uid": "SuHhyxnSEm9xbXrzandHSmko20l",
       "mxId": 146351,
       "cm": 9801,
-      "authorTime": 9945
+      "authorTime": 9945,
+      "mapId": "ac6fa418-18f3-41dd-b37b-9814863d8b50",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_136",
       "uid": "QN_YlSqyeKaUN1fSgLMuSISa6ki",
       "mxId": 146350,
       "cm": 9086,
-      "authorTime": 9308
+      "authorTime": 9308,
+      "mapId": "e5427c32-3007-452c-8052-7da8399202e6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_137",
       "uid": "IDCZXRIe5ayNyVg86bAYS2z9gPi",
       "mxId": 146349,
       "cm": 9152,
-      "authorTime": 9255
+      "authorTime": 9255,
+      "mapId": "1b50e9c0-912a-44d6-9616-b600735166b7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_138",
       "uid": "3TdwrnDdlDYcQ595tqoj01abZm1",
       "mxId": 146348,
       "cm": 8888,
-      "authorTime": 9071
+      "authorTime": 9071,
+      "mapId": "ecba5cb9-c759-4cba-88e3-3cc6b7e8eadf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_139",
       "uid": "QoT1y99LLAT_DOvFH9_BDC3dXW1",
       "mxId": 146347,
       "cm": 9324,
-      "authorTime": 9371
+      "authorTime": 9371,
+      "mapId": "255ac982-6ccf-4ae8-83a7-1d73a4cd684e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_140",
       "uid": "Vn40WHtZHpylr2Bl6XjrHiv85Qm",
       "mxId": 146346,
       "cm": 9101,
-      "authorTime": 9165
+      "authorTime": 9165,
+      "mapId": "63c6e4f2-bdd5-44c6-8048-b65e722c4917",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_141",
       "uid": "4vmH2g_nItW7VWT7fntZC90ZwPi",
       "mxId": 146376,
       "cm": 7871,
-      "authorTime": 9418
+      "authorTime": 9418,
+      "mapId": "ae4cbe53-d108-4493-9da7-dc9da690460b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_142",
       "uid": "Bev4jBfiNMYbSnKH55ucmHGtSB1",
       "mxId": 146375,
       "cm": 8546,
-      "authorTime": 8672
+      "authorTime": 8672,
+      "mapId": "92d15bb8-17a7-453e-a1cf-c6d70e4a237b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_143",
       "uid": "4Gzc1R8lud4AJhWZElAdC0f5_Od",
       "mxId": 146374,
       "cm": 9393,
-      "authorTime": 9705
+      "authorTime": 9705,
+      "mapId": "90f0b11a-0331-48c9-aebc-cecd8fa04600",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_144",
       "uid": "iF3oU7THEVMhTj4QP4JCQBXO6ta",
       "mxId": 146373,
       "cm": 8995,
-      "authorTime": 9048
+      "authorTime": 9048,
+      "mapId": "73d2402b-644a-421c-bf96-c290dc92d533",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_145",
       "uid": "c7OwGnFI3BfUp06a1QZZjOVW_m1",
       "mxId": 146372,
       "cm": 9790,
-      "authorTime": 9907
+      "authorTime": 9907,
+      "mapId": "859a662d-09e0-4bcd-8791-4e01182a5f05",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_146",
       "uid": "rWJzIoVX4Ti2sVIPhfGJUfdUNV4",
       "mxId": 146371,
       "cm": 9211,
-      "authorTime": 9891
+      "authorTime": 9891,
+      "mapId": "0248abd1-c6cd-4e78-ab58-f591a023ff73",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_147",
       "uid": "Qt6eB7oQZHYlT8MIxrfOTbdSlc9",
       "mxId": 146370,
       "cm": 9821,
-      "authorTime": 9985
+      "authorTime": 9985,
+      "mapId": "4fad6835-0ac1-49a0-a6f6-369485f17623",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_148",
       "uid": "kKRcZezfzOZk3DQUEVutC_kdU9a",
       "mxId": 146367,
       "cm": 9306,
-      "authorTime": 9609
+      "authorTime": 9609,
+      "mapId": "8a374a22-f33b-4734-aacf-b91e1d3fcd8e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_149",
       "uid": "QJaH3v4ZoKReedbBITqsEgwXBZ0",
       "mxId": 146369,
       "cm": 9289,
-      "authorTime": 9738
+      "authorTime": 9738,
+      "mapId": "ab32f4e9-0918-47cb-a030-762fd4eaba40",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_150",
       "uid": "LprwjLpeElU5gjm_Qdfn7OxuNHm",
       "mxId": 146368,
       "cm": 8424,
-      "authorTime": 8677
+      "authorTime": 8677,
+      "mapId": "eee8bf7a-5290-4639-88f1-fd6beaebf28e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_151",
       "uid": "JTPKLv0GtHUDBykXY8mCuBOlNy3",
       "mxId": 146366,
       "cm": 8685,
-      "authorTime": 8705
+      "authorTime": 8705,
+      "mapId": "b5aebcf6-c844-4c1e-b5a5-274fe4d934dd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_152",
       "uid": "W5oGeJU1rNPQn4fLlA7w_TgBIQb",
       "mxId": 146616,
       "cm": 9153,
-      "authorTime": 9453
+      "authorTime": 9453,
+      "mapId": "081db906-a27e-45f3-a094-95b3f3dd3468",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_153",
       "uid": "ODtjw9mU_nlkaYwgI9owFWZJN77",
       "mxId": 146615,
       "cm": 8997,
-      "authorTime": 9441
+      "authorTime": 9441,
+      "mapId": "84531cae-b91b-4658-ba5e-066c3fcbaf08",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_154",
       "uid": "BTkhMinzjPQCiifgv5lFVIZhFU9",
       "mxId": 146614,
       "cm": 8699,
-      "authorTime": 8843
+      "authorTime": 8843,
+      "mapId": "2728df37-729e-4e0e-8c1e-5256267b5f1b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_155",
       "uid": "q_CnlUomYayW1PyGbc3xiSRJk6e",
       "mxId": 146613,
       "cm": 8770,
-      "authorTime": 8966
+      "authorTime": 8966,
+      "mapId": "2f0b21aa-1e35-49b2-befd-248a3fb42795",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_156",
       "uid": "EJTw95KiBa04oBJ3PvFfaZiO4Zi",
       "mxId": 146967,
       "cm": 9131,
-      "authorTime": 9235
+      "authorTime": 9235,
+      "mapId": "efe54d1a-dfc9-4d37-88be-052e91495853",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_157",
       "uid": "krjFEKLuDeD6z3F8dqvC71KLK5a",
       "mxId": 146966,
       "cm": 9206,
-      "authorTime": 9368
+      "authorTime": 9368,
+      "mapId": "19b5cada-aed2-47f4-9aaa-77a17871981e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_158",
       "uid": "eFP_kjlNnF86xhPcwVll7ESUSag",
       "mxId": 146965,
       "cm": 9777,
-      "authorTime": 9991
+      "authorTime": 9991,
+      "mapId": "f9c1e6c9-a3b0-4902-b1ff-64a51bef598b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_159",
       "uid": "RYX7s2pJK_lfY5fwJ8FgpuQ2_ad",
       "mxId": 146964,
       "cm": 8074,
-      "authorTime": 8234
+      "authorTime": 8234,
+      "mapId": "93c39edf-4904-4275-8e0f-0e49daa15362",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_160",
       "uid": "nFdahJso2mimJPdHtORU1PfrRj9",
       "mxId": 148392,
       "cm": 8685,
-      "authorTime": 9188
+      "authorTime": 9188,
+      "mapId": "a0aa2be1-48e2-4cdf-ba1c-8ac9bd90a8c0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_161",
       "uid": "ehHV3P0NMClqc23SjoNnzVNpHy4",
       "mxId": 148391,
       "cm": 8989,
-      "authorTime": 9138
+      "authorTime": 9138,
+      "mapId": "9dd9c151-b860-45c8-b898-ac4d68df2d93",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_162",
       "uid": "CHFf72F4INlrMVf4tBurEtYo7ib",
       "mxId": 148390,
       "cm": 7000,
-      "authorTime": 7096
+      "authorTime": 7096,
+      "mapId": "0b34eb65-936f-4ef0-9274-bd300ae7af5d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_163",
       "uid": "AgAEeBgKpVlrDA95I2hB2EH8Cod",
       "mxId": 148389,
       "cm": 9147,
-      "authorTime": 9209
+      "authorTime": 9209,
+      "mapId": "30e3621a-d06f-4d2c-8f03-39d85a61a108",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_164",
       "uid": "VnS5vgjYlKybbijvTSnt4PVfn39",
       "mxId": 148388,
       "cm": 8648,
-      "authorTime": 8654
+      "authorTime": 8654,
+      "mapId": "fc478dc0-920e-44e9-aa13-410ab4164716",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_165",
       "uid": "lDycj8OMbkJFDaZZExDLiG7bqI4",
       "mxId": 148387,
       "cm": 7583,
-      "authorTime": 8757
+      "authorTime": 8757,
+      "mapId": "a796d777-2459-42eb-a918-44668b8423e7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_166",
       "uid": "8xUavIDwKXjS6xwQ8lXzJQVp4ri",
       "mxId": 148386,
       "cm": 9150,
-      "authorTime": 9872
+      "authorTime": 9872,
+      "mapId": "28415a75-c64b-4e1e-a4f7-0989cbd4a305",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_167",
       "uid": "0rrN1EILHGhV3rIv8wXOX0pc5kg",
       "mxId": 148385,
       "cm": 9023,
-      "authorTime": 9841
+      "authorTime": 9841,
+      "mapId": "20b0850a-b825-4d36-95dc-45a9bb6102ae",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_168",
       "uid": "AoMIL6dC8s3DSb2oAvuOZo7dsCb",
       "mxId": 148384,
       "cm": 9753,
-      "authorTime": 9894
+      "authorTime": 9894,
+      "mapId": "188fa86e-bdd5-4af5-97f9-8012ff1b49cd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_169",
       "uid": "oEU7kR07gvJCH4zCpe0GtrodfUl",
       "mxId": 148383,
       "cm": 9678,
-      "authorTime": 9805
+      "authorTime": 9805,
+      "mapId": "06120908-94e5-4820-b0b8-1ef06256a217",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_170",
       "uid": "qQVkURrC9wmCK3xpXIzJv45hlth",
       "mxId": 148382,
       "cm": 9245,
-      "authorTime": 9371
+      "authorTime": 9371,
+      "mapId": "f0d0e785-a43a-49bf-8cf7-8f68882fc332",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_171",
       "uid": "EQoB1t9HZnvobbynLYtUqnYLbT6",
       "mxId": 148381,
       "cm": 9280,
-      "authorTime": 9337
+      "authorTime": 9337,
+      "mapId": "20969d76-6988-40d7-bd01-d16c8fb5822e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_172",
       "uid": "pvYo29n9oxTxzJGQzSz3M3LasIb",
       "mxId": 148380,
       "cm": 8731,
-      "authorTime": 8796
+      "authorTime": 8796,
+      "mapId": "357b103d-d376-4c37-821b-0e5b37ad94eb",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_173",
       "uid": "bWC4nE_9cWLRCDS_AVLPZTQ_RHd",
       "mxId": 148379,
       "cm": 7461,
-      "authorTime": 9084
+      "authorTime": 9084,
+      "mapId": "27816cc1-c650-4c69-88f7-1fc19f282d1a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_174",
       "uid": "nOWTFJPcV0VvjROJlcNZ1ITRTS9",
       "mxId": 148378,
       "cm": 9104,
-      "authorTime": 9272
+      "authorTime": 9272,
+      "mapId": "0f975fef-332d-4066-b884-f54ecb517d11",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_175",
       "uid": "AZ_YPYhVxDuVuNNigB5sadL4HQd",
       "mxId": 148377,
       "cm": 9442,
-      "authorTime": 9602
+      "authorTime": 9602,
+      "mapId": "0322bdcb-30fd-4f2f-98cf-52368b54b09e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_176",
       "uid": "nvPBAD8V_mqdINVOSuMr1Bfd_eg",
       "mxId": 164299,
       "cm": 9566,
-      "authorTime": 9832
+      "authorTime": 9832,
+      "mapId": "5e680965-3d57-426d-925c-a3a482b976a9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_177",
       "uid": "D0cF_80PXmnYIRU6Q3d4v1l8TD8",
       "mxId": 164298,
       "cm": 8797,
-      "authorTime": 9113
+      "authorTime": 9113,
+      "mapId": "1be9b3f3-8d44-4476-9942-646c62d3d312",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_178",
       "uid": "nhGcrc6yNxXGYOLjj_DFEyDVIs2",
       "mxId": 164297,
       "cm": 9208,
-      "authorTime": 9314
+      "authorTime": 9314,
+      "mapId": "add88099-7a9e-4601-b1ab-0b7ea2bd12e4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_179",
       "uid": "RslfFIeEDweHCLjvFgjOBrhyi5f",
       "mxId": 164296,
       "cm": 8405,
-      "authorTime": 8435
+      "authorTime": 8435,
+      "mapId": "c3688e8e-808d-47d2-8612-cbe14320ce63",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_180",
       "uid": "BM00Nq7YRBDDYOZj7A_bmnT1d28",
       "mxId": 164295,
       "cm": 9520,
-      "authorTime": 9831
+      "authorTime": 9831,
+      "mapId": "22dd82ab-2c48-4fd7-9477-35149450947f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_181",
       "uid": "h0i1ihi1FYZVuen61wMp2P4stY",
       "mxId": 164293,
       "cm": 9338,
-      "authorTime": 9392
+      "authorTime": 9392,
+      "mapId": "2b8b6ca1-b512-48e6-abf2-d01d91af3b5d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_182",
       "uid": "_wZveAdn9HRzAUhXU1Ld6Ht9_Pk",
       "mxId": 164294,
       "cm": 7906,
-      "authorTime": 8358
+      "authorTime": 8358,
+      "mapId": "e3c2f9c8-5745-414d-be88-0bd553d9afa3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_183",
       "uid": "ciPhxgScIRuzHrPCohFVfKs7KRk",
       "mxId": 164292,
       "cm": 9641,
-      "authorTime": 9740
+      "authorTime": 9740,
+      "mapId": "34de9686-8d2d-4f8b-8bc2-7b0e37035077",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_184",
       "uid": "ORgJALN21hSd5p4fN4sPOOz4fpb",
       "mxId": 164291,
       "cm": 8680,
-      "authorTime": 8722
+      "authorTime": 8722,
+      "mapId": "77f1deb5-9828-492f-9884-f3147a30a251",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_185",
       "uid": "UGvRQwz1ui0m3fylNCLBYFgC6td",
       "mxId": 164290,
       "cm": 7360,
-      "authorTime": 7463
+      "authorTime": 7463,
+      "mapId": "ad8f466f-d2bf-4a1a-8732-d68a9781ce4a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_186",
       "uid": "rMxXAqVScxnuUSXSDnA1qbZCpoe",
       "mxId": 164289,
       "cm": 8627,
-      "authorTime": 8728
+      "authorTime": 8728,
+      "mapId": "4f2d5f3b-2507-4a27-8a00-955dfe74556a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_187",
       "uid": "btlBsy2TLP50vQGiDHW3NqZAmYm",
       "mxId": 164288,
       "cm": 9891,
-      "authorTime": 9994
+      "authorTime": 9994,
+      "mapId": "3135903c-b4ab-4b35-a2e6-7082000e86a9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_188",
       "uid": "gwn4ytm2HtxdejQupLgjWq2zUVg",
       "mxId": 164287,
       "cm": 9632,
-      "authorTime": 9911
+      "authorTime": 9911,
+      "mapId": "87c48315-fdf5-4b4a-9900-7dd99d5367b5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_189",
       "uid": "fRA5s_OdJBzv5JbT6R48WTC_n2f",
       "mxId": 164286,
       "cm": 9810,
-      "authorTime": 9966
+      "authorTime": 9966,
+      "mapId": "b33b44b2-5cad-453b-8052-f678afac47be",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_190",
       "uid": "VZZyxZFFxCUii3On_jZtolj7Cg5",
       "mxId": 164285,
       "cm": 9105,
-      "authorTime": 9146
+      "authorTime": 9146,
+      "mapId": "1877e12d-f5d1-4080-85dc-b5de2b8799af",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_191",
       "uid": "NmP_vpUZJmEYhYNz2bx90idGqMj",
       "mxId": 164284,
       "cm": 9290,
-      "authorTime": 9375
+      "authorTime": 9375,
+      "mapId": "050c6f70-35b1-4897-9c69-1df2b0a632e1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_192",
       "uid": "agmWHlNA0arQ79WofnbIHaZW_Tb",
       "mxId": 164283,
       "cm": 9350,
-      "authorTime": 9660
+      "authorTime": 9660,
+      "mapId": "75b7eb6b-a32b-448a-b4d8-1fe391a29b23",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_193",
       "uid": "PlsV2U8pWBa3Eejgj2quX2bv7Kj",
       "mxId": 164282,
       "cm": 9345,
-      "authorTime": 9446
+      "authorTime": 9446,
+      "mapId": "5b405a80-5e4e-410d-82d2-ea2bdeaa1b8d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_194",
       "uid": "5FdbIS1f4JhAKjXPv2VJEyxl1Ba",
       "mxId": 164281,
       "cm": 8242,
-      "authorTime": 8420
+      "authorTime": 8420,
+      "mapId": "c5f989ec-f448-432e-9f28-015e12b91785",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_195",
       "uid": "X8dYBaqCUABtaGitHO3WiVVvSxm",
       "mxId": 164280,
       "cm": 9409,
-      "authorTime": 9627
+      "authorTime": 9627,
+      "mapId": "db1335d2-0d30-4d19-801e-3496405a7319",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_196",
       "uid": "MdavTk7fKZSXJuhsVvWbnbtx8i4",
       "mxId": 164279,
       "cm": 9216,
-      "authorTime": 9375
+      "authorTime": 9375,
+      "mapId": "81ee6317-6d33-4a95-9858-b81a9b3dab89",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_197",
       "uid": "gGDOR0JiseP2PIojhiXl47Jwrja",
       "mxId": 164278,
       "cm": 7437,
-      "authorTime": 7602
+      "authorTime": 7602,
+      "mapId": "9c00e582-56bc-4d78-83fe-685222215eb6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_198",
       "uid": "tVpCz7Xd1EkXD29SJyqhJRt5Rf7",
       "mxId": 164277,
       "cm": 7126,
-      "authorTime": 9984
+      "authorTime": 9984,
+      "mapId": "728e7fa5-c6e3-4f32-ab21-cc03be83536d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_199",
       "uid": "0KchuqIUHuQHt9p7Ag1nsBpkaN7",
       "mxId": 164276,
       "cm": 9240,
-      "authorTime": 9302
+      "authorTime": 9302,
+      "mapId": "b9b5d19f-0a35-4bae-9adb-607a54b73cc4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_200",
       "uid": "O8EWKtF1cCGLZTeMtRw8VHpSHmm",
       "mxId": 164275,
       "cm": 8783,
-      "authorTime": 9623
+      "authorTime": 9623,
+      "mapId": "001dfe5c-9352-4601-836f-d85bbdc5a1ea",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_201",
       "uid": "dtrcAoGiXiiajpPlCf4yTzY2JO3",
       "mxId": 164324,
       "cm": 9206,
-      "authorTime": 9288
+      "authorTime": 9288,
+      "mapId": "16108421-f54a-4d01-a077-7c71fe84aef9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_202",
       "uid": "ht0kS0rjiNiU4vMdCbMHZwAX27m",
       "mxId": 164323,
       "cm": 7899,
-      "authorTime": 7938
+      "authorTime": 7938,
+      "mapId": "c4360403-e521-41e4-844b-b083cb4e7d41",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_203",
       "uid": "uLwlBFqw9IvF9MiTJjlutWWbq12",
       "mxId": 164322,
       "cm": 8935,
-      "authorTime": 9741
+      "authorTime": 9741,
+      "mapId": "b43134f0-b1f8-4c4c-b612-f63037e997a1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_204",
       "uid": "rsw84jxtlQgH2zCRrHFuKyiCFI8",
       "mxId": 164321,
       "cm": 9686,
-      "authorTime": 9742
+      "authorTime": 9742,
+      "mapId": "b94884cc-ca88-4cde-b3bf-d623b2c8c3d7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_205",
       "uid": "3d0ckzwxSkVIJSzeeY10BrSpQK3",
       "mxId": 164303,
       "cm": 6900,
-      "authorTime": 8014
+      "authorTime": 8014,
+      "mapId": "a355a68f-c309-4579-b77c-ddeeb72e9dd7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_206",
       "uid": "c5ljuOZ70OunmJ9NXsPuORb2DSd",
       "mxId": 164320,
       "cm": 9971,
-      "authorTime": 9998
+      "authorTime": 9998,
+      "mapId": "6c6c2ede-0acb-4479-8a9a-2391806c4e13",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_207",
       "uid": "iEdTrkFPZ1hoQMZ7lOvSkdCerNa",
       "mxId": 164319,
       "cm": 9449,
-      "authorTime": 9685
+      "authorTime": 9685,
+      "mapId": "18ca749a-a616-419d-b29a-27c9b8d9a45e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_208",
       "uid": "C7VoKsGxITI5GnoOOi_Ri0QoNl6",
       "mxId": 164318,
       "cm": 9179,
-      "authorTime": 9201
+      "authorTime": 9201,
+      "mapId": "f9b32f09-c1f7-457d-a8fb-ea6252d45aa6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_209",
       "uid": "tLhcllubqGj1nxzrg93LbMIltm8",
       "mxId": 164317,
       "cm": 9283,
-      "authorTime": 9390
+      "authorTime": 9390,
+      "mapId": "cfb359aa-9834-4bab-b1a8-3cf5ddfd962b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_210",
       "uid": "W22hA527vpGJbKZeuYeFCSs4hFc",
       "mxId": 164316,
       "cm": 9392,
-      "authorTime": 9628
+      "authorTime": 9628,
+      "mapId": "72ce243b-de5a-479b-8825-376c5066ed96",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_211",
       "uid": "y82dsWxOWBZPOkTJ6VK5wWik66f",
       "mxId": 164315,
       "cm": 9198,
-      "authorTime": 9722
+      "authorTime": 9722,
+      "mapId": "8e3bec59-96d2-4920-a545-ccc031dc289a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_212",
       "uid": "JLpN5Rue8V_8naN276bT8g7U0Gm",
       "mxId": 164300,
       "cm": 9311,
-      "authorTime": 9774
+      "authorTime": 9774,
+      "mapId": "8dd464e4-7bee-4878-b4a5-e3ed523b92ea",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_213",
       "uid": "TMzGQNolvnDxKoH0tRk4bJ2UGCc",
       "mxId": 164314,
       "cm": 8397,
-      "authorTime": 8830
+      "authorTime": 8830,
+      "mapId": "f872ff08-85ed-4b77-a45b-1e4ce1c19824",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_214",
       "uid": "8Bmpm8CaLtOaPTqV1sXpO9P8I0f",
       "mxId": 164301,
       "cm": 8946,
-      "authorTime": 9072
+      "authorTime": 9072,
+      "mapId": "1ce380cf-bb89-4c4e-b2b5-0488e5c479e1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_215",
       "uid": "XXYSAvXRwPJg_WZ_Ya57adZn9K0",
       "mxId": 164313,
       "cm": 9586,
-      "authorTime": 9850
+      "authorTime": 9850,
+      "mapId": "06aca29a-4593-4609-8b08-291dd601c5d1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_216",
       "uid": "qhJdTXEXqFtNk2FtFpbdO0Wktcf",
       "mxId": 164302,
       "cm": 9491,
-      "authorTime": 9887
+      "authorTime": 9887,
+      "mapId": "cfaa99cf-0362-4104-9e26-b6b6550155bf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_217",
       "uid": "3IYiekx0z2XRlyFkjiionCCcfz4",
       "mxId": 164312,
       "cm": 8496,
-      "authorTime": 9038
+      "authorTime": 9038,
+      "mapId": "29ae3943-3fad-4d0c-92b6-f4f26502c740",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_218",
       "uid": "qzivrBRtcEE41qCnJ44nPs8DEZd",
       "mxId": 164311,
       "cm": 8938,
-      "authorTime": 9859
+      "authorTime": 9859,
+      "mapId": "98ddb4ce-771c-44d8-9b9c-86980078ca3e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_219",
       "uid": "UMiCaek8PYp0kfQGTeG0SkTvEP",
       "mxId": 164310,
       "cm": 7940,
-      "authorTime": 8083
+      "authorTime": 8083,
+      "mapId": "f62dbfcc-e302-4a1f-b045-660de6afae32",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_220",
       "uid": "Aym2r5r9NUoTngURjXFZLp2PIbj",
       "mxId": 164309,
       "cm": 8842,
-      "authorTime": 9015
+      "authorTime": 9015,
+      "mapId": "e7ba3e59-631c-47fe-b1b7-8514f6540e03",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_221",
       "uid": "g0_ceJ4qvfgy0NMltVH4WkQcuNm",
       "mxId": 164308,
       "cm": 8552,
-      "authorTime": 8727
+      "authorTime": 8727,
+      "mapId": "025fd286-90a6-447d-8624-148f6623a2fc",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_222",
       "uid": "oZhnAmWYpeyQVqKsyfvLywnloGg",
       "mxId": 164307,
       "cm": 8714,
-      "authorTime": 8898
+      "authorTime": 8898,
+      "mapId": "35f97d42-7fd7-49c8-8c5d-177cdea34a65",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_223",
       "uid": "Zk1BJkUwifl8HnkWAoM2LANsxbd",
       "mxId": 164306,
       "cm": 9455,
-      "authorTime": 9524
+      "authorTime": 9524,
+      "mapId": "4e76973a-581a-4a46-a412-95a7de3fe575",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_224",
       "uid": "pNw400xn29UGsY1YzqKxF4Qrttm",
       "mxId": 164305,
       "cm": 9260,
-      "authorTime": 9342
+      "authorTime": 9342,
+      "mapId": "4d8f0fc7-ffe2-4446-b28f-a73ea163a14f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_225",
       "uid": "dGSmmQWQ2ehKRhifL4IkkrgYPj9",
       "mxId": 164304,
       "cm": 7825,
-      "authorTime": 8565
+      "authorTime": 8565,
+      "mapId": "b36a29ac-5ded-4569-8de5-ad44dcf7f177",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_226",
       "uid": "we00zerNt_BCvwa3OUj7nfVZNN8",
       "mxId": 164350,
       "cm": 9427,
-      "authorTime": 9530
+      "authorTime": 9530,
+      "mapId": "8cf0c6ca-3a79-4eee-8545-4c72d5611f98",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_227",
       "uid": "SrNhRhEAxKAT27p4ib3zcs0n7_i",
       "mxId": 164349,
       "cm": 9027,
-      "authorTime": 9294
+      "authorTime": 9294,
+      "mapId": "660a8f53-2926-4d19-881e-9ef99cef468d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_228",
       "uid": "Kag_XtYMVMvBQGHHx5V7TJZjhsl",
       "mxId": 164348,
       "cm": 5872,
-      "authorTime": 5976
+      "authorTime": 5976,
+      "mapId": "0a655ee3-b556-49b7-aa6e-2c0f186ef95b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_229",
       "uid": "TiXvIrDPrjlwTC1dOO_Ca6CINVg",
       "mxId": 164347,
       "cm": 8618,
-      "authorTime": 8692
+      "authorTime": 8692,
+      "mapId": "7b8ed047-c92f-45b2-bf11-1504e66a01c1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_230",
       "uid": "bFB5n_WO8Gvmakw0ef2dVHLtxl9",
       "mxId": 164346,
       "cm": 6967,
-      "authorTime": 8688
+      "authorTime": 8688,
+      "mapId": "d6cb2f38-d3a6-4440-9e55-01bd497e647c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_231",
       "uid": "USqoCwofHc6H5A8fTrdE08EZcxc",
       "mxId": 164345,
       "cm": 7795,
-      "authorTime": 9716
+      "authorTime": 9716,
+      "mapId": "682c7ea7-7584-49dd-a0f8-3efdb9f360f4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_232",
       "uid": "FYqnZw5V0Xb0prbAq88QtKbndff",
       "mxId": 164344,
       "cm": 8500,
-      "authorTime": 8539
+      "authorTime": 8539,
+      "mapId": "711bd5e0-bcb7-44af-9c07-793fe3af0fa7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_233",
       "uid": "aWUshP5glflPCnBmxLLWrcrsiBh",
       "mxId": 164343,
       "cm": 8519,
-      "authorTime": 8888
+      "authorTime": 8888,
+      "mapId": "8aa9111c-c5df-4d19-be71-d3557617b3c2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_234",
       "uid": "phqLBLIRl7H2U6m2MLYh18xefx7",
       "mxId": 164341,
       "cm": 8449,
-      "authorTime": 8786
+      "authorTime": 8786,
+      "mapId": "e735fbfb-ed21-4402-9ea6-1734561ea9f7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_235",
       "uid": "n4lGhjYtTOI4Ror2mYvR7Yll08d",
       "mxId": 164342,
       "cm": 9188,
-      "authorTime": 9461
+      "authorTime": 9461,
+      "mapId": "5d0ae2eb-4fe1-4db1-9fb5-f81e6506a99c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_236",
       "uid": "5W2reB54YntxyxWFiWzPBG38EMj",
       "mxId": 164340,
       "cm": 9099,
-      "authorTime": 9192
+      "authorTime": 9192,
+      "mapId": "329da87c-f06e-435d-892c-9ac0ab777f68",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_237",
       "uid": "EQhmkannELehTmAU_JmI69VhaCf",
       "mxId": 164339,
       "cm": 7212,
-      "authorTime": 7467
+      "authorTime": 7467,
+      "mapId": "6d685a1f-f021-4381-a382-729e4202ed3c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_238",
       "uid": "iKX30ADiR_T1uh4uSAH_Q0zB6rb",
       "mxId": 164338,
       "cm": 9546,
-      "authorTime": 9595
+      "authorTime": 9595,
+      "mapId": "d8737dd7-a262-448b-8406-de6cb0295143",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_239",
       "uid": "m4GqVKmuAMzWMdH7QoiGrAj6d14",
       "mxId": 164337,
       "cm": 8888,
-      "authorTime": 9245
+      "authorTime": 9245,
+      "mapId": "b87f8e28-a55a-4206-b458-f5e39bf70de4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_240",
       "uid": "HfxPvg85N7WM7DXEatHVU5EmDZf",
       "mxId": 164336,
       "cm": 8921,
-      "authorTime": 9090
+      "authorTime": 9090,
+      "mapId": "e1c03fc5-16d9-45dc-b95b-ce3ecf5de26c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_241",
       "uid": "_LaGKuwVN2Og2bzmTBKWp1cEc6h",
       "mxId": 164331,
       "cm": 9574,
-      "authorTime": 9832
+      "authorTime": 9832,
+      "mapId": "380b7942-36c2-463b-b4bf-bfa4f23be80c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_242",
       "uid": "7uuYToshS149usTB2De00j0LgPi",
       "mxId": 164335,
       "cm": 8460,
-      "authorTime": 8991
+      "authorTime": 8991,
+      "mapId": "11d7a5e8-bc8b-40ad-8546-d440039ef042",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_243",
       "uid": "fEv8csn1fj_3G7J_v4YEDFsE8Zi",
       "mxId": 164334,
       "cm": 9227,
-      "authorTime": 9430
+      "authorTime": 9430,
+      "mapId": "d5f30e10-ac97-4795-a324-f95bd649d6e4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_244",
       "uid": "vvOZwrKEfW_QGSsmIc7pwj1Tch7",
       "mxId": 164333,
       "cm": 4548,
-      "authorTime": 5158
+      "authorTime": 5158,
+      "mapId": "42676919-00a9-4733-9504-24d2407b3409",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_245",
       "uid": "SxZKvbXNnaOAoleKPYBGF8AuHd1",
       "mxId": 164332,
       "cm": 9479,
-      "authorTime": 9524
+      "authorTime": 9524,
+      "mapId": "9cb9bb84-af1f-41d7-bf0f-ed8603208d58",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_246",
       "uid": "F3ZsmI0_4IncY_RuFXEZrcdG49k",
       "mxId": 164330,
       "cm": 9386,
-      "authorTime": 9548
+      "authorTime": 9548,
+      "mapId": "42d0a4de-4605-4c27-9bae-b2988029cec5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_247",
       "uid": "vY15KJxZB8Tl56ssxP5CToMKMa9",
       "mxId": 164329,
       "cm": 8995,
-      "authorTime": 9714
+      "authorTime": 9714,
+      "mapId": "ef507391-8031-4edf-88a8-e1752633504d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_248",
       "uid": "3n5x91Hm_km3ZFo327Sdg8uaGih",
       "mxId": 164327,
       "cm": 9208,
-      "authorTime": 9478
+      "authorTime": 9478,
+      "mapId": "1f2da23f-556b-49a0-b368-409776df4b1d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_249",
       "uid": "pbNiGDxPvQhPE0JUP3sgZe2n5Qc",
       "mxId": 164328,
       "cm": 9398,
-      "authorTime": 9724
+      "authorTime": 9724,
+      "mapId": "b63a840b-0c1d-4c9a-ad78-9d336ca947ab",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_250",
       "uid": "e9q6rU0Iuhn0NlM_yF_xGvRYHr3",
       "mxId": 164326,
       "cm": 6109,
-      "authorTime": 7670
+      "authorTime": 7670,
+      "mapId": "204efc69-bcae-4116-b1a1-ad615522cd50",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_251",
       "uid": "vj5SuHliKubXBOhALDnUsXW36rd",
       "mxId": 164369,
       "cm": 8939,
-      "authorTime": 9045
+      "authorTime": 9045,
+      "mapId": "36993c8b-a4f5-4a58-927a-283368f97cc3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_252",
       "uid": "R6HlyuxOASreyBM91O60vyxF3v",
       "mxId": 164368,
       "cm": 9321,
-      "authorTime": 9387
+      "authorTime": 9387,
+      "mapId": "d01d30f7-c3f6-46f7-b073-befc35d8f097",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_253",
       "uid": "qQFo_SfM1GFaHZtK_Q7C__478Da",
       "mxId": 164367,
       "cm": 9055,
-      "authorTime": 9125
+      "authorTime": 9125,
+      "mapId": "c92575df-5232-4da3-ae1e-f239ad3b9048",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_254",
       "uid": "NiKBTmm9GcxcSBtQZtou5OON3Ml",
       "mxId": 164366,
       "cm": 8222,
-      "authorTime": 8438
+      "authorTime": 8438,
+      "mapId": "a6dcb8f6-588e-4cc3-813d-e07a83689df3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_255",
       "uid": "1nnwAisFJ5xqrm5JxGXqG9TuKY5",
       "mxId": 164365,
       "cm": 9868,
-      "authorTime": 9988
+      "authorTime": 9988,
+      "mapId": "95bd4f1c-379d-4a66-814c-a3e905beff6f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_256",
       "uid": "zeiAsFmRCHulTaDIUrwMAIHrFjk",
       "mxId": 164364,
       "cm": 9627,
-      "authorTime": 9688
+      "authorTime": 9688,
+      "mapId": "44ddea1d-0fa9-49f9-bd7f-8742fdd18a78",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_257",
       "uid": "iPX_Mu0244CjLDpWxI43QxPZ53j",
       "mxId": 164363,
       "cm": 9022,
-      "authorTime": 9398
+      "authorTime": 9398,
+      "mapId": "84571151-4c3b-4994-980f-e68a92a9e645",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_258",
       "uid": "Z4jRXAEtlHdfkbLilCHOuMiTZn4",
       "mxId": 164362,
       "cm": 7374,
-      "authorTime": 8678
+      "authorTime": 8678,
+      "mapId": "04fadcfb-3dad-48a8-8a11-7758912ff928",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_259",
       "uid": "cwqKgkvkR8X4iIoW7iv7UkXOre8",
       "mxId": 164361,
       "cm": 8916,
-      "authorTime": 9216
+      "authorTime": 9216,
+      "mapId": "c46defb7-37a1-4118-a071-f1ae41bb0369",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_260",
       "uid": "hxsguO7H9Zqa8y4nJCAHisg5god",
       "mxId": 164360,
       "cm": 7584,
-      "authorTime": 8187
+      "authorTime": 8187,
+      "mapId": "ba322175-409f-4bbb-857e-ad24a205079c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_261",
       "uid": "r9l6iRvlfRXRNGctVQsoTqtNFG2",
       "mxId": 164359,
       "cm": 8736,
-      "authorTime": 9086
+      "authorTime": 9086,
+      "mapId": "ce452f29-45f6-436b-a254-2a6ae3a03a40",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_262",
       "uid": "TVeUxQLhIfd9JpbELDqgV5BtdW",
       "mxId": 164358,
       "cm": 8947,
-      "authorTime": 9535
+      "authorTime": 9535,
+      "mapId": "6fd347dd-8bdd-49a9-b6be-6e5337e70d47",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_263",
       "uid": "ZG8ggcCM5XL0OnW2PsRHm0Kpixc",
       "mxId": 164357,
       "cm": 7998,
-      "authorTime": 8165
+      "authorTime": 8165,
+      "mapId": "95e6aa9f-841f-469c-a86b-0e6b0919f4d4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_264",
       "uid": "fNp8LlzTVyVcvSblvwkWkyc7yQb",
       "mxId": 164356,
       "cm": 9333,
-      "authorTime": 9398
+      "authorTime": 9398,
+      "mapId": "faae9c36-9b1c-4ad1-a70c-4688c809f214",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_265",
       "uid": "KelogQsOKcHpgWrqF6IvQ4YlHhd",
       "mxId": 164355,
       "cm": 9505,
-      "authorTime": 9645
+      "authorTime": 9645,
+      "mapId": "dbec1a26-0d1c-4232-b6b8-f89d39fb3ac2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_266",
       "uid": "II019YoS4H1Euk6fWFs8aMZsfI5",
       "mxId": 164354,
       "cm": 8559,
-      "authorTime": 8782
+      "authorTime": 8782,
+      "mapId": "2e85d7cf-f12b-4629-9188-77bcdfa0db4f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_267",
       "uid": "Xk_TvtcRX9vUl64EV8fb2oP7CDc",
       "mxId": 164353,
       "cm": 9723,
-      "authorTime": 9870
+      "authorTime": 9870,
+      "mapId": "0b71c692-ba91-4910-b70f-ebd90c7deda5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_268",
       "uid": "IE4W0x8id0Vpwpj11aJfBlWgrec",
       "mxId": 164352,
       "cm": 9091,
-      "authorTime": 9186
+      "authorTime": 9186,
+      "mapId": "a1a5f7e8-5b22-48f2-a889-9e10153bce62",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_269",
       "uid": "A10Uu0toKhBKOEb9wuCMpdIaHvi",
       "mxId": 164351,
       "cm": 9514,
-      "authorTime": 9588
+      "authorTime": 9588,
+      "mapId": "201ec22a-ac63-4aa8-9273-10c136c15236",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_270",
       "uid": "yqIFWBZqAKVZzk_GOdm2xeDLok5",
       "mxId": 164593,
       "cm": 9755,
-      "authorTime": 9798
+      "authorTime": 9798,
+      "mapId": "42905b7c-e80d-45f7-be51-494171edd502",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_271",
       "uid": "8sogQJjiFnJW9RjtJsy6HrJjtl9",
       "mxId": 165788,
       "cm": 9780,
-      "authorTime": 9888
+      "authorTime": 9888,
+      "mapId": "1fbce8ec-0f84-4806-b2c7-534f6b7d0cea",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_272",
       "uid": "k2V0HorJZgfwBHF56Gk4qgZBLpe",
       "mxId": 165787,
       "cm": 8650,
-      "authorTime": 8881
+      "authorTime": 8881,
+      "mapId": "49317400-b86c-4452-83c5-7f7799f37100",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_273",
       "uid": "cB42fbSZm5e4E5MaFowMSYFd__l",
       "mxId": 165786,
       "cm": 9453,
-      "authorTime": 9977
+      "authorTime": 9977,
+      "mapId": "53950901-8c97-4f35-aa7a-18adcf67de48",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_274",
       "uid": "x1BPACXwxfc_SP8nAp0O4Q_ngkk",
       "mxId": 165785,
       "cm": 9624,
-      "authorTime": 9674
+      "authorTime": 9674,
+      "mapId": "56599166-2804-46da-aeaf-df146438fa9a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_275",
       "uid": "29oovDFyzy7VZH2KXorYVEJMrX6",
       "mxId": 165784,
       "cm": 7337,
-      "authorTime": 9387
+      "authorTime": 9387,
+      "mapId": "74040b8e-f75b-4b0b-a8cf-bb83a3c26ef5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_276",
       "uid": "qtfNFufAT632YbjmSBIzDVyaMRh",
       "mxId": 166470,
       "cm": 5434,
-      "authorTime": 6366
+      "authorTime": 6366,
+      "mapId": "9028b515-b112-40ba-8585-cf32979e25d2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_277",
       "uid": "fr8eIML1tj1VJYhQqijzWtEbey2",
       "mxId": 166471,
       "cm": 9220,
-      "authorTime": 9325
+      "authorTime": 9325,
+      "mapId": "4b273caa-024e-4c3a-81f6-007726001d81",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_278",
       "uid": "zi0wtUuybdalM15ieKOjo4cQ3T9",
       "mxId": 180457,
       "cm": 8068,
-      "authorTime": 8523
+      "authorTime": 8523,
+      "mapId": "0ed0fb29-24ec-48a9-af7c-b9f61263d9c0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_279",
       "uid": "MdFMDeySU0CPl_1IDsg7diszNSl",
       "mxId": 180456,
       "cm": 9024,
-      "authorTime": 9646
+      "authorTime": 9646,
+      "mapId": "e06a8991-2610-401f-9f0d-d480e51bfd7f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_280",
       "uid": "OchwxHvyhTeC9nTacuS2rOthw48",
       "mxId": 180455,
       "cm": 7941,
-      "authorTime": 8051
+      "authorTime": 8051,
+      "mapId": "6ba17dfa-d38e-4406-9fd6-2fb03181615f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_281",
       "uid": "1vPsntMR8yK9sLOFDzFt2qAYgnc",
       "mxId": 180453,
       "cm": 9482,
-      "authorTime": 9771
+      "authorTime": 9771,
+      "mapId": "3fb01079-e86c-4217-be0e-28fcc63f5fff",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_282",
       "uid": "8ZLHdJe4VD5aqQrXNmXZylsgiQ1",
       "mxId": 180454,
       "cm": 9743,
-      "authorTime": 9963
+      "authorTime": 9963,
+      "mapId": "77b17679-06bc-459e-a81a-b5428e18b769",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_283",
       "uid": "bJyZ4BcQSLmE0trhNLOikKXePQe",
       "mxId": 180452,
       "cm": 8654,
-      "authorTime": 9173
+      "authorTime": 9173,
+      "mapId": "3b9a9282-7a33-47d4-ad0f-4e1d2ee5d2cf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_284",
       "uid": "lcG5HFURJwpF85eHqecBr2R1Hae",
       "mxId": 180451,
       "cm": 9852,
-      "authorTime": 9888
+      "authorTime": 9888,
+      "mapId": "eed30f52-abc8-4bec-90f4-19d422573c5a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_285",
       "uid": "uAqqTP6XxhEOOk6PvOz9vQfoH9k",
       "mxId": 180450,
       "cm": 8128,
-      "authorTime": 8420
+      "authorTime": 8420,
+      "mapId": "9fa00936-5ed3-47ad-b823-70512a002087",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_286",
       "uid": "65WQ9mIC6FNzxoLvSorHKqoarW2",
       "mxId": 180449,
       "cm": 8938,
-      "authorTime": 9028
+      "authorTime": 9028,
+      "mapId": "abd6e3aa-3f9b-4d37-b356-3b7023011932",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_287",
       "uid": "Fhm2CNousXPqLaejmJw2v6u9Kf9",
       "mxId": 180448,
       "cm": 9579,
-      "authorTime": 9780
+      "authorTime": 9780,
+      "mapId": "e8067511-90b9-4d30-b11c-5a3e7b9ee529",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_288",
       "uid": "lFS5ZEoSkj8WiqJx23_tMIDqau",
       "mxId": 180447,
       "cm": 8701,
-      "authorTime": 9570
+      "authorTime": 9570,
+      "mapId": "41a82ff2-10e9-4ce5-8f73-7f451d3bb63d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_289",
       "uid": "wHkIzh6UjZFLagh13NuUZVDgWya",
       "mxId": 180446,
       "cm": 8849,
-      "authorTime": 8998
+      "authorTime": 8998,
+      "mapId": "9faaf14b-55c9-4da0-b5d9-3cabd1eb573d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_290",
       "uid": "Zg3s6LROcH5zdjqKkKfuaaBVvJe",
       "mxId": 180445,
       "cm": 9719,
-      "authorTime": 9875
+      "authorTime": 9875,
+      "mapId": "ccadbd04-cc07-4ca4-b409-bbe74bb4346c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_291",
       "uid": "T8Yh53yynXouRQL7drXG0tFpb7k",
       "mxId": 180443,
       "cm": 9564,
-      "authorTime": 9705
+      "authorTime": 9705,
+      "mapId": "94a28ca4-0acb-4508-b1f3-f0ab19d8b373",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_292",
       "uid": "phJMgu1GJYPWIBWe8NJJpqKOwLk",
       "mxId": 180444,
       "cm": 8785,
-      "authorTime": 8892
+      "authorTime": 8892,
+      "mapId": "07f73afc-e79a-4c26-9288-3e1c6160c8ed",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_293",
       "uid": "ulBep6aCai05YcvStVH4zvfV3d",
       "mxId": 180442,
       "cm": 8215,
-      "authorTime": 9265
+      "authorTime": 9265,
+      "mapId": "4361de95-9e8b-44df-aa67-5393e0169cb9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_294",
       "uid": "G2hJs7TZhafOOuIziS_qEJ5ri7e",
       "mxId": 180440,
       "cm": 6253,
-      "authorTime": 8972
+      "authorTime": 8972,
+      "mapId": "04239c20-f91c-4f4e-a73b-226a5444cdcd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_295",
       "uid": "cP13djNK7fiSyG2L1K8qT_JW2r",
       "mxId": 180439,
       "cm": 9099,
-      "authorTime": 9217
+      "authorTime": 9217,
+      "mapId": "c09c0bc6-d56c-4e24-9fe1-12091d542083",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_296",
       "uid": "eXyya49P_sUO8vIGw6LKTINXldj",
       "mxId": 180441,
       "cm": 9213,
-      "authorTime": 9242
+      "authorTime": 9242,
+      "mapId": "526790b8-44b6-4786-b9a3-f78c48b3642b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_297",
       "uid": "xB2n9D5WXeE_OlFuhKFOroCsiVj",
       "mxId": 180486,
       "cm": 9853,
-      "authorTime": 9971
+      "authorTime": 9971,
+      "mapId": "dd5af6de-99e1-4615-b3fa-25ab4b492fb9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_298",
       "uid": "NpBblKCi4FjXahAdxqNDOKTHI79",
       "mxId": 180438,
       "cm": 9190,
-      "authorTime": 9256
+      "authorTime": 9256,
+      "mapId": "7c88d02d-7acb-47b6-aa5c-381b576494d1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_299",
       "uid": "yws3IdId70utFA_JH_AHoilfOrh",
       "mxId": 180437,
       "cm": 7818,
-      "authorTime": 7967
+      "authorTime": 7967,
+      "mapId": "7bdb01a8-1201-4242-bd87-eb915c7f8d09",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_300",
       "uid": "gdHfWxYDz_JxbQBz2doozZUrfhc",
       "mxId": 180436,
       "cm": 9318,
-      "authorTime": 9438
+      "authorTime": 9438,
+      "mapId": "53fd4892-78bf-4473-ad2d-e174b9cac5a5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_301",
       "uid": "fVJFhnkEOrUI5ImZ6la5KP1thvi",
       "mxId": 192154,
       "cm": 9429,
-      "authorTime": 9522
+      "authorTime": 9522,
+      "mapId": "e78db559-79be-42d7-8b64-597ad423abe0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_302",
       "uid": "RO0Wn12SxkIvMsizgvueKgNicY7",
       "mxId": 192147,
       "cm": 7138,
-      "authorTime": 7628
+      "authorTime": 7628,
+      "mapId": "ce068477-eff3-4d89-bd78-14db24379af5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_303",
       "uid": "hXegK97kvNf6UITaL5IfBY4e2cd",
       "mxId": 192153,
       "cm": 9898,
-      "authorTime": 9957
+      "authorTime": 9957,
+      "mapId": "15561b23-7fdc-4fd2-b46b-2264d74cfc2a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_304",
       "uid": "TPgAcrX_TqM8vAiCnHK9hIc0au1",
       "mxId": 192152,
       "cm": 6907,
-      "authorTime": 7238
+      "authorTime": 7238,
+      "mapId": "3f273d7e-ddaa-40f4-9976-8d889e2e77ed",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_305",
       "uid": "ZVbOgcii3fEfYbqDNoK3L7usR59",
       "mxId": 192151,
       "cm": 8868,
-      "authorTime": 9002
+      "authorTime": 9002,
+      "mapId": "f5ac85a6-ea57-4eb3-97b8-7d8f346d7dc7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_306",
       "uid": "RueefcptZbBikhlx1RT3qgBXVc9",
       "mxId": 192150,
       "cm": 9109,
-      "authorTime": 9216
+      "authorTime": 9216,
+      "mapId": "13cbc27b-8941-40fc-a18d-35da2c410a00",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_307",
       "uid": "TMqxzev36Gu0Bs1uC4yx7iwMYy",
       "mxId": 192149,
       "cm": 7807,
-      "authorTime": 8640
+      "authorTime": 8640,
+      "mapId": "0238cb32-b453-42d7-bcdc-84f7e77cc4eb",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_308",
       "uid": "Kl9xbiwoSuRGeqIzlfYaqtcyOy6",
       "mxId": 192135,
       "cm": 8398,
-      "authorTime": 8935
+      "authorTime": 8935,
+      "mapId": "669e8c1f-481b-4db8-90d8-2bb236e96040",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_309",
       "uid": "chCuf6nJEsTaJvwEmVorFV4l1Mb",
       "mxId": 192148,
       "cm": 9110,
-      "authorTime": 9342
+      "authorTime": 9342,
+      "mapId": "de08c9ac-b8cb-499a-8a16-48da01ff8bdd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_310",
       "uid": "RLAabnTyP7Kxs8CH6mBAaEMaytj",
       "mxId": 192146,
       "cm": 7740,
-      "authorTime": 8648
+      "authorTime": 8648,
+      "mapId": "375c34fb-02b1-4d0b-abb7-e9602b8d3503",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_311",
       "uid": "cBCfc5iOsefiKT0UCj5FwXAhXN8",
       "mxId": 192145,
       "cm": 9309,
-      "authorTime": 9507
+      "authorTime": 9507,
+      "mapId": "ff09cddc-397b-4fce-8cbc-5742771703f7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_312",
       "uid": "t34JRwEFcEeLB8yT2XyBqAgeHOd",
       "mxId": 192144,
       "cm": 9549,
-      "authorTime": 9866
+      "authorTime": 9866,
+      "mapId": "766e8443-fdcb-4204-9d71-7e2804eca5bd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_313",
       "uid": "RHXbndAOyzea_ZQVyNX3K8fGyFk",
       "mxId": 192143,
       "cm": 7622,
-      "authorTime": 9468
+      "authorTime": 9468,
+      "mapId": "d0330f4a-be9d-422c-8e6c-e187a9777e6f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_314",
       "uid": "7_nnI5WHQyWhzD9AUq9MOftgzHd",
       "mxId": 192142,
       "cm": 8399,
-      "authorTime": 8911
+      "authorTime": 8911,
+      "mapId": "53ea20a6-b79c-4eeb-bf36-dbb21e86a4fe",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_315",
       "uid": "ekHDsUAdn9kGZCupPhG9c68yRxi",
       "mxId": 192141,
       "cm": 5635,
-      "authorTime": 5778
+      "authorTime": 5778,
+      "mapId": "586cb7da-e202-43e6-b42c-d8e83450314c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_316",
       "uid": "nV9W4FhYaaiVTFmVFD5VTGzGr_n",
       "mxId": 192137,
       "cm": 8525,
-      "authorTime": 9464
+      "authorTime": 9464,
+      "mapId": "b8591c66-0a5d-49d2-9c75-55cad1c3ddbc",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_317",
       "uid": "4AwRhTc8_m5OEWC6HVd5aslYjgg",
       "mxId": 192140,
       "cm": 9489,
-      "authorTime": 9508
+      "authorTime": 9508,
+      "mapId": "2d13b856-84fc-4b74-8877-3017eb683187",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_318",
       "uid": "cZfqZejdHIW55ZTVnstZmwfY3b3",
       "mxId": 192139,
       "cm": 9122,
-      "authorTime": 9438
+      "authorTime": 9438,
+      "mapId": "72a5a9e3-3003-45d4-882c-0b91d93ce58f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_319",
       "uid": "NfQZFevYLhMg5VmOF0T_QnbJcp5",
       "mxId": 192138,
       "cm": 9450,
-      "authorTime": 9535
+      "authorTime": 9535,
+      "mapId": "f66cf403-e850-4e0d-9274-2075510d3d56",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_320",
       "uid": "6x_9MfhL7OsYeDZfemzN4T3u2A0",
       "mxId": 192136,
       "cm": 7453,
-      "authorTime": 8378
+      "authorTime": 8378,
+      "mapId": "98e55629-365c-47b7-9614-b45777114e14",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_321",
       "uid": "XOYqVo47eA49DLQG3MXXtBuAZec",
       "mxId": 192173,
       "cm": 7391,
-      "authorTime": 8596
+      "authorTime": 8596,
+      "mapId": "66f18061-0c79-4928-9936-547cf0909bcb",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_322",
       "uid": "F4bM9a4XuKRfDUgpu1SR0BHlBRb",
       "mxId": 192174,
       "cm": 8598,
-      "authorTime": 8860
+      "authorTime": 8860,
+      "mapId": "cbf059a1-a3b8-4154-b4b8-5bbd74c882a1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_323",
       "uid": "KiVvJ8uBuhizYXGQHwNRabnFiL0",
       "mxId": 192172,
       "cm": 5726,
-      "authorTime": 5994
+      "authorTime": 5994,
+      "mapId": "845010fd-e595-4675-86dd-26b31e6da6f7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_324",
       "uid": "wt6wKcfNpIY38O2S8psLyO057di",
       "mxId": 192171,
       "cm": 6799,
-      "authorTime": 7335
+      "authorTime": 7335,
+      "mapId": "26cd6df9-a08e-4513-a15f-833c5499ff28",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_325",
       "uid": "QVvxUJLie2Gp66u0lManI3Zpjd6",
       "mxId": 192170,
       "cm": 7563,
-      "authorTime": 7986
+      "authorTime": 7986,
+      "mapId": "8c83cf56-ff1d-41d2-a229-e158f2f7dd51",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_326",
       "uid": "4z7SgwH5m7LtE6b8LAQBaNSobNk",
       "mxId": 192169,
       "cm": 9660,
-      "authorTime": 9788
+      "authorTime": 9788,
+      "mapId": "064b9709-474b-49a6-b7ee-bb49fb634d26",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_327",
       "uid": "xm0ll9QZ5REDMmwWKS4B6kzbZRg",
       "mxId": 192168,
       "cm": 8741,
-      "authorTime": 9128
+      "authorTime": 9128,
+      "mapId": "cd33fed4-a2bc-470a-bbf6-e657d2bb422f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_328",
       "uid": "1uPsa36jHmnfzSCcX1fcvClCjg0",
       "mxId": 192167,
       "cm": 8619,
-      "authorTime": 8906
+      "authorTime": 8906,
+      "mapId": "b956cfa6-5e9d-4424-99f8-593314ec7e0c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_329",
       "uid": "W1uLe0knLaAEGrk5X9xXIStIR2h",
       "mxId": 192166,
       "cm": 9166,
-      "authorTime": 9970
+      "authorTime": 9970,
+      "mapId": "b60efb47-1c92-4e2a-a3cf-c131d0ac10c6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_330",
       "uid": "oPbZUntVn9rEpRy5lNRRQ0aZyOk",
       "mxId": 192165,
       "cm": 9429,
-      "authorTime": 9606
+      "authorTime": 9606,
+      "mapId": "f1f2bd4b-890e-4e0a-9604-3549c120e5ee",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_331",
       "uid": "g9IsnLxU8hf38hwWaL8S6ehXvpe",
       "mxId": 192164,
       "cm": 9392,
-      "authorTime": 9578
+      "authorTime": 9578,
+      "mapId": "04af63a8-9a2c-473e-a91f-71ffc9340ce4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_332",
       "uid": "57dS7BEuMMWqQR9Kj_T8U7Akzb1",
       "mxId": 192158,
       "cm": 7319,
-      "authorTime": 7892
+      "authorTime": 7892,
+      "mapId": "6b686b47-b725-4bfb-9ecb-2b490bea7306",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_333",
       "uid": "4uOBO6y4qwg3qBpa1uxEUyd7QVa",
       "mxId": 192163,
       "cm": 8629,
-      "authorTime": 8826
+      "authorTime": 8826,
+      "mapId": "1b7a7b9e-b8d2-4d60-95d4-d2bdf9e6a5e9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_334",
       "uid": "_WaVk4kvvyxQyU9uSQOtHolZHX7",
       "mxId": 192162,
       "cm": 9454,
-      "authorTime": 9630
+      "authorTime": 9630,
+      "mapId": "98f9a564-43ed-42ed-883d-2a6413ae74a6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_335",
       "uid": "guN98uRbjZQVWuHsirwqNPvwczl",
       "mxId": 192161,
       "cm": 9272,
-      "authorTime": 9583
+      "authorTime": 9583,
+      "mapId": "30b90c5c-af52-4336-b876-4e817e762fb0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_336",
       "uid": "pIpk3c6WBCUJxin_YQ8d5VND7n4",
       "mxId": 192160,
       "cm": 7572,
-      "authorTime": 8066
+      "authorTime": 8066,
+      "mapId": "b760df43-0cff-4aa4-9b8d-d3840f67472d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_337",
       "uid": "fEsndzn4qRdoplnpupLNGWTGB0i",
       "mxId": 192159,
       "cm": 9797,
-      "authorTime": 9952
+      "authorTime": 9952,
+      "mapId": "6f0091fc-a0cc-4e53-8065-9b52e5d69cca",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_338",
       "uid": "jPzEyWXiYg1qWERlP57gjojHfBl",
       "mxId": 192157,
       "cm": 9879,
-      "authorTime": 9997
+      "authorTime": 9997,
+      "mapId": "cb8de26a-a2ec-4e11-aa08-94422fef6a92",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_339",
       "uid": "l9vwGap1iQja13X8sGxyxAJfcz2",
       "mxId": 192155,
       "cm": 7753,
-      "authorTime": 8082
+      "authorTime": 8082,
+      "mapId": "d97d97de-6940-4d85-9377-02788f229e8f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_340",
       "uid": "nN693WVK8RtBTPkLDf7gtsuulXm",
       "mxId": 192156,
       "cm": 9536,
-      "authorTime": 9706
+      "authorTime": 9706,
+      "mapId": "b4c88195-ada3-49c5-a7c9-afaad0c9b96d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_341",
       "uid": "ZjdkyGwdOJDYjk1mHtKTGT5RR14",
       "mxId": 192194,
       "cm": 9006,
-      "authorTime": 9100
+      "authorTime": 9100,
+      "mapId": "fb0cc26b-3fbc-4007-9803-ccb011d9ac9a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_342",
       "uid": "5n5uvDEv2dvHzHF4F0RDd3PxJek",
       "mxId": 192193,
       "cm": 8378,
-      "authorTime": 9112
+      "authorTime": 9112,
+      "mapId": "4bba02b3-6e08-4ed7-a8b3-c3216aba7c14",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_343",
       "uid": "fnoxh3MSzxjYKBe61iH_O8HKoTc",
       "mxId": 192192,
       "cm": 7962,
-      "authorTime": 8062
+      "authorTime": 8062,
+      "mapId": "14d889af-766f-48e8-8f23-c689e1334b6b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_344",
       "uid": "XTUX73h3F8s7g_Sy08IwU0KZtil",
       "mxId": 192191,
       "cm": 7506,
-      "authorTime": 7664
+      "authorTime": 7664,
+      "mapId": "2e3095b6-7251-4909-bbbb-ff2598e0041d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_345",
       "uid": "LoH9zK4hVxno60wGo4Vr2c7fMl3",
       "mxId": 192190,
       "cm": 7702,
-      "authorTime": 7897
+      "authorTime": 7897,
+      "mapId": "81e4efce-aa70-41f5-923a-6d3fba8a1289",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_346",
       "uid": "coULS9beYh9ZaO_hurBslmD6XT",
       "mxId": 192189,
       "cm": 8999,
-      "authorTime": 9142
+      "authorTime": 9142,
+      "mapId": "08217421-88cd-4ad9-898f-1de84dd9890a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_347",
       "uid": "SrwdJYaeyWBjxCGU1LkbdVWUpc8",
       "mxId": 192188,
       "cm": 9120,
-      "authorTime": 9258
+      "authorTime": 9258,
+      "mapId": "a18616e2-f76d-43b2-8e10-6cb7f7cb0bbf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_348",
       "uid": "tKvByRYkqULjHBcg2u0wDwi9OT5",
       "mxId": 192187,
       "cm": 9299,
-      "authorTime": 9454
+      "authorTime": 9454,
+      "mapId": "df6aaa5a-0304-43da-8877-7116f730d347",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_349",
       "uid": "DFFLxNqokfvQLlA6yck8ot7oCzb",
       "mxId": 192186,
       "cm": 8375,
-      "authorTime": 8457
+      "authorTime": 8457,
+      "mapId": "9ec7e2f8-3840-4e22-8a52-a3e32f0545c1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_350",
       "uid": "n2Gx1eE2TJYMSCI9NBxuA8o1dU2",
       "mxId": 192185,
       "cm": 8370,
-      "authorTime": 8427
+      "authorTime": 8427,
+      "mapId": "acf7d2ba-1b9d-49dc-a687-3e5b1abe43fd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_351",
       "uid": "HzleEIzUcw0oOX0PVYgZPAY7Eb8",
       "mxId": 192184,
       "cm": 8253,
-      "authorTime": 9195
+      "authorTime": 9195,
+      "mapId": "62c691ab-be0e-43eb-97e7-a966217d4e97",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_352",
       "uid": "g93lQ7lgqKU_tDrF3a8YaiQkkD3",
       "mxId": 192183,
       "cm": 6969,
-      "authorTime": 7014
+      "authorTime": 7014,
+      "mapId": "0081f7de-f4d7-4b48-b92d-173a7e7e5ad5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_353",
       "uid": "l85sAK0YMmwQTpaHQt02n4VqGE2",
       "mxId": 192182,
       "cm": 9572,
-      "authorTime": 9696
+      "authorTime": 9696,
+      "mapId": "a2fbae2c-35b4-46cf-9a12-ea500f8ebb36",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_354",
       "uid": "dKAvKNR81SSMvR1fwTrPbzkyKm1",
       "mxId": 192181,
       "cm": 8733,
-      "authorTime": 8801
+      "authorTime": 8801,
+      "mapId": "66b3d6cf-8578-46ba-8819-784a8aaeee57",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_355",
       "uid": "PEWIhDL2P0Gj_YFJp7Q4jIxB829",
       "mxId": 192180,
       "cm": 8887,
-      "authorTime": 8983
+      "authorTime": 8983,
+      "mapId": "64c0f884-0070-4381-b075-d1373e544b5c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_356",
       "uid": "_9zH4tM9RtDKtcKtpOwLgvazvv0",
       "mxId": 192179,
       "cm": 8869,
-      "authorTime": 9146
+      "authorTime": 9146,
+      "mapId": "7439d890-cede-4a68-8ac3-7886e9c4e24c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_357",
       "uid": "VHAM1ne_yvyVLBjYDZeCuJTpn70",
       "mxId": 192178,
       "cm": 9600,
-      "authorTime": 9641
+      "authorTime": 9641,
+      "mapId": "75ed2156-c89d-4502-a004-99156ce57a24",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_358",
       "uid": "ENgDPQpcCMITwlAZuR1aSu8Qer7",
       "mxId": 192177,
       "cm": 6502,
-      "authorTime": 7901
+      "authorTime": 7901,
+      "mapId": "fba3b883-7e89-4d79-8c84-38501e045571",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_359",
       "uid": "Cy54ZCCy6YMkCm2UZyQ4KpJwzi8",
       "mxId": 192176,
       "cm": 3427,
-      "authorTime": 4290
+      "authorTime": 4290,
+      "mapId": "3a5ab505-d933-4d78-8164-98031319fd42",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_360",
       "uid": "iW03CkCn43eCs7YLwcoUMXW3P4l",
       "mxId": 192175,
       "cm": 8406,
-      "authorTime": 9163
+      "authorTime": 9163,
+      "mapId": "4c9ff44f-fec4-47ff-8f7a-51ba307dafd1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_361",
       "uid": "7XPuEPnA8dGVvLGXTS6RfYacSdl",
       "mxId": 192214,
       "cm": 9894,
-      "authorTime": 9992
+      "authorTime": 9992,
+      "mapId": "f0ce93df-3f24-454c-ac9a-720569dd1dff",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_362",
       "uid": "sIMGQsVUc9zZtMnxdacjDSrKAa2",
       "mxId": 192213,
       "cm": 9511,
-      "authorTime": 9616
+      "authorTime": 9616,
+      "mapId": "6beaa085-a04d-48db-a078-48e1142629b3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_363",
       "uid": "Zwevu68VygI_kWoRzCZr2vQ2WI6",
       "mxId": 192212,
       "cm": 9575,
-      "authorTime": 9655
+      "authorTime": 9655,
+      "mapId": "cf890452-ca46-4f7b-969e-fe64e1e1e1e1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_364",
       "uid": "bNBEtYnrTS9ns3HpKAcXr1d4mI2",
       "mxId": 192207,
       "cm": 9789,
-      "authorTime": 9873
+      "authorTime": 9873,
+      "mapId": "b4cc6c2c-21b0-4f58-8554-6478f7bd67d2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_365",
       "uid": "XEBgMKQmLVEo2p35KtTCb__wp62",
       "mxId": 192211,
       "cm": 9465,
-      "authorTime": 9777
+      "authorTime": 9777,
+      "mapId": "ec0c4e7c-8b32-4d9e-9267-ed12df2cb9dd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_366",
       "uid": "xqkgtYfUZLHd2IACFnPhamtojLc",
       "mxId": 192210,
       "cm": 9395,
-      "authorTime": 9487
+      "authorTime": 9487,
+      "mapId": "6baf1089-1b48-49bc-b69d-ebc582900f59",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_367",
       "uid": "BXJs7K_OJ8jGSyswvvweP5wOFL9",
       "mxId": 192208,
       "cm": 9219,
-      "authorTime": 9362
+      "authorTime": 9362,
+      "mapId": "a41b362b-8652-4947-8f76-4a5e3f560425",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_368",
       "uid": "SDa0gaGuoZfEDYMVbBWEbCOi4Oi",
       "mxId": 192209,
       "cm": 9171,
-      "authorTime": 9254
+      "authorTime": 9254,
+      "mapId": "45908d9e-4c7b-4796-9219-982b4eec6104",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_369",
       "uid": "8J6yjdwcXtnT0NH3qp5rTAwmQDf",
       "mxId": 192206,
       "cm": 6833,
-      "authorTime": 7350
+      "authorTime": 7350,
+      "mapId": "00e81b45-09a9-4582-b52b-c83e92f5c05f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_370",
       "uid": "vQC0UD8gHK5PL9SLUp7_Im62vP3",
       "mxId": 192205,
       "cm": 9466,
-      "authorTime": 9505
+      "authorTime": 9505,
+      "mapId": "dcac9fd0-bea5-49b8-8a1f-9437c3c29760",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_371",
       "uid": "8zv8P2DJJ92ZNfRNL49tR6cy4b8",
       "mxId": 192203,
       "cm": 9406,
-      "authorTime": 9454
+      "authorTime": 9454,
+      "mapId": "2be865ff-18c6-4569-a220-e6ea0f14e2a3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_372",
       "uid": "FnKfCHUVQfBQyr2WU6UdxtUIhWc",
       "mxId": 192204,
       "cm": 7397,
-      "authorTime": 7695
+      "authorTime": 7695,
+      "mapId": "3365edfc-384d-4b8c-bc9b-4899db7af8cf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_373",
       "uid": "8bgOn8zEnOxNt18qm5fqFyimmr0",
       "mxId": 192202,
       "cm": 7194,
-      "authorTime": 9647
+      "authorTime": 9647,
+      "mapId": "743ad17f-68e0-4c5d-81b3-7a78bbd847f2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_374",
       "uid": "3sk5h6K27WQUrT3sSh5lhIKHpGe",
       "mxId": 192201,
       "cm": 7713,
-      "authorTime": 8024
+      "authorTime": 8024,
+      "mapId": "e545e46d-1329-461a-915e-b46e75196891",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_375",
       "uid": "wlVmygYjjRb04iUiY0HLBAMjDZj",
       "mxId": 192200,
       "cm": 8608,
-      "authorTime": 9068
+      "authorTime": 9068,
+      "mapId": "5fbbc47c-928f-429d-bba6-d9d6d6f49084",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_376",
       "uid": "0r7EfyICAsCrk_ek58JnNnSak6a",
       "mxId": 192199,
       "cm": 7326,
-      "authorTime": 7683
+      "authorTime": 7683,
+      "mapId": "dfe358af-fd24-416b-96cf-9337d122aa40",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_377",
       "uid": "DEf_EKY6UYDqDv4R8OREd2D4ZZh",
       "mxId": 192198,
       "cm": 8852,
-      "authorTime": 8964
+      "authorTime": 8964,
+      "mapId": "8825daaa-ad24-48a8-be15-773e4b1fa2ee",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_378",
       "uid": "EJEsZ4PALxyD_dExN9SZPJuWrb9",
       "mxId": 192197,
       "cm": 9651,
-      "authorTime": 9761
+      "authorTime": 9761,
+      "mapId": "09f5ec47-7a4b-4945-95bc-9c170e6b7e5c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_379",
       "uid": "8eQ779iwplFL8OiOstxkdX3hQMm",
       "mxId": 192196,
       "cm": 8801,
-      "authorTime": 9078
+      "authorTime": 9078,
+      "mapId": "a9320d05-1924-4fbf-bdb4-3fb5b620f2ec",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_380",
       "uid": "9XIRZ8MxKGaaXGVXpz3dECXmVxi",
       "mxId": 192195,
       "cm": 9125,
-      "authorTime": 9262
+      "authorTime": 9262,
+      "mapId": "9aa39792-d08a-4d7c-9153-ab6ffcf9ac08",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_381",
       "uid": "5xGGm0p3w6153oBcAmcOS2E2Lp6",
       "mxId": 192221,
       "cm": 8976,
-      "authorTime": 9613
+      "authorTime": 9613,
+      "mapId": "f84ec3d5-9761-4c10-81ed-c3f55749289d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_382",
       "uid": "XyO7acFZC9lDuMYnXJmj97bX6v",
       "mxId": 192220,
       "cm": 8422,
-      "authorTime": 9089
+      "authorTime": 9089,
+      "mapId": "a4a76217-8026-4520-bf2e-68c2d9a79b19",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_383",
       "uid": "CVLd0yAEee0XvgL27C_Ll0ml938",
       "mxId": 192219,
       "cm": 9675,
-      "authorTime": 9844
+      "authorTime": 9844,
+      "mapId": "ae6f7a80-ee6e-41c0-abb1-4facded030ca",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_384",
       "uid": "cWl5tkJ4ovYKi9jAVS7J6qxoS1b",
       "mxId": 192218,
       "cm": 8279,
-      "authorTime": 8718
+      "authorTime": 8718,
+      "mapId": "8a0445d3-c03f-4fff-b96b-76288c80f031",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_385",
       "uid": "nKQ7Ftf0IzFIBsIbcp2qsnmZ5Zd",
       "mxId": 192217,
       "cm": 9488,
-      "authorTime": 9683
+      "authorTime": 9683,
+      "mapId": "4d7567b2-8c3f-43dd-9bbb-e85521f4387a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_386",
       "uid": "Q_FkapB30ZogdzMzEqwH3w_aGk4",
       "mxId": 192216,
       "cm": 8688,
-      "authorTime": 9025
+      "authorTime": 9025,
+      "mapId": "97b243df-b0e2-4b1d-855a-2f75e1ede713",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_387",
       "uid": "cXGvyvYRCYe8cZqrvLh3j56Z5Ua",
       "mxId": 192215,
       "cm": 7940,
-      "authorTime": 8033
+      "authorTime": 8033,
+      "mapId": "ac723f32-abaf-463c-8531-51c3016f8dfa",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_388",
       "uid": "DCCrn41PbiyN3nIijaMf9BlPgYg",
       "mxId": 195086,
       "cm": 9431,
-      "authorTime": 9826
+      "authorTime": 9826,
+      "mapId": "17dfeb8c-3734-4519-b58d-fcf3f343499d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_389",
       "uid": "0knd10Ubefho7PoHsvbfjo6x8Cl",
       "mxId": 195087,
       "cm": 8977,
-      "authorTime": 9046
+      "authorTime": 9046,
+      "mapId": "d3cf7619-64ba-4892-83d1-880d57d2c661",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_390",
       "uid": "1kverm202JSIllQMDKM_1QgtYd2",
       "mxId": 195085,
       "cm": 8734,
-      "authorTime": 9095
+      "authorTime": 9095,
+      "mapId": "2ad96741-1a40-4eb9-ac6b-8ceba3dc4286",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_391",
       "uid": "v0XZDvtbh9bvD2rnzQb8z1pB3Pi",
       "mxId": 195084,
       "cm": 6850,
-      "authorTime": 7152
+      "authorTime": 7152,
+      "mapId": "29212e46-6fc6-441a-9535-0a9caf1fa2e8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_392",
       "uid": "BHjmpS8BeJu9yJNOpO_fDUTsBte",
       "mxId": 195083,
       "cm": 8199,
-      "authorTime": 8581
+      "authorTime": 8581,
+      "mapId": "cfb58db6-3ee0-411a-aa93-8bc83ececef4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_393",
       "uid": "tePSl7tr9Bz_jnP6uihgw0mjH2",
       "mxId": 195082,
       "cm": 6015,
-      "authorTime": 9225
+      "authorTime": 9225,
+      "mapId": "1e08889f-b480-4366-a584-971ed8c74ce2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_394",
       "uid": "N2TEjBkYY8M306dyO2n9rV5U4Oe",
       "mxId": 195081,
       "cm": 9518,
-      "authorTime": 9603
+      "authorTime": 9603,
+      "mapId": "a4fcaa94-65ee-4966-9c2a-b41ba1a3e23d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_395",
       "uid": "wg9WRMmK2wFQT0cJmP8_kkaWmKf",
       "mxId": 195080,
       "cm": 8513,
-      "authorTime": 8919
+      "authorTime": 8919,
+      "mapId": "159cb58f-35bf-4d73-8f5d-6332ee551957",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_396",
       "uid": "mzYCbvEauLdfOt6qIHLN_UJFj70",
       "mxId": 195079,
       "cm": 9532,
-      "authorTime": 9747
+      "authorTime": 9747,
+      "mapId": "96b6b4ca-3c19-4ce8-a674-586a73bb6a1a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_397",
       "uid": "XOPeeNqMCMLKpv5uGoq9eaNAcy2",
       "mxId": 195078,
       "cm": 9624,
-      "authorTime": 9965
+      "authorTime": 9965,
+      "mapId": "488443c7-1a5c-4e04-b2f6-e358177c25fb",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_398",
       "uid": "hDKBXhq5at7X84UPYuYIh2wEY0j",
       "mxId": 195077,
       "cm": 9151,
-      "authorTime": 9220
+      "authorTime": 9220,
+      "mapId": "430cbf4b-a5a3-4198-95c9-364328cca503",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_399",
       "uid": "yCEb2_WOKUOiNo9CK5BTDQX4Def",
       "mxId": 195076,
       "cm": 8393,
-      "authorTime": 9794
+      "authorTime": 9794,
+      "mapId": "b84c9c2b-57d9-474d-89e3-6a6a03dc5d91",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_400",
       "uid": "EFvHLTyOOChlY7L4IuN2htm5e57",
       "mxId": 218074,
       "cm": 8310,
-      "authorTime": 8489
+      "authorTime": 8489,
+      "mapId": "9d9f5038-9a38-416c-98f8-f8501dc43c11",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_401",
       "uid": "68NTOE3UUNzty6qGd6ot98nYL3i",
       "mxId": 218783,
       "cm": 8899,
-      "authorTime": 8978
+      "authorTime": 8978,
+      "mapId": "b2c39b79-9346-44d8-803e-5331464f6554",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_402",
       "uid": "lK_JkCkFGNphIb7sNkoYqrgML9h",
       "mxId": 218782,
       "cm": 7823,
-      "authorTime": 8753
+      "authorTime": 8753,
+      "mapId": "94c77d98-b274-4e0f-892d-6f20e9aff354",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_403",
       "uid": "YdHqAbpZBtL3g0ItSeBEuoDDaDc",
       "mxId": 218781,
       "cm": 7563,
-      "authorTime": 7687
+      "authorTime": 7687,
+      "mapId": "101abc95-9f0c-4a83-93ea-d77f61471913",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_404",
       "uid": "slShewtl9ErsCE2jYmlBrN5MPvd",
       "mxId": 218780,
       "cm": 5735,
-      "authorTime": 5874
+      "authorTime": 5874,
+      "mapId": "1484174b-5678-42e0-8a84-183e31d8681c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_405",
       "uid": "_rOTmcz_hp1Z0qlyMENiWbmF19g",
       "mxId": 218779,
       "cm": 9458,
-      "authorTime": 9613
+      "authorTime": 9613,
+      "mapId": "205acc59-f576-40c5-ad75-c80620b7e65c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_406",
       "uid": "QcaRZONiHqUOUYJkqesBS_6cLZ1",
       "mxId": 218778,
       "cm": 9860,
-      "authorTime": 9958
+      "authorTime": 9958,
+      "mapId": "1ad7515f-c360-4ed8-85e5-a27a6460852a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_407",
       "uid": "lsfKQC2aObB1ofoWxDHkBJBitE5",
       "mxId": 218777,
       "cm": 7500,
-      "authorTime": 7681
+      "authorTime": 7681,
+      "mapId": "61388f38-72be-465c-a255-d24e00da3b94",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_408",
       "uid": "3pQ4kfTrZbIVv1eN7Spzx0DK5zh",
       "mxId": 218776,
       "cm": 8492,
-      "authorTime": 8568
+      "authorTime": 8568,
+      "mapId": "f3085b19-9620-4dd1-8b00-18cc165e6fce",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_409",
       "uid": "8yfCp3FQ8T3ii2pLmrujduu0WLc",
       "mxId": 218775,
       "cm": 9118,
-      "authorTime": 9208
+      "authorTime": 9208,
+      "mapId": "3e6ae979-0341-443a-923a-d94de121f966",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_410",
       "uid": "TB5YBhO27b2L554DcROzEs9zhQg",
       "mxId": 218774,
       "cm": 8291,
-      "authorTime": 8483
+      "authorTime": 8483,
+      "mapId": "db07345c-d16c-4104-b08d-367807183143",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_411",
       "uid": "LWNibsMXQQE0NVBSCbYxYuFP238",
       "mxId": 218773,
       "cm": 9249,
-      "authorTime": 9395
+      "authorTime": 9395,
+      "mapId": "84be7077-0afe-4d2b-8bdb-970ea468aa2b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_412",
       "uid": "3ixUwPN6O6fFtq5T6EXPAtju1f",
       "mxId": 218771,
       "cm": 9063,
-      "authorTime": 9206
+      "authorTime": 9206,
+      "mapId": "b64069d2-69ed-4a5d-a5f0-5e87f61d6793",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_413",
       "uid": "WikUWzTkuqn5VZC73Dt6SVuZn4j",
       "mxId": 218770,
       "cm": 8851,
-      "authorTime": 9172
+      "authorTime": 9172,
+      "mapId": "3c793908-84fa-4c9b-a781-45b6db79d09f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_414",
       "uid": "grvkJ88od3WK0yL94C2kQCXg9dj",
       "mxId": 218769,
       "cm": 8162,
-      "authorTime": 8778
+      "authorTime": 8778,
+      "mapId": "db77b993-10b5-4d47-bffc-8fc2fe3a33f3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_415",
       "uid": "3pDfeJwHaIlq5b86HJYuHqEeLz",
       "mxId": 218768,
       "cm": 7996,
-      "authorTime": 8044
+      "authorTime": 8044,
+      "mapId": "2d4aaabf-578c-41b0-9440-9cd997354b2e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_416",
       "uid": "jlBMNzsfFpWDlyNgw5Y7qeoLCw5",
       "mxId": 218767,
       "cm": 8103,
-      "authorTime": 8412
+      "authorTime": 8412,
+      "mapId": "2708432e-60ae-4ac8-a7b8-c1d5f61d38b9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_417",
       "uid": "MfuKJeHOs4bhx36IPK7vinkVbjb",
       "mxId": 218763,
       "cm": 8501,
-      "authorTime": 8831
+      "authorTime": 8831,
+      "mapId": "b5d6ea0f-f3f3-40a9-85b0-fe518a6f9e6a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_418",
       "uid": "8w0S47Rs2fQZh8sOsNKdrp58fe7",
       "mxId": 218766,
       "cm": 8532,
-      "authorTime": 8706
+      "authorTime": 8706,
+      "mapId": "bae7a91e-918e-4546-8a66-d1d3eb43a10b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_419",
       "uid": "Hupw0WKvYIxlYa2lGB7XCByOvNm",
       "mxId": 218765,
       "cm": 8435,
-      "authorTime": 8950
+      "authorTime": 8950,
+      "mapId": "015a85bc-3e99-4ba8-91e3-a40e18306161",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_420",
       "uid": "d0Jnj421yIdP0YYOk_BmpHj1le8",
       "mxId": 218764,
       "cm": 7841,
-      "authorTime": 8697
+      "authorTime": 8697,
+      "mapId": "d9510652-a4ba-461a-985c-54f3277bfe2e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_421",
       "uid": "6j8xnykyOiyakWAQe_ZxPux3RP8",
       "mxId": 218807,
       "cm": 5997,
-      "authorTime": 6185
+      "authorTime": 6185,
+      "mapId": "e44ce93d-c712-4403-b9dc-6b3b824c6793",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_422",
       "uid": "ejYRFrVA8TmvJniyi7stTRLkBlj",
       "mxId": 218806,
       "cm": 9589,
-      "authorTime": 9715
+      "authorTime": 9715,
+      "mapId": "e8cb5ec2-36a4-4b6a-a446-e474177fe7ec",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_423",
       "uid": "OUMxHi_lmK7kTIdSt6JOZg3jXJi",
       "mxId": 218805,
       "cm": 9207,
-      "authorTime": 9378
+      "authorTime": 9378,
+      "mapId": "76eb3354-0a3a-4a88-b346-b5aeb9eb5011",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_424",
       "uid": "fTME4rUOfarTKpPNNQanrJC6F6f",
       "mxId": 218804,
       "cm": 8831,
-      "authorTime": 9042
+      "authorTime": 9042,
+      "mapId": "8430771e-333a-4082-9fc9-a7f2a10970f7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_425",
       "uid": "T4LlZlFQnFoL8ivzlRBm87GvIZ1",
       "mxId": 218803,
       "cm": 8303,
-      "authorTime": 8675
+      "authorTime": 8675,
+      "mapId": "a5c14283-e8c8-48d5-91b9-d4cfa64bbb9a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_426",
       "uid": "BWmlHVkUiQVru5M3wsSYic1R3Ym",
       "mxId": 218802,
       "cm": 9240,
-      "authorTime": 9391
+      "authorTime": 9391,
+      "mapId": "4cfc3091-1937-4e83-838b-3e70133d3ca4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_427",
       "uid": "z4r80M26Kg56fQKboK2hTTpZ5kl",
       "mxId": 218801,
       "cm": 8136,
-      "authorTime": 8495
+      "authorTime": 8495,
+      "mapId": "458f4c30-8984-415b-9914-b2a3f3aa98b5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_428",
       "uid": "gh7bnICAfRTezHjv0YqtnlV6AH4",
       "mxId": 218800,
       "cm": 8897,
-      "authorTime": 9308
+      "authorTime": 9308,
+      "mapId": "acf02e93-be4f-4c4e-8f93-a6390fbb05aa",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_429",
       "uid": "M09XwtF1P3ESxbSNaLhKPZCSUa8",
       "mxId": 218799,
       "cm": 8861,
-      "authorTime": 8994
+      "authorTime": 8994,
+      "mapId": "8c0f1f97-9787-4036-881c-d0d119638a16",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_430",
       "uid": "ZUc7U3Jazifd1vc8DnzuhsY0lx",
       "mxId": 218798,
       "cm": 8255,
-      "authorTime": 8341
+      "authorTime": 8341,
+      "mapId": "66ade365-d847-4329-a97e-f5427c375d19",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_431",
       "uid": "u4l2J7Rth05YnRQOS2_JO1pdRF8",
       "mxId": 218797,
       "cm": 8600,
-      "authorTime": 9044
+      "authorTime": 9044,
+      "mapId": "701b2ab0-7b2e-44a5-8296-9095242ede81",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_432",
       "uid": "wqQ_KulZjpe3VCpo2uV7RrknpBi",
       "mxId": 218796,
       "cm": 8789,
-      "authorTime": 9847
+      "authorTime": 9847,
+      "mapId": "bccdfaf5-d548-40f8-853e-b219d91a94b7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_433",
       "uid": "HxTZOYLTis5sYxtE8ptqnfFeg00",
       "mxId": 218795,
       "cm": 9257,
-      "authorTime": 9371
+      "authorTime": 9371,
+      "mapId": "f44e2f9c-7ed8-4320-84dd-387349e8897f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_434",
       "uid": "cAWUkTSl0RVNtvJi9tftF4KEJc6",
       "mxId": 218794,
       "cm": 9458,
-      "authorTime": 9736
+      "authorTime": 9736,
+      "mapId": "2990732c-f0cb-480d-a93e-b0aba7ae39bf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_435",
       "uid": "gy8sqVugIDPJWWmmfUnZ3enhv_n",
       "mxId": 218793,
       "cm": 9541,
-      "authorTime": 9742
+      "authorTime": 9742,
+      "mapId": "dc41c88e-6e05-40f1-b813-3e869c2bbc88",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_436",
       "uid": "gffUBhIte3W92UyvnCcBrPpd8s3",
       "mxId": 218792,
       "cm": 9573,
-      "authorTime": 9890
+      "authorTime": 9890,
+      "mapId": "4cd8d050-73b3-4db4-b02e-d4edde8df9f0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_437",
       "uid": "MrHxnI9yo2mYfF6mQ7EyC_HJKFd",
       "mxId": 218791,
       "cm": 9182,
-      "authorTime": 9355
+      "authorTime": 9355,
+      "mapId": "f8444f48-fd25-4403-b5eb-f594d8ffd388",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_438",
       "uid": "SR0fwYDNmcX3lVMboRaeYgN_6N3",
       "mxId": 218790,
       "cm": 9094,
-      "authorTime": 9341
+      "authorTime": 9341,
+      "mapId": "750c3da7-1bbc-43e8-a120-a3540a28e2f9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_439",
       "uid": "dJ6GA377_6LGQ9BURr1gFLkUBW1",
       "mxId": 218789,
       "cm": 8505,
-      "authorTime": 8805
+      "authorTime": 8805,
+      "mapId": "b5e8622c-ec69-4407-b378-0d8c99bb416c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_440",
       "uid": "yLQZerYWvJxLwoDkI8N_grEFR0b",
       "mxId": 218788,
       "cm": 9666,
-      "authorTime": 9794
+      "authorTime": 9794,
+      "mapId": "690ca91b-61fd-4a96-bcd5-75542b1cd84a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_441",
       "uid": "YkjTVHESUlB1Rs413e1fq0QAxKa",
       "mxId": 218852,
       "cm": 9598,
-      "authorTime": 9762
+      "authorTime": 9762,
+      "mapId": "a23a21ef-a5c5-41e7-8e5d-ffb5a9951b68",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_442",
       "uid": "jM71wdLEQzjhKjWTih9G3jqBn86",
       "mxId": 218851,
       "cm": 8501,
-      "authorTime": 8764
+      "authorTime": 8764,
+      "mapId": "cece5a55-71c9-4c60-9e1a-3c64ff35aa77",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_443",
       "uid": "GaggMmEx8XldRmKVrG5MjoUbpE6",
       "mxId": 218850,
       "cm": 9642,
-      "authorTime": 9838
+      "authorTime": 9838,
+      "mapId": "ec1683e2-68e3-4c3d-8b1b-a4aae9f2d402",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_444",
       "uid": "9I3Kez6zJsrBoGfVdLpNVjF_rx7",
       "mxId": 218849,
       "cm": 6900,
-      "authorTime": 8738
+      "authorTime": 8738,
+      "mapId": "e7c30faf-2277-423b-bea4-f4cbf85c7124",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_445",
       "uid": "zYm2_ts4qeLGxFGS7Pe1tEoTmw9",
       "mxId": 218848,
       "cm": 8500,
-      "authorTime": 9378
+      "authorTime": 9378,
+      "mapId": "211ec779-85f5-4877-9b4f-fe3db186224f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_446",
       "uid": "lVa6mKxl6nfqAjsPGxkk8b8G9N5",
       "mxId": 218847,
       "cm": 7147,
-      "authorTime": 7494
+      "authorTime": 7494,
+      "mapId": "889ac7d1-87b1-40ab-9bfe-2c01d7f22302",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_447",
       "uid": "GKCRpUeHPm7o0fzT3qjAoocfs2f",
       "mxId": 218846,
       "cm": 9399,
-      "authorTime": 9788
+      "authorTime": 9788,
+      "mapId": "ed3fec6a-aeec-4b90-b186-df10e8549535",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_448",
       "uid": "MxkFjKTi9itimHdjsAZhXzIRJY6",
       "mxId": 218845,
       "cm": 8742,
-      "authorTime": 8771
+      "authorTime": 8771,
+      "mapId": "42cb93d8-a370-4148-b910-6141d54ce276",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_449",
       "uid": "i7sXpKH2miy_9FUkwA2xTyiHM77",
       "mxId": 218844,
       "cm": 8121,
-      "authorTime": 8665
+      "authorTime": 8665,
+      "mapId": "05915add-8608-498f-b2e1-a4c559d0799c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_450",
       "uid": "sjakGVrntVKIkUlfJTT5ywd0GA4",
       "mxId": 218843,
       "cm": 4134,
-      "authorTime": 5004
+      "authorTime": 5004,
+      "mapId": "98800f8d-844f-499d-ad2e-cb3847da8e18",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_451",
       "uid": "cwGBr3eEnSMHSdaLdvGWq_SZ_ll",
       "mxId": 218842,
       "cm": 9798,
-      "authorTime": 9916
+      "authorTime": 9916,
+      "mapId": "97fa0478-f254-4e14-bd3b-90cd337fb861",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_452",
       "uid": "itsPB3WR_Z7xhTUflL_DKrXlc13",
       "mxId": 218841,
       "cm": 8010,
-      "authorTime": 8422
+      "authorTime": 8422,
+      "mapId": "fc3d9670-a477-4551-aa97-43215fc587e7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_453",
       "uid": "lLCcqidambewAhrhgEVVWO3TTi0",
       "mxId": 218840,
       "cm": 7698,
-      "authorTime": 8295
+      "authorTime": 8295,
+      "mapId": "8c78b0a2-92d5-4cf8-b153-1f635e42469d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_454",
       "uid": "l8RQEC8ABOj2ejQGVbAjTR2RZfi",
       "mxId": 218839,
       "cm": 9419,
-      "authorTime": 9975
+      "authorTime": 9975,
+      "mapId": "0f1ca685-f15b-4591-af2c-dcb9a1036568",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_455",
       "uid": "5HUaSEa7lO4rxBtjChO0D4i22Gg",
       "mxId": 218838,
       "cm": 8149,
-      "authorTime": 8778
+      "authorTime": 8778,
+      "mapId": "ccc5126a-e2a3-493c-8995-398dcd9c3544",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_456",
       "uid": "Tw7R0b61k9j9Qkrqa7ZTxbIkdr6",
       "mxId": 218837,
       "cm": 8888,
-      "authorTime": 8906
+      "authorTime": 8906,
+      "mapId": "a10e5293-20eb-4e59-b0c7-9fd03100cb1e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_457",
       "uid": "cBMRQAuC0ONVX45a3INJicIyDC0",
       "mxId": 218835,
       "cm": 7709,
-      "authorTime": 8113
+      "authorTime": 8113,
+      "mapId": "837edb37-8d9a-4973-914a-c824f8359ded",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_458",
       "uid": "zdbfkAGtp8nVtUJjCmR0G0gRJQj",
       "mxId": 218834,
       "cm": 9605,
-      "authorTime": 9953
+      "authorTime": 9953,
+      "mapId": "5c62b7b2-8d67-4e4e-bbd3-c66e6c39be69",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_459",
       "uid": "EUgCIiC3QZeGuZRA6TqS3mgNgLd",
       "mxId": 218833,
       "cm": 7600,
-      "authorTime": 7631
+      "authorTime": 7631,
+      "mapId": "e9e67721-1507-4436-9e98-531bb8f575b0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_460",
       "uid": "9MfiMFHyH47Rh5WInR2grALXRx1",
       "mxId": 218832,
       "cm": 9311,
-      "authorTime": 9504
+      "authorTime": 9504,
+      "mapId": "3950f033-6916-4d77-a146-d7bbc0ff054f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_461",
       "uid": "IItRbIJypgS9tmVcLnrmprADsU0",
       "mxId": 218876,
       "cm": 6344,
-      "authorTime": 7041
+      "authorTime": 7041,
+      "mapId": "1772738f-7235-46cb-bb76-f533723eaa39",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_462",
       "uid": "3IB8vyg2qli5xFhLqpaR4SDu8W3",
       "mxId": 218875,
       "cm": 9916,
-      "authorTime": 9995
+      "authorTime": 9995,
+      "mapId": "4f70291a-c552-4d3e-8206-0c4d6d3eb92c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_463",
       "uid": "h4oYaMNB0_tQjpB0yM2iu2k_GFi",
       "mxId": 218874,
       "cm": 8723,
-      "authorTime": 8903
+      "authorTime": 8903,
+      "mapId": "96cd8cb1-afb7-4b14-887b-aa7b2bb06cdd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_464",
       "uid": "ZG0Mk7OszjfmlbZZZztRunw7MA",
       "mxId": 218873,
       "cm": 9574,
-      "authorTime": 9741
+      "authorTime": 9741,
+      "mapId": "1e0c633b-655c-4b59-901d-f24b5895bfda",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_465",
       "uid": "drivmrjtYT19QrLpu7ciZNpWG_e",
       "mxId": 218872,
       "cm": 9970,
-      "authorTime": 9992
+      "authorTime": 9992,
+      "mapId": "c85f1dc0-241a-43cb-a09f-097b5d9a4c5f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_466",
       "uid": "gXvHAuosCLuezJnNfYQl2ABL0X9",
       "mxId": 218870,
       "cm": 8949,
-      "authorTime": 9190
+      "authorTime": 9190,
+      "mapId": "a93140e2-f624-4c49-b528-9959166276e5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_467",
       "uid": "zrOwNhm8lVfXpPT3gEYAsYFZQz1",
       "mxId": 218871,
       "cm": 8858,
-      "authorTime": 8948
+      "authorTime": 8948,
+      "mapId": "031b3beb-1444-4b17-95b3-7a16176b5cf8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_468",
       "uid": "rkkgr2b1eR4FxqlmPfHYE3uWNL7",
       "mxId": 218869,
       "cm": 9460,
-      "authorTime": 9612
+      "authorTime": 9612,
+      "mapId": "e3488dfb-665f-42b5-9352-1ce579f7a0f2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_469",
       "uid": "lHg5sx9kcVxBWpZ0J0mbqbQ9QN9",
       "mxId": 218862,
       "cm": 9093,
-      "authorTime": 9494
+      "authorTime": 9494,
+      "mapId": "14e6dda7-a843-42e1-afee-a921e813bf29",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_470",
       "uid": "uPfFVFGsmizp1LGgLODacUcoK0j",
       "mxId": 218868,
       "cm": 8444,
-      "authorTime": 9094
+      "authorTime": 9094,
+      "mapId": "ff3d48e8-77ff-49bb-84e4-365b3a04666d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_471",
       "uid": "Gh3Vk92tDp0jBeweyDgg8NDnuke",
       "mxId": 218867,
       "cm": 9783,
-      "authorTime": 9904
+      "authorTime": 9904,
+      "mapId": "84c2263a-8a52-41f3-979c-6e21d2b48d96",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_472",
       "uid": "m4jN8hdSafqFMcYbFYsQWNdkws4",
       "mxId": 218866,
       "cm": 8650,
-      "authorTime": 9457
+      "authorTime": 9457,
+      "mapId": "7dbc0337-ab64-4295-b337-bd944a5f30cf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_473",
       "uid": "SpvhvJRx9oPMbkW73FKP4BWO2Bh",
       "mxId": 218865,
       "cm": 9240,
-      "authorTime": 9403
+      "authorTime": 9403,
+      "mapId": "9497725f-3695-4447-8dc4-0963016c3f4a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_474",
       "uid": "txrVMYV96dCJcRjp3rOidWuyqr3",
       "mxId": 218864,
       "cm": 8300,
-      "authorTime": 8636
+      "authorTime": 8636,
+      "mapId": "34daeba8-e0b1-4912-9c6b-43b123cfd37b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_475",
       "uid": "tpEW8s0GsevPHRsUHi43pM5w2P0",
       "mxId": 218863,
       "cm": 5995,
-      "authorTime": 9302
+      "authorTime": 9302,
+      "mapId": "731510e5-fb6e-4867-807d-4d3c527103f2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_476",
       "uid": "4UsSGKHWCkLKZm6NlKxAwyWE4Ne",
       "mxId": 218918,
       "cm": 6894,
-      "authorTime": 7371
+      "authorTime": 7371,
+      "mapId": "d58ce2ee-bf90-4f43-94c5-c6dcaf3800c6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_477",
       "uid": "q4WrtYw2iErvjiJUH_auffI5gye",
       "mxId": 218861,
       "cm": 9123,
-      "authorTime": 9508
+      "authorTime": 9508,
+      "mapId": "2e0c1e0d-4d26-4d02-8adc-e04b77a0b0a9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_478",
       "uid": "vYBiPN31MHI_3gJ96sf6FRUwwM0",
       "mxId": 218860,
       "cm": 9222,
-      "authorTime": 9318
+      "authorTime": 9318,
+      "mapId": "c173de7f-8801-4a52-84a0-4fcab4abe979",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_479",
       "uid": "daQt_0gw2kAHdEnVAzr_4j71Ltm",
       "mxId": 218859,
       "cm": 9891,
-      "authorTime": 9967
+      "authorTime": 9967,
+      "mapId": "5c227172-5185-41e0-9b55-befb13cb2372",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_480",
       "uid": "JfRmAG7fX5vcHq6wWHoPYC2MnUe",
       "mxId": 218858,
       "cm": 8534,
-      "authorTime": 8877
+      "authorTime": 8877,
+      "mapId": "ddb8af22-676e-48ff-80a6-55e4866dc9a2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_481",
       "uid": "2qkMarYnkzLifJM4uHB3KDdw13g",
       "mxId": 218898,
       "cm": 8411,
-      "authorTime": 9268
+      "authorTime": 9268,
+      "mapId": "8975bf4a-5414-4c01-ae4c-a2ae412bff02",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_482",
       "uid": "NaGH3o4C0v3sF4N35jJ4XCBH9se",
       "mxId": 218899,
       "cm": 9426,
-      "authorTime": 9568
+      "authorTime": 9568,
+      "mapId": "140669ea-cace-432b-ab53-1d4a38e25f89",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_483",
       "uid": "mxE6TCd6NgBbm6LbcU9TCa6DzR8",
       "mxId": 218897,
       "cm": 9130,
-      "authorTime": 9570
+      "authorTime": 9570,
+      "mapId": "abdf260a-40db-429f-b815-7738159f7a88",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_484",
       "uid": "1YKNz8S_QqazEKGyB7eGZnsICt0",
       "mxId": 218896,
       "cm": 7243,
-      "authorTime": 8342
+      "authorTime": 8342,
+      "mapId": "314790d8-1494-4404-8f9d-f422eefcef18",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_485",
       "uid": "OkuNTU64lNjFIrAQVemK45cIShm",
       "mxId": 218895,
       "cm": 9802,
-      "authorTime": 9996
+      "authorTime": 9996,
+      "mapId": "15f0489c-020d-4719-ae9f-21f6c8689ff9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_486",
       "uid": "6QivP_sM7jNHN27Yy1jZGLKG851",
       "mxId": 218894,
       "cm": 9800,
-      "authorTime": 9964
+      "authorTime": 9964,
+      "mapId": "49f24194-401c-42f0-a9da-3df242845d9d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_487",
       "uid": "6gDUdCz2qfDS4i7V_MpMETp1gWl",
       "mxId": 218893,
       "cm": 8796,
-      "authorTime": 9527
+      "authorTime": 9527,
+      "mapId": "bac3ab78-6d63-4909-a344-c90d360f0085",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_488",
       "uid": "cn29EHGebYtGIK5oJ_69vlv_Iid",
       "mxId": 218892,
       "cm": 8998,
-      "authorTime": 9298
+      "authorTime": 9298,
+      "mapId": "1b8b97c6-f0b1-40aa-9eed-e3356a887bc1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_489",
       "uid": "jV4VglEoN3AMRfPSwRdqBV1EyQ5",
       "mxId": 218891,
       "cm": 6023,
-      "authorTime": 6270
+      "authorTime": 6270,
+      "mapId": "85807207-7d81-4f4c-9134-6d5d8684f412",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_490",
       "uid": "9SeQygriWqY4Mx8voAkmBm7rqfc",
       "mxId": 218890,
       "cm": 9269,
-      "authorTime": 9398
+      "authorTime": 9398,
+      "mapId": "d0ddec39-28d8-40d2-bc18-777593cbcfb9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_491",
       "uid": "1T0gh_q3uuVjOSO933056osHZFc",
       "mxId": 218889,
       "cm": 7394,
-      "authorTime": 7668
+      "authorTime": 7668,
+      "mapId": "8f9f73bb-4aad-45a6-b51f-6418933ba780",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_492",
       "uid": "n9KMY2o6EaE8TFXsLQFDc5AoXWi",
       "mxId": 218888,
       "cm": 8325,
-      "authorTime": 8919
+      "authorTime": 8919,
+      "mapId": "9be19ade-4742-461c-a20b-403b6f0379b6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_493",
       "uid": "Qh7p9PLxa5ckDS2ynbX2o0sPna5",
       "mxId": 218887,
       "cm": 7477,
-      "authorTime": 8378
+      "authorTime": 8378,
+      "mapId": "ed418ac6-2e87-4bc3-bc46-e3b3685bf4a0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_494",
       "uid": "NgbOgxru21zpfBRMsW2cF1Yn64",
       "mxId": 218886,
       "cm": 9394,
-      "authorTime": 9466
+      "authorTime": 9466,
+      "mapId": "b2054641-27bf-4285-a701-28c9ae124405",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_495",
       "uid": "GGA9GdWcA2DV6WkqSGGMql4Hhvg",
       "mxId": 218885,
       "cm": 7269,
-      "authorTime": 7407
+      "authorTime": 7407,
+      "mapId": "a04e31f0-08c0-448e-82b8-bc2e390f5c49",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_496",
       "uid": "MHomJZFd1s8jxMJy64UOuieZrkj",
       "mxId": 218884,
       "cm": 9215,
-      "authorTime": 9717
+      "authorTime": 9717,
+      "mapId": "0b1b07cc-3f6b-4485-bed1-f2737fcd496a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_497",
       "uid": "P_Fc8PBmtLn1K6zMQtBY5jkDtW8",
       "mxId": 218883,
       "cm": 9480,
-      "authorTime": 9627
+      "authorTime": 9627,
+      "mapId": "b260f440-d38c-4d12-9871-2aebf3a72acc",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_498",
       "uid": "j9VzTcNg2M321I0BvV1f_EtG9ui",
       "mxId": 218880,
       "cm": 9858,
-      "authorTime": 9985
+      "authorTime": 9985,
+      "mapId": "5b16927c-836d-4186-9056-5c38baff5982",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_499",
       "uid": "bFWVvtrz8fddEaO6P_uax9eSuM5",
       "mxId": 218879,
       "cm": 8501,
-      "authorTime": 8704
+      "authorTime": 8704,
+      "mapId": "52814d16-5a7a-4690-8ba0-6fb3bb26ed53",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_500",
       "uid": "oqyVwVcnt07breLbwZdhpjXUUZ8",
       "mxId": 218881,
       "cm": 4500,
-      "authorTime": 5261
+      "authorTime": 5261,
+      "mapId": "0d09ef6c-26f4-47d8-9a86-0a8112c6b325",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_501",
       "uid": "Hle9iCqvl8pTyo_Y5hvDfdrVygg",
       "mxId": 260094,
       "cm": 7554,
-      "authorTime": 7712
+      "authorTime": 7712,
+      "mapId": "b4208cbf-8fa7-4754-8ad6-83db47627eef",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_502",
       "uid": "hvFs__1ii21x292SuLbxoJ9t5j7",
       "mxId": 260099,
       "cm": 8596,
-      "authorTime": 8904
+      "authorTime": 8904,
+      "mapId": "0fbc0e48-d096-4cea-bf92-29bc65787f3c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_503",
       "uid": "Co4LFrGQ64kaeksrP5DQfm1eou2",
       "mxId": 260098,
       "cm": 7972,
-      "authorTime": 8108
+      "authorTime": 8108,
+      "mapId": "52c178af-3435-4035-bfd1-b9e147cca72c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_504",
       "uid": "lRZakwaUk4O3DUfs4VMjnSsxfBm",
       "mxId": 260097,
       "cm": 9730,
-      "authorTime": 9845
+      "authorTime": 9845,
+      "mapId": "906bc972-a9a6-464a-895c-bbbb2941dfcf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_505",
       "uid": "6TnfSV6iOpSztCmtyzwKI2rYe4e",
       "mxId": 260093,
       "cm": 9383,
-      "authorTime": 9587
+      "authorTime": 9587,
+      "mapId": "7a31c1f0-821d-4a7d-b315-56769f1211c1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_506",
       "uid": "HB8TTdetaAs7lrIA5iptsgg_zql",
       "mxId": 260081,
       "cm": 9088,
-      "authorTime": 9329
+      "authorTime": 9329,
+      "mapId": "9a0fe583-ab7e-456b-a60d-2c4f114afdfa",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_507",
       "uid": "PZR4dloTWzg461bGS1h3XD4LRuc",
       "mxId": 260096,
       "cm": 7932,
-      "authorTime": 8838
+      "authorTime": 8838,
+      "mapId": "e00cec4f-1571-4d8b-a261-eb24be90bd95",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_508",
       "uid": "BobyHTWbQfkhctyl3ofHegHUxcm",
       "mxId": 260095,
       "cm": 8921,
-      "authorTime": 9165
+      "authorTime": 9165,
+      "mapId": "f34417fd-c04b-45de-81e4-bb6e8eaf8249",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_509",
       "uid": "VVVpROMtGhtrrnO5DEcCWXixF87",
       "mxId": 260080,
       "cm": 8324,
-      "authorTime": 9975
+      "authorTime": 9975,
+      "mapId": "0e7b64f6-11e8-4afd-a0ef-99024f563bfa",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_510",
       "uid": "A7Dqvo2_mXe4vvE8CuoYCkfCGG1",
       "mxId": 260092,
       "cm": 8418,
-      "authorTime": 9197
+      "authorTime": 9197,
+      "mapId": "ba74af68-c3d4-40ef-bad3-6fa2e5c8ef29",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_511",
       "uid": "vJw4IJhS1WspizwApTXnCT0KUTg",
       "mxId": 260091,
       "cm": 6710,
-      "authorTime": 8146
+      "authorTime": 8146,
+      "mapId": "b4a72cc7-3520-423d-bf8d-68b353128166",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_512",
       "uid": "XpIULuOPYaZAtJ5sqI5w75qV1De",
       "mxId": 260090,
       "cm": 8962,
-      "authorTime": 9188
+      "authorTime": 9188,
+      "mapId": "eda2dae2-165a-4763-a875-dc3eb648cdef",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_513",
       "uid": "LUkPcGa7lkbP9v3oCSFrWrX3nv7",
       "mxId": 260089,
       "cm": 9596,
-      "authorTime": 9707
+      "authorTime": 9707,
+      "mapId": "43b2f9ef-31f3-4722-9311-87d7a48229c3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_514",
       "uid": "xqf7wVQBzS1KTkxAzfWSEcxxJC8",
       "mxId": 260088,
       "cm": 8830,
-      "authorTime": 8938
+      "authorTime": 8938,
+      "mapId": "b8d9033c-914e-4fb7-b14b-cfcd17e3a281",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_515",
       "uid": "XDXVKLbWIhUGkKMPu7EBi55OqA0",
       "mxId": 260087,
       "cm": 8180,
-      "authorTime": 8659
+      "authorTime": 8659,
+      "mapId": "8e97f032-ffc5-4c2c-bfd0-ce9de8df63fd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_516",
       "uid": "8C4VBMz58bq0geqQkafUXAIBDD5",
       "mxId": 260086,
       "cm": 9416,
-      "authorTime": 9471
+      "authorTime": 9471,
+      "mapId": "8788d4f7-f384-49d0-a085-f1104918191f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_517",
       "uid": "Qyehei2EMdQxdbhSR2tnjZLCXy7",
       "mxId": 260085,
       "cm": 7168,
-      "authorTime": 7911
+      "authorTime": 7911,
+      "mapId": "bbcc9468-e3a3-4e29-ad77-c66be3a2eede",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_518",
       "uid": "Vlt3i94tvk0S5qxZ0CJafhP3Xw2",
       "mxId": 260084,
       "cm": 8405,
-      "authorTime": 8524
+      "authorTime": 8524,
+      "mapId": "68c2943f-500b-4bca-9461-533c4b2b6a88",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_519",
       "uid": "mbwza1jHMW4swi1GCqPMBHl8FL3",
       "mxId": 260083,
       "cm": 8956,
-      "authorTime": 9739
+      "authorTime": 9739,
+      "mapId": "dcb7430e-86a1-4c17-b1fc-ad220dff16d8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_520",
       "uid": "eddtBplfvrUiFL1FJt0x4U4d30a",
       "mxId": 260082,
       "cm": 7700,
-      "authorTime": 8108
+      "authorTime": 8108,
+      "mapId": "afd66d97-02ef-440b-ab77-ed43148caed9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_521",
       "uid": "v741yV0UKF3odzwC3dgcRAMzrNa",
       "mxId": 260119,
       "cm": 9515,
-      "authorTime": 9730
+      "authorTime": 9730,
+      "mapId": "09543a88-a92d-4db1-a41e-4067aa6f939c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_522",
       "uid": "08waQ20VfuF27ycCix5w0Cpq3v3",
       "mxId": 260118,
       "cm": 6888,
-      "authorTime": 9408
+      "authorTime": 9408,
+      "mapId": "e20c3efd-897b-4ae6-86a2-f9ca97300402",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_523",
       "uid": "BLNFhhtTFO5jMB4QWZNrnB27ovl",
       "mxId": 260117,
       "cm": 9161,
-      "authorTime": 9774
+      "authorTime": 9774,
+      "mapId": "c37675c3-bf7c-4879-b4a4-07246e7e653c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_524",
       "uid": "AIAy2twbw0mewsw3oERI5ata3H4",
       "mxId": 260116,
       "cm": 6519,
-      "authorTime": 7136
+      "authorTime": 7136,
+      "mapId": "e0c6cb3f-4c0b-4d9f-993a-2aaa3f045e08",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_525",
       "uid": "2U4GVyveplUaLU_FaecpPtEOXy3",
       "mxId": 260115,
       "cm": 8157,
-      "authorTime": 8328
+      "authorTime": 8328,
+      "mapId": "519d94a0-fc4f-4083-bcd2-a0b7697181d5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_526",
       "uid": "Eou4COzSzosOVjPE4b1dJCntS86",
       "mxId": 260114,
       "cm": 9399,
-      "authorTime": 9518
+      "authorTime": 9518,
+      "mapId": "dd81941f-5193-47e0-b810-6143e1e7fd56",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_527",
       "uid": "rJc8N8qzqRrr3enuyFXa9IZ60ah",
       "mxId": 260113,
       "cm": 8539,
-      "authorTime": 8687
+      "authorTime": 8687,
+      "mapId": "5025ec47-91a8-4da2-b731-1982b41b23b1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_528",
       "uid": "mqIuSpfSnXjXWtBnYGLsrlwvkC6",
       "mxId": 260112,
       "cm": 9137,
-      "authorTime": 9418
+      "authorTime": 9418,
+      "mapId": "423c32ae-c74f-45a1-b251-a040862ca309",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_529",
       "uid": "f1Mr3Edp44o3kME1CZDdBoiduzl",
       "mxId": 260111,
       "cm": 9469,
-      "authorTime": 9563
+      "authorTime": 9563,
+      "mapId": "0d6389a3-706d-4725-9d98-d1e9e3b16747",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_530",
       "uid": "Ogg4lF2jdLCA1I2747fS9IEph9g",
       "mxId": 260110,
       "cm": 8851,
-      "authorTime": 9697
+      "authorTime": 9697,
+      "mapId": "5461e95c-9502-4297-b4d6-f3ac70b84a8e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_531",
       "uid": "RrB_h6FBMpLd6WPUBhuihCLAnP7",
       "mxId": 260109,
       "cm": 9325,
-      "authorTime": 9497
+      "authorTime": 9497,
+      "mapId": "5819d1fb-4062-4343-8db2-1102e751e11d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_532",
       "uid": "r3_jitf1kfYp3q20xktINOuj3B8",
       "mxId": 260108,
       "cm": 9485,
-      "authorTime": 9788
+      "authorTime": 9788,
+      "mapId": "2a2ef658-04cd-4e20-b632-3b9fef25eedc",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_533",
       "uid": "SUaD5VIMgKJetEdTCy_6ZvWP7X7",
       "mxId": 260107,
       "cm": 9467,
-      "authorTime": 9578
+      "authorTime": 9578,
+      "mapId": "d04fca89-c12a-4865-b900-1a4c2c4fbc26",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_534",
       "uid": "Th92mtIPCmOyZ4U1AMYWfUo9KEd",
       "mxId": 260106,
       "cm": 9658,
-      "authorTime": 9851
+      "authorTime": 9851,
+      "mapId": "d346d89a-db5d-4912-896d-a61ec1ffbb19",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_535",
       "uid": "h4nhQFiAGrBfDZCSuFhZNsZlHz4",
       "mxId": 260105,
       "cm": 9754,
-      "authorTime": 9852
+      "authorTime": 9852,
+      "mapId": "e656224d-f75e-4397-b05f-88fb76d76836",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_536",
       "uid": "_DzsSjeVOeuQMsIzcRkxzwEFBX",
       "mxId": 260104,
       "cm": 7331,
-      "authorTime": 7901
+      "authorTime": 7901,
+      "mapId": "cdb33579-5a81-4be5-ad0f-edb1e1f4c506",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_537",
       "uid": "Ipixz3UQnvwHJE7c2Hg09YAYida",
       "mxId": 260103,
       "cm": 8558,
-      "authorTime": 8698
+      "authorTime": 8698,
+      "mapId": "cf77757b-0de5-4f84-8916-b9ed97e05490",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_538",
       "uid": "kBpSbretm4ELezET0S_Tg2CNpO3",
       "mxId": 260102,
       "cm": 9053,
-      "authorTime": 9206
+      "authorTime": 9206,
+      "mapId": "996291fc-bb84-46a6-833f-04fd49681601",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_539",
       "uid": "VAJxEYpYSwh6ALdb1YHBpKag9La",
       "mxId": 260101,
       "cm": 9417,
-      "authorTime": 9553
+      "authorTime": 9553,
+      "mapId": "57c5ff67-131a-4d91-9c9e-9070421ba361",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_540",
       "uid": "PlsxliaMHH71vYWsoDttmgtxU28",
       "mxId": 260100,
       "cm": 9673,
-      "authorTime": 9935
+      "authorTime": 9935,
+      "mapId": "8868041d-3c4a-40c2-9b17-90cf2d01ab5a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_541",
       "uid": "am5uYxeCW6mWFp8kcSO9fFBT1Rk",
       "mxId": 260139,
       "cm": 9603,
-      "authorTime": 9952
+      "authorTime": 9952,
+      "mapId": "e735e070-cd92-43da-a71e-28d191aee5a0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_542",
       "uid": "3kRFNkxrYSZkNkR7OnJIWVtt2Y3",
       "mxId": 260138,
       "cm": 6289,
-      "authorTime": 7802
+      "authorTime": 7802,
+      "mapId": "9c5e0da8-25cf-420f-982a-99a2c8652aee",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_543",
       "uid": "HPUhO6gTaSN7XdbPEdbE5PPfg5k",
       "mxId": 260137,
       "cm": 9948,
-      "authorTime": 9975
+      "authorTime": 9975,
+      "mapId": "6e001b41-2241-4a0f-b703-86d632121dd8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_544",
       "uid": "_hmcWOsZO7OwtqIS_jwvmnv6sVd",
       "mxId": 260136,
       "cm": 8352,
-      "authorTime": 8691
+      "authorTime": 8691,
+      "mapId": "b42649c2-1032-44a5-9cb1-1ef0d1e3b881",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_545",
       "uid": "knhfJdSsbV0thTmNkPs6akBROpf",
       "mxId": 260135,
       "cm": 9590,
-      "authorTime": 9711
+      "authorTime": 9711,
+      "mapId": "5e16cedd-87af-4367-b2cc-a796fd14a9f0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_546",
       "uid": "0a0FTwUsEV8J81DHVMjXhwMdtnk",
       "mxId": 260134,
       "cm": 9088,
-      "authorTime": 9262
+      "authorTime": 9262,
+      "mapId": "287fb789-c48b-4b88-9f8c-61272a5eefac",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_547",
       "uid": "FOtaB3YP3Jw7rCTeA4LuEZXrqQ9",
       "mxId": 260130,
       "cm": 8795,
-      "authorTime": 9361
+      "authorTime": 9361,
+      "mapId": "104857f2-7d31-415a-9160-3ede3b1c87f3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_548",
       "uid": "bPcpuMPwTBTSwGxwmK32Yeydg3n",
       "mxId": 260133,
       "cm": 8898,
-      "authorTime": 9221
+      "authorTime": 9221,
+      "mapId": "f28f9c9a-bafb-4bfb-99bf-992cfd8e96e4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_549",
       "uid": "TW3NjgqcH9TQVTjNee3gvk3BFAc",
       "mxId": 260132,
       "cm": 8578,
-      "authorTime": 9179
+      "authorTime": 9179,
+      "mapId": "b8e03ae9-ed6f-4e6d-8d6c-353736b11490",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_550",
       "uid": "WcUjzSjTqQbIk1yiBpYtHf6Abmk",
       "mxId": 260131,
       "cm": 3476,
-      "authorTime": 4519
+      "authorTime": 4519,
+      "mapId": "5f7a5ef6-f0f8-40ca-9e91-10b8572b593e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_551",
       "uid": "pXitXlybGXX5LEXNZSVearyF_l9",
       "mxId": 260129,
       "cm": 9828,
-      "authorTime": 9912
+      "authorTime": 9912,
+      "mapId": "5170834a-a910-4498-baf3-f963db1eabd8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_552",
       "uid": "_pmh3p0oxP8xCGTuUBgjNrfKobf",
       "mxId": 260128,
       "cm": 8571,
-      "authorTime": 8848
+      "authorTime": 8848,
+      "mapId": "3eda1c7f-b349-44a3-8e11-bf4b039aaa83",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_553",
       "uid": "eaqmImpCmWgcg7Rtt5Ygf8tUGPf",
       "mxId": 260127,
       "cm": 9434,
-      "authorTime": 9503
+      "authorTime": 9503,
+      "mapId": "77980868-4149-4d61-9831-f5eae062caec",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_554",
       "uid": "4YiVojmN_vc1zm9KWSejHZBqU4c",
       "mxId": 260126,
       "cm": 7711,
-      "authorTime": 8564
+      "authorTime": 8564,
+      "mapId": "0e7209d7-da78-42f3-a3ad-9adaf5549584",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_555",
       "uid": "fScpShWVqcvO5HJHBluCTP_UnWh",
       "mxId": 260125,
       "cm": 9868,
-      "authorTime": 9998
+      "authorTime": 9998,
+      "mapId": "2a60bef9-f9a3-4075-afc3-567edbd13fa3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_556",
       "uid": "UozdLLKcZ7iB0uLl2BsnWNCqzMg",
       "mxId": 260124,
       "cm": 9661,
-      "authorTime": 9968
+      "authorTime": 9968,
+      "mapId": "9e68e5da-44c6-405c-a94b-94ef2f08c67d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_557",
       "uid": "17uvT8XMq2THWyY2GVhKlHXrK49",
       "mxId": 260123,
       "cm": 8942,
-      "authorTime": 9718
+      "authorTime": 9718,
+      "mapId": "1afd9fe5-153f-4000-81aa-5f5b2d4cb38f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_558",
       "uid": "Bo9dgpB3nYvoo4AkUG3IajQ5g3a",
       "mxId": 260122,
       "cm": 7784,
-      "authorTime": 8109
+      "authorTime": 8109,
+      "mapId": "ad5701ff-21ac-43c2-bb94-b21048d04d92",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_559",
       "uid": "pZ4c0R5eTjdNRWvu_wyb4f2QpAj",
       "mxId": 260121,
       "cm": 9923,
-      "authorTime": 9998
+      "authorTime": 9998,
+      "mapId": "4fb23254-e276-4e60-b6fd-939bad68a37b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_560",
       "uid": "q2J1gOQNejTXiiqMmxKAIFRLijl",
       "mxId": 260120,
       "cm": 8587,
-      "authorTime": 9902
+      "authorTime": 9902,
+      "mapId": "30cd5939-120f-4f18-b127-bcf6d2635fce",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_561",
       "uid": "Ws61xqQfe_aXpf6m7FiZVR1eKyh",
       "mxId": 260159,
       "cm": 9546,
-      "authorTime": 9711
+      "authorTime": 9711,
+      "mapId": "108638b2-ea58-493a-b2dc-3ba0527d0199",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_562",
       "uid": "EqAwX6dP1xwrA0YaV7i_ScULy56",
       "mxId": 260158,
       "cm": 9551,
-      "authorTime": 9783
+      "authorTime": 9783,
+      "mapId": "06509b3d-6afb-4a32-be45-849666bf5020",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_563",
       "uid": "SMOS3d0b335Iuie7j6Bg6b_Svkm",
       "mxId": 260157,
       "cm": 9413,
-      "authorTime": 9542
+      "authorTime": 9542,
+      "mapId": "0c6999b2-95a1-4571-bd46-a3bcef216e0f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_564",
       "uid": "Ehuo68ArI6UJ4xpzJjf8khFrt6c",
       "mxId": 260156,
       "cm": 9242,
-      "authorTime": 9557
+      "authorTime": 9557,
+      "mapId": "55fa2dad-9d24-4c7d-bdee-e0099d4916b1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_565",
       "uid": "z0boGLCiuCKlvLsQFIQV0e1hyE6",
       "mxId": 260155,
       "cm": 8859,
-      "authorTime": 8991
+      "authorTime": 8991,
+      "mapId": "785451e6-fc98-487b-845a-a730f37034a2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_566",
       "uid": "omutz0w4zX3vMIu07jcTVHkzBYc",
       "mxId": 260154,
       "cm": 8816,
-      "authorTime": 9538
+      "authorTime": 9538,
+      "mapId": "73d66000-c2a3-4478-ba0c-71c0d34cae9b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_567",
       "uid": "8fwnOJ4a2pzndQRSNZybIv4r2x5",
       "mxId": 260150,
       "cm": 9602,
-      "authorTime": 9808
+      "authorTime": 9808,
+      "mapId": "adf1ce8f-c5c2-4f6f-a3b6-3964f3f7f7bd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_568",
       "uid": "Hm9ApTVKsSUAdQDYphkm8lLaUs5",
       "mxId": 260153,
       "cm": 9823,
-      "authorTime": 9991
+      "authorTime": 9991,
+      "mapId": "df39f01e-af46-4e9b-859e-fd1074505574",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_569",
       "uid": "jf2zXpnPdicTF180r_porrq_xec",
       "mxId": 260152,
       "cm": 8944,
-      "authorTime": 9760
+      "authorTime": 9760,
+      "mapId": "6c7c2168-dcb1-4db9-a312-93b21b125193",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_570",
       "uid": "uo_mYfa2lZPmLIxTLt8JnjLWKA2",
       "mxId": 260151,
       "cm": 7740,
-      "authorTime": 7966
+      "authorTime": 7966,
+      "mapId": "8a17a33b-0b93-4c6d-bf59-75054d32871e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_571",
       "uid": "o8Q0eMtVsJZmKZ5YISSSqx5XO_b",
       "mxId": 260149,
       "cm": 7794,
-      "authorTime": 9191
+      "authorTime": 9191,
+      "mapId": "b8fc1cf1-553a-4f46-afd4-8c976e6aeaeb",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_572",
       "uid": "sWQuTl08bGLRAowe2aY3dPgPy09",
       "mxId": 260148,
       "cm": 9743,
-      "authorTime": 9903
+      "authorTime": 9903,
+      "mapId": "32e0aeed-91c5-4fa2-ae05-b51115e2fcb2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_573",
       "uid": "Ro1OQTRduGZvaumHkikkFtZlr7m",
       "mxId": 260147,
       "cm": 9674,
-      "authorTime": 9841
+      "authorTime": 9841,
+      "mapId": "12862dd1-9af5-45f5-aa22-32da486f001a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_574",
       "uid": "HgBAOCTJu9d_1dqYvtNEA7df88j",
       "mxId": 260146,
       "cm": 9813,
-      "authorTime": 9861
+      "authorTime": 9861,
+      "mapId": "d4647dea-d098-4f50-9915-6c95544ed03d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_575",
       "uid": "7W_3kWTS1VNGGC9kjZfPr5LhGjb",
       "mxId": 260145,
       "cm": 7536,
-      "authorTime": 9757
+      "authorTime": 9757,
+      "mapId": "935d3bd4-36b7-4ac0-8d14-6502fd18baea",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_576",
       "uid": "Xk0YWaSPlsyO8XSWL_Y1Vdwjj1a",
       "mxId": 260144,
       "cm": 7989,
-      "authorTime": 8195
+      "authorTime": 8195,
+      "mapId": "cdf37c94-105f-4767-9bce-f20f76fb65fc",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_577",
       "uid": "_CWpAHiSOD3swzUglffmD0EFP_l",
       "mxId": 260143,
       "cm": 9937,
-      "authorTime": 9985
+      "authorTime": 9985,
+      "mapId": "7cc873a4-3e08-4a1a-a181-71a49f8b2f2e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_578",
       "uid": "B5ssUbH33d4u2XhCuqvYJSwAUok",
       "mxId": 260142,
       "cm": 9873,
-      "authorTime": 9966
+      "authorTime": 9966,
+      "mapId": "fe12efa6-fc16-4ad2-a51f-4e78d2445b14",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_579",
       "uid": "Kr94NFHRVHcc5d1duK2r68l4Ck7",
       "mxId": 260141,
       "cm": 8250,
-      "authorTime": 8750
+      "authorTime": 8750,
+      "mapId": "f11f67f1-51b6-471e-a26c-00f695a326f7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_580",
       "uid": "JL5JLpYbKaDveqlJoM990tGtGY7",
       "mxId": 260140,
       "cm": 9163,
-      "authorTime": 9280
+      "authorTime": 9280,
+      "mapId": "7f688ac5-0567-488d-97d1-bda2a52cecc3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_581",
       "uid": "tW2KviDrJ3uiP7e4hv3XHyT4pXh",
       "mxId": 260182,
       "cm": 8678,
-      "authorTime": 8774
+      "authorTime": 8774,
+      "mapId": "6ed6c8ec-443c-4888-99cf-82be0e0117e1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_582",
       "uid": "tfJTDv17oX48s3CvYeFbRHA7ov7",
       "mxId": 260181,
       "cm": 8049,
-      "authorTime": 8246
+      "authorTime": 8246,
+      "mapId": "678cad51-b871-49fa-a03d-d743e10fa20d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_583",
       "uid": "M1Gw0s7Z0XpPgi8CZDouZRw3QH0",
       "mxId": 260178,
       "cm": 9272,
-      "authorTime": 9631
+      "authorTime": 9631,
+      "mapId": "151be96d-20b6-4442-9d0b-bd187b1e966a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_584",
       "uid": "CmjIof4nZtryFZBxKgDb9E4Qx13",
       "mxId": 260180,
       "cm": 8531,
-      "authorTime": 8838
+      "authorTime": 8838,
+      "mapId": "c2bba5ec-959c-40a3-a5a4-6c6983c49034",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_585",
       "uid": "rjy0KridTgXHvmhBBimZntpO4Wj",
       "mxId": 260179,
       "cm": 6855,
-      "authorTime": 7768
+      "authorTime": 7768,
+      "mapId": "319f62c4-0fbf-4801-b9a4-4ed688cb6298",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_586",
       "uid": "6jo3jjpqDjnozb87KHvmr4ANVA0",
       "mxId": 260177,
       "cm": 8865,
-      "authorTime": 9078
+      "authorTime": 9078,
+      "mapId": "ef2b8a03-ea3c-4aac-8cc3-78fd84014ecd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_587",
       "uid": "UOj13CYJw991K_QYs8ykWJZ3v10",
       "mxId": 260176,
       "cm": 8652,
-      "authorTime": 9481
+      "authorTime": 9481,
+      "mapId": "9b075c85-2120-4e25-b488-a8f79ecae669",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_588",
       "uid": "XPOeEt7pEkStjubM0qgjim8WPS8",
       "mxId": 260175,
       "cm": 9842,
-      "authorTime": 9917
+      "authorTime": 9917,
+      "mapId": "3ff33f27-5689-4eeb-98cf-b6157c88915f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_589",
       "uid": "n42VoJCZySmkY2QLYNAsLWGCR0n",
       "mxId": 260174,
       "cm": 8945,
-      "authorTime": 9092
+      "authorTime": 9092,
+      "mapId": "83749a1c-06a8-4d0c-a59a-58ab7f53dd66",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_590",
       "uid": "a3Z56BZvfpAyQy4nV8iOvvkCTQe",
       "mxId": 260173,
       "cm": 8127,
-      "authorTime": 8718
+      "authorTime": 8718,
+      "mapId": "a569ec81-e70c-48de-b022-c63af4262184",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_591",
       "uid": "UinamzdXY8CO9D6tLJPyYuZVZN7",
       "mxId": 260172,
       "cm": 8256,
-      "authorTime": 8471
+      "authorTime": 8471,
+      "mapId": "3bcfd07c-cada-4b56-bafe-b1337bd5d5d6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_592",
       "uid": "xX42lLjqUU6xskXWCcePYOsZix",
       "mxId": 260168,
       "cm": 6354,
-      "authorTime": 8416
+      "authorTime": 8416,
+      "mapId": "2b370732-f33e-4d17-ab35-20ef024ff870",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_593",
       "uid": "JIISNcsk2wEptjfDZwNm0EY0Pbd",
       "mxId": 260171,
       "cm": 8591,
-      "authorTime": 8974
+      "authorTime": 8974,
+      "mapId": "96ded3e8-68de-4c87-9575-d1c9b416c07a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_594",
       "uid": "Z_LO2McNandNiWm96wxZKp2mZw4",
       "mxId": 260170,
       "cm": 9532,
-      "authorTime": 9738
+      "authorTime": 9738,
+      "mapId": "f4c62fc7-1248-40e2-b774-92c8047829b1",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_595",
       "uid": "0SZ4RQms5OvDoxFcdu1fAGFmTs7",
       "mxId": 260169,
       "cm": 7713,
-      "authorTime": 7891
+      "authorTime": 7891,
+      "mapId": "428f8089-dd58-4e7c-af14-bfb262c86a1c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_596",
       "uid": "BGGJ1NEdtiTdcbm0QWwMMLOEam1",
       "mxId": 260167,
       "cm": 6917,
-      "authorTime": 6944
+      "authorTime": 6944,
+      "mapId": "f0b43c0e-8dc4-42d5-8a7c-f53207421068",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_597",
       "uid": "DbbmOg2CxZPSVWUNPQK7VBYKNIc",
       "mxId": 260164,
       "cm": 9576,
-      "authorTime": 9820
+      "authorTime": 9820,
+      "mapId": "b353dd9f-d450-4f7a-a363-7ce0ea57db95",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_598",
       "uid": "b6Zh63cHYP7XkeF1Hs8LoyivQq",
       "mxId": 260166,
       "cm": 9741,
-      "authorTime": 9866
+      "authorTime": 9866,
+      "mapId": "98dc0ae8-325c-42ec-b5f4-dd90a49c50ae",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_599",
       "uid": "pc5QDIwSeHHBYiE0hpoQ9wt1mSa",
       "mxId": 260165,
       "cm": 9414,
-      "authorTime": 9809
+      "authorTime": 9809,
+      "mapId": "3f58eb83-3274-462a-b328-2071e2c157b8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_600",
       "uid": "FT6hbD8SYR8las2B1FYZ6j1cP9b",
       "mxId": 260163,
       "cm": 7573,
-      "authorTime": 8622
+      "authorTime": 8622,
+      "mapId": "75d43603-048d-4b20-95fa-d2900a757799",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_601",
       "uid": "KwAWBQAYf_QQMEIZD3Ym_kKv0A0",
       "mxId": 260202,
       "cm": 9517,
-      "authorTime": 9607
+      "authorTime": 9607,
+      "mapId": "834a04cc-d679-4e37-89d5-7d67271380fd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_602",
       "uid": "qrGbWYwXvtU42zRtzQY0cGO2yAi",
       "mxId": 260201,
       "cm": 8819,
-      "authorTime": 9441
+      "authorTime": 9441,
+      "mapId": "24cd1513-fce6-4932-a8f6-84cf5c59bb6c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_603",
       "uid": "L7j4WaXO6qszBTxShtDMnEearfe",
       "mxId": 260200,
       "cm": 9587,
-      "authorTime": 9631
+      "authorTime": 9631,
+      "mapId": "dff7b1ea-7ba9-4407-841a-0b1752095e9a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_604",
       "uid": "XDamiu_TDoxiclXvKRBP7Ai8ul5",
       "mxId": 260199,
       "cm": 9912,
-      "authorTime": 9995
+      "authorTime": 9995,
+      "mapId": "30c09a77-c43b-4d2a-b6fe-ca773c3a05fa",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_605",
       "uid": "mIK6Q6qeUpL1RHEebsQFgPdtvQc",
       "mxId": 260198,
       "cm": 7800,
-      "authorTime": 8068
+      "authorTime": 8068,
+      "mapId": "ab266032-6983-4d7e-9140-3e59abf7bc0c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_606",
       "uid": "pzA4JcNS9xl_UxRlSRSHqaHYsO0",
       "mxId": 260197,
       "cm": 8193,
-      "authorTime": 8584
+      "authorTime": 8584,
+      "mapId": "21517909-6ab3-46a0-b534-3ea8f65e4f8b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_607",
       "uid": "8pjwnret2Br1W538ikup_2iMpib",
       "mxId": 260196,
       "cm": 8408,
-      "authorTime": 8502
+      "authorTime": 8502,
+      "mapId": "7fa48c02-8177-4cbb-aec4-141f2f8898c2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_608",
       "uid": "c92xbJW1IrX4QUlIOR6L68O7rbe",
       "mxId": 260195,
       "cm": 9492,
-      "authorTime": 9543
+      "authorTime": 9543,
+      "mapId": "f93e1558-caa5-4768-bb87-ccaf759e24a8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_609",
       "uid": "XjziCWkh4ZwlbUlraBbMV_Cl_Da",
       "mxId": 260194,
       "cm": 8635,
-      "authorTime": 9043
+      "authorTime": 9043,
+      "mapId": "3f4a947a-023f-4f21-ae9f-05cd5a34e1d2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_610",
       "uid": "G3KsjNaQvvF9hOk1ZiTCVC6XDvc",
       "mxId": 260193,
       "cm": 7777,
-      "authorTime": 8181
+      "authorTime": 8181,
+      "mapId": "65e2ead3-f778-418f-b73a-d239fc08e788",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_611",
       "uid": "U7E7oLz1LYkOQZX5JemTToLlZWh",
       "mxId": 260192,
       "cm": 9801,
-      "authorTime": 9975
+      "authorTime": 9975,
+      "mapId": "ef390dd4-ab66-4aaa-9e42-f37278962ab4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_612",
       "uid": "EzJIAX5GcfIs2sfwwQMjPlu8SVl",
       "mxId": 260191,
       "cm": 9096,
-      "authorTime": 9474
+      "authorTime": 9474,
+      "mapId": "f7c6f812-bcb3-4e61-9c1e-26d0b0d5861b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_613",
       "uid": "rMNq9R29e5SB8wQxv8rBXaUllx0",
       "mxId": 260190,
       "cm": 9471,
-      "authorTime": 9688
+      "authorTime": 9688,
+      "mapId": "e0b55f01-d698-45d7-b099-516ac9971b19",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_614",
       "uid": "JsnSowG8fOQysnpOL6CMF_PSOcj",
       "mxId": 260189,
       "cm": 8070,
-      "authorTime": 8378
+      "authorTime": 8378,
+      "mapId": "e4777aca-d675-4b67-ba32-54fd15ef18dd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_615",
       "uid": "oAswUdBRQ4NOvGJt_mAnxqVNr_c",
       "mxId": 260188,
       "cm": 7358,
-      "authorTime": 7657
+      "authorTime": 7657,
+      "mapId": "0e07cc5e-92bf-479e-8343-0e1f48043931",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_616",
       "uid": "Zuol9WnvJAQK1SpTL9KySsHTJMj",
       "mxId": 260187,
       "cm": 6618,
-      "authorTime": 8488
+      "authorTime": 8488,
+      "mapId": "b303a59e-ce3a-4fc6-af52-742ac23e65ab",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_617",
       "uid": "pjRbt1SsuPn_5XMzJHbf7RtCMQ9",
       "mxId": 260186,
       "cm": 8763,
-      "authorTime": 9381
+      "authorTime": 9381,
+      "mapId": "c15bbcdc-c8f3-46e6-bf7d-bcd509762f19",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_618",
       "uid": "gLhCAaYovG6Bos39_sOrSslwmD9",
       "mxId": 260185,
       "cm": 9901,
-      "authorTime": 9991
+      "authorTime": 9991,
+      "mapId": "28fc76b0-c750-46a4-89be-729220821890",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_619",
       "uid": "SYNS_tZ4Cfw7jwUevEUYtjBcS20",
       "mxId": 260184,
       "cm": 9115,
-      "authorTime": 9242
+      "authorTime": 9242,
+      "mapId": "46ad8868-9548-4eb3-9116-d2f2a5857d06",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_620",
       "uid": "CSUF26QaYO93_g56gB49cHp1IS",
       "mxId": 260183,
       "cm": 9141,
-      "authorTime": 9838
+      "authorTime": 9838,
+      "mapId": "b2310186-5285-416b-8a7f-fa8089a2343c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_621",
       "uid": "_wSZYu10bGulHEXVCo06QNQqKcb",
       "mxId": 260222,
       "cm": 9533,
-      "authorTime": 9945
+      "authorTime": 9945,
+      "mapId": "2f6d8beb-d31b-408d-ad6f-f7f369c0ca11",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_622",
       "uid": "lxTr3M0XhG2Detk1hmS18qWmjp6",
       "mxId": 260221,
       "cm": 8592,
-      "authorTime": 9177
+      "authorTime": 9177,
+      "mapId": "5441ee12-2f19-4f0f-b333-910f0eaa1eb9",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_623",
       "uid": "BF4AOutDqF9TBhUXrmzqcQdOKpl",
       "mxId": 260220,
       "cm": 8299,
-      "authorTime": 8328
+      "authorTime": 8328,
+      "mapId": "2fcfec19-90fa-46b8-b51c-497102048797",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_624",
       "uid": "YhGgl1XIUHiLAd3sQUhYueQmqG9",
       "mxId": 260218,
       "cm": 9329,
-      "authorTime": 9675
+      "authorTime": 9675,
+      "mapId": "80060469-65bb-4b28-a0f4-8caa4c220398",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_625",
       "uid": "PEo8E5lIVx1ciUvp0NFGU0LCwpm",
       "mxId": 260219,
       "cm": 9762,
-      "authorTime": 9979
+      "authorTime": 9979,
+      "mapId": "1d7fa116-2d05-4724-9164-25f1d626f114",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_626",
       "uid": "4iV9ntcQjFJR6Rf6sYEGJ3u5Gja",
       "mxId": 260217,
       "cm": 9459,
-      "authorTime": 9554
+      "authorTime": 9554,
+      "mapId": "94223233-9d0f-48f0-8913-998785dc6aa6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_627",
       "uid": "zlAe0C6tkIrVha5O8nbbWd9emqh",
       "mxId": 260216,
       "cm": 9105,
-      "authorTime": 9324
+      "authorTime": 9324,
+      "mapId": "d374c3ae-6177-4fe7-bae2-52784a122bce",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_628",
       "uid": "h8ztlMcUcJmethkDH08oVIR7Ddl",
       "mxId": 260215,
       "cm": 7898,
-      "authorTime": 8587
+      "authorTime": 8587,
+      "mapId": "9ea177ea-c26c-483d-8431-c2fda45371c4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_629",
       "uid": "xE2E0Y285bxgbcYEcYADCrzd4nf",
       "mxId": 260214,
       "cm": 5975,
-      "authorTime": 6666
+      "authorTime": 6666,
+      "mapId": "6359d5e1-52ed-4a0e-a799-57405d939dcf",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_630",
       "uid": "JjVrnSwuqGC8lQZ7wq3LYio0rgd",
       "mxId": 260203,
       "cm": 9925,
-      "authorTime": 9988
+      "authorTime": 9988,
+      "mapId": "c2db5f0d-af10-413a-8937-f001524b4c45",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_631",
       "uid": "tW5w6WaJMLArglGdbwe5HvmwWt2",
       "mxId": 260213,
       "cm": 9571,
-      "authorTime": 9913
+      "authorTime": 9913,
+      "mapId": "49203914-538f-4ba4-ad15-9522737e9d97",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_632",
       "uid": "JAG9JjxHKFmXaVH3wxXhoD0Bak2",
       "mxId": 260212,
       "cm": 9420,
-      "authorTime": 9666
+      "authorTime": 9666,
+      "mapId": "3b432533-2edf-4f87-8b15-178853c4ad36",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_633",
       "uid": "5ih7l8HQoLLJjiNL6Oy_GSHmIL8",
       "mxId": 260211,
       "cm": 8415,
-      "authorTime": 8550
+      "authorTime": 8550,
+      "mapId": "89907a9b-a735-4be0-8022-7d3474313e73",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_634",
       "uid": "RxtTWtxFi4hP5IrsZqWL6f8NDW0",
       "mxId": 260210,
       "cm": 8154,
-      "authorTime": 8452
+      "authorTime": 8452,
+      "mapId": "1d199232-c009-42d5-a5ff-67497c7c8890",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_635",
       "uid": "fMbdx4GMREUOdKip7bU0NZXre4h",
       "mxId": 260209,
       "cm": 6257,
-      "authorTime": 6542
+      "authorTime": 6542,
+      "mapId": "e3fab439-6d90-450c-9539-8bf84c33d925",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_636",
       "uid": "dLDDS7Wc9abShjmB5Y5egbgXQi6",
       "mxId": 260208,
       "cm": 9564,
-      "authorTime": 9885
+      "authorTime": 9885,
+      "mapId": "e8d7c841-9e6c-41c5-a0ba-c6aa85c8310d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_637",
       "uid": "GexO_g0G5733afE1FrNZJM4kJN0",
       "mxId": 260207,
       "cm": 6993,
-      "authorTime": 7636
+      "authorTime": 7636,
+      "mapId": "799c29d7-5719-485c-a3a1-4ad41a70e3cb",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_638",
       "uid": "d3geJuvsy2bWenph5WbqsaeJsci",
       "mxId": 260206,
       "cm": 8716,
-      "authorTime": 8828
+      "authorTime": 8828,
+      "mapId": "78a888dc-1fc7-4cf7-aa4c-856463cda026",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_639",
       "uid": "CTzu2dI4c7tNoY7M5TpYdoWhAEg",
       "mxId": 260205,
       "cm": 8623,
-      "authorTime": 9231
+      "authorTime": 9231,
+      "mapId": "9a573c0c-0931-4cf4-8667-dceab18f7fc2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_640",
       "uid": "wtb6zOikvzTrYdMxgHKD4du9dAb",
       "mxId": 260204,
       "cm": 8735,
-      "authorTime": 8838
+      "authorTime": 8838,
+      "mapId": "e335caa1-b00e-41b0-baab-071cc92e6d43",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_641",
       "uid": "457CHDuy8OnHql_iJiUymwK25m9",
       "mxId": 260243,
       "cm": 9468,
-      "authorTime": 9593
+      "authorTime": 9593,
+      "mapId": "c4cf4653-2413-427f-9d19-96ce86376c0d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_642",
       "uid": "hYUxu1O_HtDiHBhzc6gHqzC7fn8",
       "mxId": 260242,
       "cm": 8760,
-      "authorTime": 9557
+      "authorTime": 9557,
+      "mapId": "4c0e6796-6876-46b6-9376-7cf9c57a74dd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_643",
       "uid": "9QMg6hEYu0Gtd1zQDQGA3MLKC9c",
       "mxId": 260241,
       "cm": 9677,
-      "authorTime": 9886
+      "authorTime": 9886,
+      "mapId": "27596d31-226f-4f40-a788-8451576e8d5e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_644",
       "uid": "kOy9kGefy9ciUC5tGnIifEQAU76",
       "mxId": 260240,
       "cm": 9570,
-      "authorTime": 9784
+      "authorTime": 9784,
+      "mapId": "711b379f-56f2-4623-8700-e8499065019b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_645",
       "uid": "H9PCrDneAa8OScbMhc8_1eoJTQ7",
       "mxId": 260239,
       "cm": 7895,
-      "authorTime": 8283
+      "authorTime": 8283,
+      "mapId": "4935a6a5-4f77-4bec-bb71-5c8044fc6f21",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_646",
       "uid": "eKDpV73EcZKqwUP6acyyV3JxeM9",
       "mxId": 260238,
       "cm": 9161,
-      "authorTime": 9318
+      "authorTime": 9318,
+      "mapId": "d00ad32d-6af0-40dd-8d1e-6de5b6b2db0a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_647",
       "uid": "MGAUfCAmEhSjTQZBEYUOXcyR0u8",
       "mxId": 260237,
       "cm": 8632,
-      "authorTime": 9026
+      "authorTime": 9026,
+      "mapId": "18ee5482-39bf-4135-a737-a40e4031da5c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_648",
       "uid": "p7wNtYJPIwULC2V8TvYCuOjFOkd",
       "mxId": 260236,
       "cm": 9248,
-      "authorTime": 9310
+      "authorTime": 9310,
+      "mapId": "d86dd0bd-b632-4e37-85f3-f96c31d9bae3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_649",
       "uid": "KqrHErr96r1zWnKS5vfnTEEGR06",
       "mxId": 260235,
       "cm": 9921,
-      "authorTime": 9994
+      "authorTime": 9994,
+      "mapId": "a88bb1c8-64cb-4e1a-a34b-b70212e50a1d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_650",
       "uid": "4qcBzjPZd25e4cFeQ7MGy9WuFcj",
       "mxId": 260228,
       "cm": 6180,
-      "authorTime": 6946
+      "authorTime": 6946,
+      "mapId": "5fac15d6-4b96-4195-8fad-e6d26517b6d2",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_651",
       "uid": "km70xp0Icr_mpHB8pvXhzjepJl3",
       "mxId": 260234,
       "cm": 9098,
-      "authorTime": 9142
+      "authorTime": 9142,
+      "mapId": "c677e0bd-f536-4f68-845d-c580ecb3cb09",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_652",
       "uid": "jg_CZCiOBepkNy1ZB5dXkFrI2Gc",
       "mxId": 260233,
       "cm": 8939,
-      "authorTime": 9033
+      "authorTime": 9033,
+      "mapId": "e9bee2f3-6fa0-45a1-a1f2-881be6152665",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_653",
       "uid": "AmbepxlGWPGfSlVkUTn88C_Iprm",
       "mxId": 260232,
       "cm": 9695,
-      "authorTime": 9818
+      "authorTime": 9818,
+      "mapId": "6983c8a8-ab64-4fd3-9de0-40ba6a92c23c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_654",
       "uid": "lVcA1RhBfracBAxZr0xcC5A1yAl",
       "mxId": 260230,
       "cm": 6574,
-      "authorTime": 6922
+      "authorTime": 6922,
+      "mapId": "5983d4bb-135b-446b-bae9-411fcda27edd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_655",
       "uid": "HKjtDH2YKZ29Z_XBoUNWtx1Vjth",
       "mxId": 260231,
       "cm": 7250,
-      "authorTime": 7339
+      "authorTime": 7339,
+      "mapId": "3691c501-ae94-4148-80bc-d04ae8e7ae93",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_656",
       "uid": "wHTI0unqCdn685YrG5Hm_a9wi0n",
       "mxId": 260229,
       "cm": 9696,
-      "authorTime": 9833
+      "authorTime": 9833,
+      "mapId": "91b155dc-c87f-4cb6-8afb-f7179ae6334e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_657",
       "uid": "8AxSLCxQLejUSnQRfB8ePJtCaNf",
       "mxId": 260227,
       "cm": 9293,
-      "authorTime": 9428
+      "authorTime": 9428,
+      "mapId": "7f3150bc-9b19-471d-8994-9b3f246426f6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_658",
       "uid": "0Wp4YQJPxLoyCFvXVEvLgd_Ir09",
       "mxId": 260226,
       "cm": 9950,
-      "authorTime": 9997
+      "authorTime": 9997,
+      "mapId": "d59870e9-29c3-450d-b4b1-cb6c88a2cca4",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_659",
       "uid": "3qa1qsGAFK_JYm7aheLbRnTAEQa",
       "mxId": 260225,
       "cm": 9510,
-      "authorTime": 9863
+      "authorTime": 9863,
+      "mapId": "b70673b4-e57c-4065-81cc-d93e2e56c29e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_660",
       "uid": "TL6ogRU9Kouezdgbw7rRgWRmMyk",
       "mxId": 260224,
       "cm": 7086,
-      "authorTime": 8668
+      "authorTime": 8668,
+      "mapId": "478c5d82-91d9-4929-9b07-593dc8b0dc14",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_661",
       "uid": "CGIL9A8PJoVus9oztwAo5Kwu0_f",
       "mxId": 260263,
       "cm": 7586,
-      "authorTime": 7768
+      "authorTime": 7768,
+      "mapId": "3db1bb0e-f9ea-4e74-80d9-7c351038f233",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_662",
       "uid": "lWR1t9Bfh_oBSZ9KhXg8jSGlXWi",
       "mxId": 260262,
       "cm": 8077,
-      "authorTime": 8207
+      "authorTime": 8207,
+      "mapId": "1f991886-718c-4a7c-a5a2-91662961eb36",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_663",
       "uid": "fUUInIHhsyckd6bG7I3swwGG2Ii",
       "mxId": 260261,
       "cm": 6164,
-      "authorTime": 7983
+      "authorTime": 7983,
+      "mapId": "9c49f5b7-effc-45b6-bf0d-41402450d942",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_664",
       "uid": "r3W4uc3Uz2RAmPOsvGp3kYLsXAd",
       "mxId": 260260,
       "cm": 9650,
-      "authorTime": 9788
+      "authorTime": 9788,
+      "mapId": "938b08cb-e106-4e35-ac68-0bda2c55297a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_665",
       "uid": "iNBAlYhXJMLHQnfAuV9tUnBoZB1",
       "mxId": 260259,
       "cm": 3795,
-      "authorTime": 6749
+      "authorTime": 6749,
+      "mapId": "67c9a4a5-0875-40b7-84fc-9b63bb26dee7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_666",
       "uid": "i2Us7RAb9RJdXnzbaReAay3Y5y4",
       "mxId": 260257,
       "cm": 6173,
-      "authorTime": 8244
+      "authorTime": 8244,
+      "mapId": "5c3cd73c-9d99-4b74-9a7b-3686656fe24b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_667",
       "uid": "eJaJGJUia9GcDuDyv1PbkbPFSAc",
       "mxId": 260258,
       "cm": 9096,
-      "authorTime": 9185
+      "authorTime": 9185,
+      "mapId": "97484662-9980-46f7-b8f0-9f36fd168a57",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_668",
       "uid": "Q0KwoeoeHb99JK_mSkQsQJuczZj",
       "mxId": 260256,
       "cm": 9465,
-      "authorTime": 9568
+      "authorTime": 9568,
+      "mapId": "171c51dd-05c2-4193-839e-661dc082e31a",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_669",
       "uid": "rWW4kdqMLrSxwOVPWbUhD8_0ZOl",
       "mxId": 260255,
       "cm": 8493,
-      "authorTime": 9245
+      "authorTime": 9245,
+      "mapId": "19f28637-dd21-47ee-999d-a317c4bc3b36",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_670",
       "uid": "ABbeNZITbJoMFWKLDWx5chQi8eg",
       "mxId": 260254,
       "cm": 5647,
-      "authorTime": 6584
+      "authorTime": 6584,
+      "mapId": "6ff3af54-ae76-4002-861b-a0d36729fe4f",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_671",
       "uid": "9ZULsE_tfvgQZTbfRST9YFEFs8c",
       "mxId": 260253,
       "cm": 7438,
-      "authorTime": 8586
+      "authorTime": 8586,
+      "mapId": "bc46a9da-2783-4bad-9728-00fb4a5f1263",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_672",
       "uid": "cEanVA4CB_kVN83P9GK12E4fHB2",
       "mxId": 260252,
       "cm": 7269,
-      "authorTime": 7843
+      "authorTime": 7843,
+      "mapId": "c86f83f6-5a63-47c3-9f1b-dfa9c9effd52",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_673",
       "uid": "cpM3QTGhZFS5VcBr3JQ_O3CPaXi",
       "mxId": 260251,
       "cm": 8089,
-      "authorTime": 8294
+      "authorTime": 8294,
+      "mapId": "d9ec4f6b-5dd0-4cef-803f-ecc626adf1f8",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_674",
       "uid": "ef4preYm0_Q_cpPxB31y4dj_8Je",
       "mxId": 260250,
       "cm": 7996,
-      "authorTime": 8188
+      "authorTime": 8188,
+      "mapId": "63ea87b3-011b-443c-9719-f309b5c98e7e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_675",
       "uid": "B1X874xSrSCR2kNXcXBsVodcCzm",
       "mxId": 260249,
       "cm": 8298,
-      "authorTime": 8465
+      "authorTime": 8465,
+      "mapId": "2ada3938-7911-4d0c-8056-347c17b6e685",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_676",
       "uid": "2iUz2WJVpWxxoErkjt3drDGEW67",
       "mxId": 260248,
       "cm": 9888,
-      "authorTime": 9998
+      "authorTime": 9998,
+      "mapId": "ca3fbe40-6c76-4af2-b78f-586558efe1c0",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_677",
       "uid": "STG4TgTx7beMfmw5lJinTBnvOB7",
       "mxId": 260247,
       "cm": 5183,
-      "authorTime": 5738
+      "authorTime": 5738,
+      "mapId": "249bb40d-8c5e-4759-b6c1-1db458af57dd",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_678",
       "uid": "jCTSYjAlGtk_D6ecx1FG9ugijPb",
       "mxId": 260246,
       "cm": 9688,
-      "authorTime": 9988
+      "authorTime": 9988,
+      "mapId": "d5b0ba9d-9486-4773-9ee9-f6e3dacaec44",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_679",
       "uid": "FotVyqQfsee2WztwFKMiS_bpAD0",
       "mxId": 260245,
       "cm": 9417,
-      "authorTime": 9523
+      "authorTime": 9523,
+      "mapId": "c6bf6887-a216-4ac2-aa34-52adb8a2e152",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_680",
       "uid": "GRnNdx3WPkcj0hlLPCPzrmrF9jf",
       "mxId": 260244,
       "cm": 9610,
-      "authorTime": 9825
+      "authorTime": 9825,
+      "mapId": "47cead6e-594d-4619-9ad4-03644cee7f5d",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_681",
       "uid": "txsV9tEfJsxZdb714DynbEz2X17",
       "mxId": 260283,
       "cm": 8197,
-      "authorTime": 9299
+      "authorTime": 9299,
+      "mapId": "39cfa5b7-9362-4842-b320-44e10e918bcb",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_682",
       "uid": "Pk8exgqtIzrpi7CbNVXUlc_ScIh",
       "mxId": 260282,
       "cm": 6749,
-      "authorTime": 7712
+      "authorTime": 7712,
+      "mapId": "021dc488-5217-493c-8f90-3f48ef0dcc76",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_683",
       "uid": "4duYMzfWyJ6RgvJqwg7nD7kq5vj",
       "mxId": 260281,
       "cm": 8127,
-      "authorTime": 8431
+      "authorTime": 8431,
+      "mapId": "24e08a58-8bf5-4844-acec-daa8ded98c40",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_684",
       "uid": "_sneM7MlQQLXvz8mzqvcph5IlWi",
       "mxId": 260280,
       "cm": 9089,
-      "authorTime": 9195
+      "authorTime": 9195,
+      "mapId": "01d7bf30-6a7f-4e4b-b32c-f81168b47aa6",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_685",
       "uid": "80X9yNi1kNKwthMd9UJPh57Umo2",
       "mxId": 260279,
       "cm": 9797,
-      "authorTime": 9953
+      "authorTime": 9953,
+      "mapId": "100fe043-f3cd-41d5-a90c-a34b36678bb5",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_686",
       "uid": "QMx3fxQvrYI_MRgcMzIhfKDfNXi",
       "mxId": 260278,
       "cm": 7059,
-      "authorTime": 7231
+      "authorTime": 7231,
+      "mapId": "225a01c5-5af3-4ea8-8f65-baf0fd35dd73",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_687",
       "uid": "DDHnQlgHWgBpI7s9YnhjT_byjvm",
       "mxId": 260277,
       "cm": 9698,
-      "authorTime": 9967
+      "authorTime": 9967,
+      "mapId": "d83f59a9-0b65-4b34-ba68-ca226da521d7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_688",
       "uid": "iFqWRoZ_bYlhQSka3UEkgngIyR",
       "mxId": 260276,
       "cm": 7251,
-      "authorTime": 9255
+      "authorTime": 9255,
+      "mapId": "e26e60ed-3772-4555-a3fc-1f90f0788ab3",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_689",
       "uid": "oTVmcrjHG3LDf0ds9rdMvYntW19",
       "mxId": 260275,
       "cm": 8184,
-      "authorTime": 9523
+      "authorTime": 9523,
+      "mapId": "3c2952ef-ae4d-4dff-b2c3-26d844cb0056",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_690",
       "uid": "nmXA4dL_D6eIiKSYDNMPH7sFMde",
       "mxId": 260274,
       "cm": 8490,
-      "authorTime": 9473
+      "authorTime": 9473,
+      "mapId": "3aed8cfa-5150-4f74-948e-0bf9d9e051d7",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_691",
       "uid": "0ixy7YL2p_RHL2ENU9zQR9BjXlc",
       "mxId": 260273,
       "cm": 7340,
-      "authorTime": 7752
+      "authorTime": 7752,
+      "mapId": "7bcedebf-13e2-4cab-87fe-4c6682e6b28b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_692",
       "uid": "pNW4dKvAAj7mUJc2v6q0uUS9q80",
       "mxId": 260272,
       "cm": 8703,
-      "authorTime": 9645
+      "authorTime": 9645,
+      "mapId": "00ba88db-86f1-466c-a837-cc4c86b02a2b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_693",
       "uid": "FS_SRV6mcTvqi5W0GurozZzxGV7",
       "mxId": 260269,
       "cm": 4312,
-      "authorTime": 5733
+      "authorTime": 5733,
+      "mapId": "20600d39-0206-4853-b800-3acf49e1485b",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_694",
       "uid": "tZgr4qSPLZPhNSQmi4pGTkloba2",
       "mxId": 260271,
       "cm": 9876,
-      "authorTime": 9953
+      "authorTime": 9953,
+      "mapId": "8f697657-2827-4d32-9765-400ff2692f1e",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_695",
       "uid": "LwSRolGEoS9uwB5L0q_W2QCGjd7",
       "mxId": 260270,
       "cm": 8796,
-      "authorTime": 9108
+      "authorTime": 9108,
+      "mapId": "436ad87f-355a-4f90-be22-84a5ac014e8c",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_696",
       "uid": "fJz51MuFltpx9BKEChMr_yNq3Fl",
       "mxId": 260265,
       "cm": 8160,
-      "authorTime": 9908
+      "authorTime": 9908,
+      "mapId": "623f3ded-0099-402c-8996-6823bc885411",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_697",
       "uid": "7XlYzWROs1GbG5SUcXajii7ZRL7",
       "mxId": 260264,
       "cm": 5720,
-      "authorTime": 6420
+      "authorTime": 6420,
+      "mapId": "ac94f296-d45d-4349-9769-cee21cf6b399",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_698",
       "uid": "8LULS7CTXvmUWxn2ENLLYeiS0k9",
       "mxId": 260268,
       "cm": 9181,
-      "authorTime": 9452
+      "authorTime": 9452,
+      "mapId": "61ce2072-0fef-4bd7-85cc-9c542e63b138",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_699",
       "uid": "pQqCzPA7WdIDJbVasmaIVCw_0Am",
       "mxId": 260267,
       "cm": 8720,
-      "authorTime": 9080
+      "authorTime": 9080,
+      "mapId": "bf1387ea-ab42-4a2c-9004-f63b56c80249",
+      "gameMode": "TimeAttack"
     },
     {
       "name": "U10S_700",
       "uid": "x8MgAa3ms0QO8NUoTg1hfVahR4e",
       "mxId": 260266,
       "cm": 9080,
-      "authorTime": 9313
+      "authorTime": 9313,
+      "mapId": "aa61e39a-7d08-4258-9b52-7283fdd6d947",
+      "gameMode": "TimeAttack"
     }
   ],
   "missing": [],

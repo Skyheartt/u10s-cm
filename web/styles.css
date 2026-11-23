@@ -221,6 +221,7 @@ h2 { font-size: 1.45rem; }
 }
 
 .gap.under { color: var(--good); }
+.gap.over { color: var(--muted); }
 
 .external {
   color: var(--muted);

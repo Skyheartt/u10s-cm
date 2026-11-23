@@ -5,6 +5,8 @@ that about 2 requests per second is the ceiling for a short burst, and that a
 long scan has to stay slower. This script sends one Live API request per
 second, stops each map once the records are slower than the champion time,
 and will not start another scan when the published file is under 30 minutes old.
+A second pass then asks for the personal best of the top 100 medal
+holders on every map, including times slower than the champion medal.
 """
 
 from __future__ import annotations
@@ -34,6 +36,8 @@ MIN_AGE_SECONDS = 30 * 60
 LIVE_INTERVAL = 1.0
 PAGE_SIZE = 100
 MAX_OFFSET = 9900
+TOP_TRACKED = 100
+HIDDEN_TIME = 4294967295
 USER_AGENT_FALLBACK = "u10s-cm.fr champion medal leaderboard"
 
 PREFERRED_AUTHORS = ("Everios96_2", "Everios96")
@@ -210,9 +214,11 @@ class Nadeo:
         self.agent = user_agent()
         self.live_token = None
         self.live_deadline = 0.0
+        self.core_token = None
+        self.core_deadline = 0.0
         self.oauth_token = None
         self.oauth_deadline = 0.0
-        self.next_live = 0.0
+        self.next_request = 0.0
 
     def _basic_auth(self) -> str:
         raw = f"{os.environ['NADEO_LOGIN']}:{os.environ['NADEO_PASSWORD']}".encode()
@@ -238,6 +244,33 @@ class Nadeo:
         self.live_token = token
         self.live_deadline = now + 50 * 60
         return token
+
+    def core_token_value(self) -> str:
+        now = time.time()
+        if self.core_token and now < self.core_deadline:
+            return self.core_token
+        payload = request_json(
+            "https://prod.trackmania.core.nadeo.online/v2/authentication/token/basic",
+            method="POST",
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Basic {self._basic_auth()}",
+                "User-Agent": self.agent,
+            },
+            body=json.dumps({"audience": "NadeoServices"}).encode(),
+        )
+        token = payload.get("accessToken")
+        if not token:
+            raise SystemExit("Nadeo did not return a core token. Check the service account login and password.")
+        self.core_token = token
+        self.core_deadline = now + 50 * 60
+        return token
+
+    def pace(self) -> None:
+        wait = self.next_request - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        self.next_request = time.monotonic() + LIVE_INTERVAL
 
     def oauth_token_value(self) -> str:
         now = time.time()
@@ -265,10 +298,7 @@ class Nadeo:
         return token
 
     def leaderboard_page(self, uid: str, offset: int) -> list[dict]:
-        wait = self.next_live - time.monotonic()
-        if wait > 0:
-            time.sleep(wait)
-        self.next_live = time.monotonic() + LIVE_INTERVAL
+        self.pace()
         quoted = urllib.parse.quote(uid, safe="")
         url = (
             "https://live-services.trackmania.nadeo.live/api/token/leaderboard/group/"
@@ -325,6 +355,58 @@ class Nadeo:
                 break
             offset += PAGE_SIZE
         return list(found.items()), pages
+
+    def core_json(self, url: str):
+        self.pace()
+        headers = {
+            "Authorization": f"nadeo_v1 t={self.core_token_value()}",
+            "User-Agent": self.agent,
+            "Accept": "application/json",
+        }
+        try:
+            return request_json(url, headers=headers)
+        except ApiError as exc:
+            if exc.status != 401:
+                raise
+            self.core_token = None
+            headers["Authorization"] = f"nadeo_v1 t={self.core_token_value()}"
+            return request_json(url, headers=headers)
+
+    def map_info_by_uid(self, uids: list[str]) -> list[dict]:
+        query = urllib.parse.urlencode({"mapUidList": ",".join(uids)})
+        payload = self.core_json(
+            f"https://prod.trackmania.core.nadeo.online/maps/by-uid/?{query}"
+        )
+        if not isinstance(payload, list):
+            raise ApiError("Map info response was not a list")
+        return payload
+
+    def records_for_accounts(self, map_id: str, account_ids: list[str], game_mode: str) -> dict[str, int]:
+        def load(mode: str):
+            query = urllib.parse.urlencode({
+                "accountIdList": ",".join(account_ids),
+                "mapId": map_id,
+                "gameMode": mode,
+            })
+            return self.core_json(
+                "https://prod.trackmania.core.nadeo.online/v2/mapRecords/by-account/?" + query
+            )
+
+        payload = load(game_mode)
+        if game_mode == "TimeAttack" and (isinstance(payload, dict) or payload == []):
+            payload = load("TimeAttackClone")
+        if not isinstance(payload, list):
+            message = payload.get("message") if isinstance(payload, dict) else "record lookup failed"
+            raise ApiError(str(message))
+        found = {}
+        for row in payload:
+            if row.get("removed"):
+                continue
+            account_id = row.get("accountId")
+            score = (row.get("recordScore") or {}).get("time")
+            if account_id and is_real_time(score):
+                found[account_id] = score
+        return found
 
     def display_names(self, account_ids: list[str]) -> dict[str, str]:
         if not account_ids:
@@ -390,22 +472,120 @@ def age_of(previous: dict) -> float | None:
     return time.time() - calendar.timegm(parsed)
 
 
+def is_real_time(value) -> bool:
+    return isinstance(value, int) and 0 < value < HIDDEN_TIME
+
+
+def game_mode_for(info: dict) -> str:
+    map_type = info.get("mapType") or ""
+    if map_type.endswith("TM_Stunt"):
+        return "Stunt"
+    if map_type.endswith("TM_Platform"):
+        return "Platform"
+    if info.get("hasClones"):
+        return "TimeAttackClone"
+    return "TimeAttack"
+
+
+def medal_count(records: list[list[int]], maps: list[dict]) -> int:
+    total = 0
+    for index, record_time in records:
+        if 0 <= index < len(maps) and is_real_time(record_time) and record_time <= maps[index]["cm"]:
+            total += 1
+    return total
+
+
+def top_accounts(by_uid: dict[str, dict[str, int]], maps: list[dict]) -> list[str]:
+    champion = {item["uid"]: item["cm"] for item in maps}
+    counts: dict[str, int] = {}
+    for uid, records in by_uid.items():
+        cm_time = champion.get(uid)
+        if cm_time is None:
+            continue
+        for account_id, record_time in records.items():
+            if is_real_time(record_time) and record_time <= cm_time:
+                counts[account_id] = counts.get(account_id, 0) + 1
+    return sorted(counts, key=lambda account_id: (-counts[account_id], account_id))[:TOP_TRACKED]
+
+
+def ensure_map_ids(client: Nadeo, maps: list[dict]) -> None:
+    pending = [item for item in maps if not item.get("mapId") or not item.get("gameMode")]
+    if not pending:
+        print("Nadeo map ids already resolved.")
+        return
+    found = {item["uid"]: item for item in maps}
+    uids = [item["uid"] for item in pending]
+    for start in range(0, len(uids), 100):
+        chunk = uids[start:start + 100]
+        for info in client.map_info_by_uid(chunk):
+            item = found.get(info.get("mapUid"))
+            if not item or not info.get("mapId"):
+                continue
+            item["mapId"] = info["mapId"]
+            item["gameMode"] = game_mode_for(info)
+        print(f"Map ids {min(start + 100, len(uids))}/{len(uids)}", flush=True)
+    payload = json.loads(MAPS_PATH.read_text(encoding="utf-8"))
+    payload["maps"] = maps
+    MAPS_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    unresolved = [item["name"] for item in maps if not item.get("mapId")]
+    if unresolved:
+        print(f"No Nadeo id for {len(unresolved)} maps")
+
+
+def fill_tracked_times(client: Nadeo, maps: list[dict], by_uid: dict[str, dict[str, int]],
+                       carried: dict[str, dict[str, int]], tracked: list[str], errors: list[str]) -> int:
+    print(f"Fetching personal bests for the top {len(tracked)}", flush=True)
+    calls = 0
+    for index, item in enumerate(maps, start=1):
+        current = by_uid[item["uid"]]
+        if not item.get("mapId"):
+            errors.append(f"{item['name']}: no Nadeo map id")
+            continue
+        try:
+            found = client.records_for_accounts(
+                item["mapId"], tracked, item.get("gameMode") or "TimeAttack"
+            )
+            calls += 1
+            slower = 0
+            for account_id, record_time in found.items():
+                existing = current.get(account_id)
+                if existing is not None and existing <= record_time:
+                    continue
+                current[account_id] = record_time
+                if record_time > item["cm"]:
+                    slower += 1
+            if index % 50 == 0 or index == len(maps):
+                print(f"[pb {index}/{len(maps)}] {item['name']}  {slower} slower than the medal", flush=True)
+        except Exception as exc:
+            previous = carried.get(item["uid"], {})
+            for account_id in tracked:
+                if account_id not in current and is_real_time(previous.get(account_id)):
+                    current[account_id] = previous[account_id]
+            errors.append(f"{item['name']} personal bests: {exc}")
+            print(f"[pb {index}/{len(maps)}] {item['name']} KEPT PREVIOUS ({exc})", flush=True)
+    return calls
+
+
 def publish(maps: list[dict], by_uid: dict[str, dict[str, int]], names: dict[str, str],
-            updated_at: str | None, errors: list[str]) -> None:
+            updated_at: str | None, errors: list[str], tracked: set[str] | None = None) -> None:
     players_map: dict[str, list[list[int]]] = {}
     for index, item in enumerate(maps):
         for account_id, record_time in by_uid.get(item["uid"], {}).items():
             players_map.setdefault(account_id, []).append([index, record_time])
 
+    tracked = tracked or set()
     players = []
     for account_id, records in players_map.items():
         records.sort()
-        players.append({
+        player = {
             "id": account_id,
             "name": names.get(account_id) or account_id,
             "records": records,
-        })
-    players.sort(key=lambda player: (-len(player["records"]), player["name"].casefold(), player["id"]))
+        }
+        if account_id in tracked:
+            player["tracked"] = True
+        players.append(player)
+    players.sort(key=lambda player: (-medal_count(player["records"], maps), player["name"].casefold(), player["id"]))
 
     payload = {
         "updatedAt": updated_at,
@@ -468,6 +648,17 @@ def refresh(force: bool) -> None:
             errors.append(f"{item['name']}: {exc}")
             print(f"[{index}/{len(maps)}] {item['name']} KEPT PREVIOUS DATA ({exc})", flush=True)
 
+    tracked: list[str] = []
+    pb_calls = 0
+    try:
+        ensure_map_ids(client, maps)
+    except Exception as exc:
+        errors.append(f"map ids: {exc}")
+        print(f"Map ids failed: {exc}", flush=True)
+    if any(item.get("mapId") for item in maps):
+        tracked = top_accounts(by_uid, maps)
+        pb_calls = fill_tracked_times(client, maps, by_uid, carried, tracked, errors)
+
     account_ids = set()
     for records in by_uid.values():
         account_ids.update(records)
@@ -489,8 +680,8 @@ def refresh(force: bool) -> None:
     if map_errors and len(map_errors) == len(maps):
         raise SystemExit("Every map request failed. The published file was left unchanged.")
     stamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-    publish(maps, by_uid, names, stamp, errors)
-    print(f"Live API pages: {requests_made}. Map errors: {len(map_errors)}")
+    publish(maps, by_uid, names, stamp, errors, set(tracked))
+    print(f"Live API pages: {requests_made}. Personal-best requests: {pb_calls}. Map errors: {len(map_errors)}")
 
 
 def main() -> None:
@@ -504,7 +695,7 @@ def main() -> None:
         maps = resolve_maps(catalog)
         previous = load_previous()
         by_uid = previous_records(previous, maps)
-        publish(maps, by_uid, load_names(), previous.get("updatedAt"), previous.get("errors") or [])
+        publish(maps, by_uid, load_names(), previous.get("updatedAt"), previous.get("errors") or [], set())
         return
     refresh(force=args.force)
 
