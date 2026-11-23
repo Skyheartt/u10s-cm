@@ -1,0 +1,516 @@
+"""Build the static leaderboard for the Everios U10S champion medals.
+
+Nadeo has no published quota. Their own guidance, relayed by Openplanet, is
+that about 2 requests per second is the ceiling for a short burst, and that a
+long scan has to stay slower. This script sends one Live API request per
+second, stops each map once the records are slower than the champion time,
+and will not start another scan when the published file is under 30 minutes old.
+"""
+
+from __future__ import annotations
+
+import argparse
+import base64
+import calendar
+import csv
+import hashlib
+import json
+import os
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+CSV_PATH = ROOT / "u10s-cm-time.csv"
+MAPS_PATH = ROOT / "data" / "maps.json"
+NAMES_PATH = ROOT / "data" / "names.json"
+OUT_PATH = ROOT / "web" / "data" / "standings.json"
+
+AUTHOR = "Everios96_2"
+MIN_AGE_SECONDS = 30 * 60
+LIVE_INTERVAL = 1.0
+PAGE_SIZE = 100
+MAX_OFFSET = 9900
+USER_AGENT_FALLBACK = "u10s-cm.fr champion medal leaderboard"
+
+PREFERRED_AUTHORS = ("Everios96_2", "Everios96")
+
+
+class ApiError(RuntimeError):
+    def __init__(self, message: str, status: int | None = None):
+        super().__init__(message)
+        self.status = status
+
+
+def load_env() -> None:
+    path = ROOT / ".env"
+    if not path.exists():
+        return
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+def user_agent() -> str:
+    contact = os.environ.get("CONTACT", "").strip()
+    if contact:
+        return f"{USER_AGENT_FALLBACK} / {contact}"
+    return USER_AGENT_FALLBACK
+
+
+def read_csv() -> list[dict]:
+    with CSV_PATH.open(newline="", encoding="utf-8-sig") as handle:
+        rows = list(csv.DictReader(handle))
+    maps = []
+    seen = set()
+    for row in rows:
+        name = (row.get("map_name") or "").strip()
+        raw_time = (row.get("cm_time") or "").strip()
+        if not name:
+            continue
+        if name in seen:
+            raise SystemExit(f"Duplicate map name in CSV: {name}")
+        seen.add(name)
+        try:
+            cm_time = int(raw_time)
+        except ValueError as exc:
+            raise SystemExit(f"Bad champion time for {name}: {raw_time}") from exc
+        maps.append({"name": name, "cm": cm_time})
+    if len(maps) != 700:
+        raise SystemExit(f"Expected 700 maps in the CSV, found {len(maps)}")
+    return maps
+
+
+def csv_digest() -> str:
+    return hashlib.sha256(CSV_PATH.read_bytes()).hexdigest()
+
+
+def request_json(url: str, *, method: str = "GET", headers: dict | None = None,
+                  body: bytes | None = None, timeout: int = 40, retries: int = 4):
+    last_error = None
+    for attempt in range(retries):
+        req = urllib.request.Request(url, data=body, headers=headers or {}, method=method)
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                payload = response.read()
+                if not payload:
+                    return {}
+                return json.loads(payload.decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")[:300]
+            last_error = ApiError(f"{exc.code} {url} {detail}", exc.code)
+            if exc.code in (429, 500, 502, 503, 504) and attempt + 1 < retries:
+                wait = 5 * (attempt + 1)
+                if exc.code == 429:
+                    retry_after = exc.headers.get("Retry-After")
+                    if retry_after and retry_after.isdigit():
+                        wait = max(wait, int(retry_after))
+                print(f"  retry in {wait}s after HTTP {exc.code}", flush=True)
+                time.sleep(wait)
+                continue
+            raise last_error from exc
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            last_error = exc
+            if attempt + 1 < retries:
+                time.sleep(3 * (attempt + 1))
+                continue
+            raise
+    raise last_error
+
+
+def resolve_maps(catalog: list[dict]) -> list[dict]:
+    digest = csv_digest()
+    if MAPS_PATH.exists():
+        cached = json.loads(MAPS_PATH.read_text(encoding="utf-8"))
+        cached_maps = cached.get("maps") or []
+        names = [item["name"] for item in cached_maps]
+        if cached.get("csvSha256") == digest and names == [item["name"] for item in catalog]:
+            print(f"Map list already resolved ({len(cached_maps)} maps).")
+            return cached_maps
+
+    resolved = []
+    missing = []
+    warnings = []
+    headers = {"User-Agent": user_agent(), "Accept": "application/json"}
+    for index, item in enumerate(catalog, start=1):
+        name = item["name"]
+        query = urllib.parse.urlencode({
+            "api": "on",
+            "author": AUTHOR,
+            "trackname": name,
+            "limit": 50,
+        })
+        url = f"https://trackmania.exchange/mapsearch2/search?{query}"
+        try:
+            payload = request_json(url, headers=headers)
+        except Exception as exc:
+            missing.append(name)
+            print(f"[{index}/700] {name} FAILED {exc}", flush=True)
+            time.sleep(0.25)
+            continue
+        exact = [
+            row for row in payload.get("results") or []
+            if row.get("Name") == name and row.get("Username") in PREFERRED_AUTHORS
+        ]
+        exact.sort(key=lambda row: (0 if row.get("Username") == AUTHOR else 1, -int(row.get("TrackID") or 0)))
+        if not exact:
+            missing.append(name)
+            print(f"[{index}/700] {name} not found", flush=True)
+        else:
+            row = exact[0]
+            author_time = row.get("AuthorTime")
+            if isinstance(author_time, int) and item["cm"] >= author_time:
+                warnings.append(f"{name}: champion {item['cm']} ms is not faster than author {author_time} ms")
+            resolved.append({
+                "name": name,
+                "uid": row["TrackUID"],
+                "mxId": row["TrackID"],
+                "cm": item["cm"],
+                "authorTime": author_time,
+            })
+            if index % 25 == 0 or index == 700:
+                print(f"[{index}/700] resolved", flush=True)
+        time.sleep(0.2)
+
+    MAPS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    MAPS_PATH.write_text(json.dumps({
+        "csvSha256": digest,
+        "author": AUTHOR,
+        "maps": resolved,
+        "missing": missing,
+        "warnings": warnings,
+    }, indent=2), encoding="utf-8")
+    print(f"Resolved {len(resolved)} maps, missing {len(missing)}, warnings {len(warnings)}")
+    for line in warnings[:20]:
+        print("  warn", line)
+    for name in missing:
+        print("  missing", name)
+    if missing:
+        raise SystemExit(1)
+    return resolved
+
+
+def require_credentials() -> None:
+    needed = ("NADEO_LOGIN", "NADEO_PASSWORD", "TM_CLIENT_ID", "TM_CLIENT_SECRET")
+    absent = [key for key in needed if not os.environ.get(key)]
+    if absent:
+        raise SystemExit(
+            "Missing credentials in .env or the environment: " + ", ".join(absent)
+        )
+
+
+class Nadeo:
+    def __init__(self):
+        self.agent = user_agent()
+        self.live_token = None
+        self.live_deadline = 0.0
+        self.oauth_token = None
+        self.oauth_deadline = 0.0
+        self.next_live = 0.0
+
+    def _basic_auth(self) -> str:
+        raw = f"{os.environ['NADEO_LOGIN']}:{os.environ['NADEO_PASSWORD']}".encode()
+        return base64.b64encode(raw).decode("ascii")
+
+    def live_token_value(self) -> str:
+        now = time.time()
+        if self.live_token and now < self.live_deadline:
+            return self.live_token
+        payload = request_json(
+            "https://prod.trackmania.core.nadeo.online/v2/authentication/token/basic",
+            method="POST",
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Basic {self._basic_auth()}",
+                "User-Agent": self.agent,
+            },
+            body=json.dumps({"audience": "NadeoLiveServices"}).encode(),
+        )
+        token = payload.get("accessToken")
+        if not token:
+            raise SystemExit("Nadeo did not return an access token. Check the service account login and password.")
+        self.live_token = token
+        self.live_deadline = now + 50 * 60
+        return token
+
+    def oauth_token_value(self) -> str:
+        now = time.time()
+        if self.oauth_token and now < self.oauth_deadline:
+            return self.oauth_token
+        body = urllib.parse.urlencode({
+            "grant_type": "client_credentials",
+            "client_id": os.environ["TM_CLIENT_ID"],
+            "client_secret": os.environ["TM_CLIENT_SECRET"],
+        }).encode()
+        payload = request_json(
+            "https://api.trackmania.com/api/access_token",
+            method="POST",
+            headers={
+                "Content-Type": "application/x-www-form-urlencoded",
+                "User-Agent": self.agent,
+            },
+            body=body,
+        )
+        token = payload.get("access_token")
+        if not token:
+            raise SystemExit("Trackmania OAuth did not return a token. Check the API application id and secret.")
+        self.oauth_token = token
+        self.oauth_deadline = now + 50 * 60
+        return token
+
+    def leaderboard_page(self, uid: str, offset: int) -> list[dict]:
+        wait = self.next_live - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        self.next_live = time.monotonic() + LIVE_INTERVAL
+        quoted = urllib.parse.quote(uid, safe="")
+        url = (
+            "https://live-services.trackmania.nadeo.live/api/token/leaderboard/group/"
+            f"Personal_Best/map/{quoted}/top?onlyWorld=true&length={PAGE_SIZE}&offset={offset}"
+        )
+        try:
+            payload = request_json(url, headers={
+                "Authorization": f"nadeo_v1 t={self.live_token_value()}",
+                "User-Agent": self.agent,
+                "Accept": "application/json",
+            })
+        except ApiError as exc:
+            if exc.status == 401:
+                self.live_token = None
+                payload = request_json(url, headers={
+                    "Authorization": f"nadeo_v1 t={self.live_token_value()}",
+                    "User-Agent": self.agent,
+                    "Accept": "application/json",
+                })
+            else:
+                raise
+        tops = payload.get("tops") or []
+        if not tops:
+            return []
+        return tops[0].get("top") or []
+
+    def records_under(self, uid: str, cm_time: int) -> tuple[list[tuple[str, int]], int]:
+        found = {}
+        offset = 0
+        pages = 0
+        while offset <= MAX_OFFSET:
+            page = self.leaderboard_page(uid, offset)
+            pages += 1
+            if not page:
+                break
+            countable = []
+            for entry in page:
+                score = entry.get("score")
+                account_id = entry.get("accountId")
+                if account_id and isinstance(score, int) and score > 0:
+                    countable.append((account_id, score))
+            # A page of hidden scores (-1) cannot be ordered against the medal.
+            if not countable:
+                break
+            passed = False
+            for account_id, score in countable:
+                if score <= cm_time:
+                    previous = found.get(account_id)
+                    if previous is None or score < previous:
+                        found[account_id] = score
+                else:
+                    passed = True
+            if passed or len(page) < PAGE_SIZE:
+                break
+            offset += PAGE_SIZE
+        return list(found.items()), pages
+
+    def display_names(self, account_ids: list[str]) -> dict[str, str]:
+        if not account_ids:
+            return {}
+        query = "&".join(
+            "accountId[]=" + urllib.parse.quote(account_id) for account_id in account_ids
+        )
+        url = f"https://api.trackmania.com/api/display-names?{query}"
+        payload = request_json(url, headers={
+            "Authorization": f"Bearer {self.oauth_token_value()}",
+            "User-Agent": self.agent,
+            "Accept": "application/json",
+        })
+        if not isinstance(payload, dict):
+            return {}
+        return {
+            account_id: name
+            for account_id, name in payload.items()
+            if isinstance(name, str) and name
+        }
+
+
+def load_previous() -> dict:
+    if not OUT_PATH.exists():
+        return {}
+    try:
+        return json.loads(OUT_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
+def previous_records(previous: dict, maps: list[dict]) -> dict[str, dict[str, int]]:
+    """uid -> account id -> time, recovered from the last published file."""
+    old_maps = previous.get("maps") or []
+    index_to_uid = {}
+    for index, item in enumerate(old_maps):
+        uid = item.get("uid")
+        if uid:
+            index_to_uid[index] = uid
+    recovered = {item["uid"]: {} for item in maps}
+    for player in previous.get("players") or []:
+        account_id = player.get("id")
+        if not account_id:
+            continue
+        for pair in player.get("records") or []:
+            if not isinstance(pair, list) or len(pair) != 2:
+                continue
+            map_index, record_time = pair
+            uid = index_to_uid.get(map_index)
+            if uid in recovered and isinstance(record_time, int):
+                recovered[uid][account_id] = record_time
+    return recovered
+
+
+def age_of(previous: dict) -> float | None:
+    stamp = previous.get("updatedAt")
+    if not stamp:
+        return None
+    try:
+        parsed = time.strptime(stamp, "%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        return None
+    return time.time() - calendar.timegm(parsed)
+
+
+def publish(maps: list[dict], by_uid: dict[str, dict[str, int]], names: dict[str, str],
+            updated_at: str | None, errors: list[str]) -> None:
+    players_map: dict[str, list[list[int]]] = {}
+    for index, item in enumerate(maps):
+        for account_id, record_time in by_uid.get(item["uid"], {}).items():
+            players_map.setdefault(account_id, []).append([index, record_time])
+
+    players = []
+    for account_id, records in players_map.items():
+        records.sort()
+        players.append({
+            "id": account_id,
+            "name": names.get(account_id) or account_id,
+            "records": records,
+        })
+    players.sort(key=lambda player: (-len(player["records"]), player["name"].casefold(), player["id"]))
+
+    payload = {
+        "updatedAt": updated_at,
+        "mapCount": len(maps),
+        "errors": errors,
+        "maps": [
+            {"name": item["name"], "uid": item["uid"], "cm": item["cm"], "mx": item["mxId"]}
+            for item in maps
+        ],
+        "players": players,
+    }
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    temporary = OUT_PATH.with_suffix(".json.tmp")
+    temporary.write_text(json.dumps(payload, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+    temporary.replace(OUT_PATH)
+    print(f"Wrote {OUT_PATH} ({len(players)} players, {len(maps)} maps)")
+
+
+def load_names() -> dict[str, str]:
+    if not NAMES_PATH.exists():
+        return {}
+    try:
+        payload = json.loads(NAMES_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def save_names(names: dict[str, str]) -> None:
+    NAMES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    temporary = NAMES_PATH.with_suffix(".json.tmp")
+    temporary.write_text(json.dumps(names, ensure_ascii=False, indent=2), encoding="utf-8")
+    temporary.replace(NAMES_PATH)
+
+
+def refresh(force: bool) -> None:
+    load_env()
+    catalog = read_csv()
+    maps = resolve_maps(catalog)
+    previous = load_previous()
+    age = age_of(previous)
+    if not force and age is not None and age < MIN_AGE_SECONDS:
+        minutes = int(age // 60)
+        raise SystemExit(f"Last refresh was {minutes} min ago. The minimum gap is 30 min. Use --force to override.")
+
+    require_credentials()
+    client = Nadeo()
+    carried = previous_records(previous, maps)
+    by_uid = {item["uid"]: dict(carried.get(item["uid"], {})) for item in maps}
+    errors = []
+    requests_made = 0
+
+    for index, item in enumerate(maps, start=1):
+        try:
+            records, pages = client.records_under(item["uid"], item["cm"])
+            by_uid[item["uid"]] = {account_id: record_time for account_id, record_time in records}
+            requests_made += pages
+            print(f"[{index}/{len(maps)}] {item['name']}  {len(records)} medals  {pages} page(s)", flush=True)
+        except Exception as exc:
+            errors.append(f"{item['name']}: {exc}")
+            print(f"[{index}/{len(maps)}] {item['name']} KEPT PREVIOUS DATA ({exc})", flush=True)
+
+    account_ids = set()
+    for records in by_uid.values():
+        account_ids.update(records)
+    names = load_names()
+    missing_ids = [account_id for account_id in account_ids if account_id not in names]
+    print(f"Resolving {len(missing_ids)} new display names", flush=True)
+    for start in range(0, len(missing_ids), 50):
+        chunk = missing_ids[start:start + 50]
+        try:
+            names.update(client.display_names(chunk))
+        except Exception as exc:
+            errors.append(f"display names: {exc}")
+            print(f"  name lookup failed: {exc}", flush=True)
+            break
+        time.sleep(0.3)
+    save_names(names)
+
+    map_errors = [item for item in errors if not item.startswith("display names")]
+    if map_errors and len(map_errors) == len(maps):
+        raise SystemExit("Every map request failed. The published file was left unchanged.")
+    stamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    publish(maps, by_uid, names, stamp, errors)
+    print(f"Live API pages: {requests_made}. Map errors: {len(map_errors)}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Refresh the U10S champion medal leaderboard.")
+    parser.add_argument("--resolve-only", action="store_true", help="Only match map names to Trackmania Exchange ids.")
+    parser.add_argument("--force", action="store_true", help="Refresh even if the last run is under 30 minutes old.")
+    args = parser.parse_args()
+    load_env()
+    catalog = read_csv()
+    if args.resolve_only:
+        maps = resolve_maps(catalog)
+        previous = load_previous()
+        by_uid = previous_records(previous, maps)
+        publish(maps, by_uid, load_names(), previous.get("updatedAt"), previous.get("errors") or [])
+        return
+    refresh(force=args.force)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        sys.exit(130)
