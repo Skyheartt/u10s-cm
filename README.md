@@ -4,7 +4,7 @@ Static leaderboard of champion medals on the 700 Everios U10S maps.
 
 The site is the `web` folder. Favorites stay in the browser (`localStorage`). A Python script reads the Nadeo leaderboards and writes `web/data/standings.json`.
 
-A full pass takes about 30 minutes. The leaderboard scan is one request per second, then one more request per map fills in the personal bests of the top 100, including times slower than the champion medal. The script refuses to start again when the published file is under 30 minutes old. The scheduled job runs every 3 hours.
+A full pass takes about 30 minutes. The leaderboard scan is one request per second, then one more request per map fills in the personal bests of the top 100, including times slower than the champion medal. The script refuses to start again when the published file is under 30 minutes old. The scheduled job runs every 3 hours, at minute 17 past the hour in Paris time. GitHub drops jobs scheduled at minute 0.
 
 ## Run it locally
 

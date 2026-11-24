@@ -2,7 +2,9 @@ name: Refresh leaderboard
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    # Minute 17, not minute 0. GitHub drops queued jobs at the top of the hour.
+    - cron: "17 */3 * * *"
+      timezone: Europe/Paris
   workflow_dispatch:
     inputs:
       force:
@@ -22,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -34,7 +38,7 @@ jobs:
           TM_CLIENT_ID: ${{ secrets.TM_CLIENT_ID }}
           TM_CLIENT_SECRET: ${{ secrets.TM_CLIENT_SECRET }}
           CONTACT: ${{ secrets.CONTACT }}
-        run: python scripts/refresh.py ${{ inputs.force && '--force' || '' }}
+        run: python scripts/refresh.py ${{ github.event_name == 'workflow_dispatch' && inputs.force && '--force' || '' }}
 
       - name: Publish the new standings
         run: |
@@ -47,5 +51,15 @@ jobs:
             echo "No data change."
           else
             git commit -m "Refresh champion medal standings"
-            git push
+            git push origin HEAD:main
+          fi
+
+      - name: Ask Cloudflare to publish
+        env:
+          HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$HOOK" ]; then
+            curl -fsS -X POST "$HOOK"
+          else
+            echo "No CLOUDFLARE_DEPLOY_HOOK secret. The Git push has to trigger the deploy."
           fi
