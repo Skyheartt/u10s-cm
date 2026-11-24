@@ -2,9 +2,9 @@ name: Refresh leaderboard
 
 on:
   schedule:
-    # Minute 17, not minute 0. GitHub drops queued jobs at the top of the hour.
-    - cron: "17 */3 * * *"
-      timezone: Europe/Paris
+    # UTC, minute 17. In Paris that is 02:17, 05:17, 08:17, 11:17, 14:17, 17:17, 20:17, 23:17.
+    # Listed hours avoid the "every N hours" form, which this repository never fired.
+    - cron: "17 1,4,7,10,13,16,19,22 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -30,6 +30,28 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Check that the secrets exist
+        env:
+          NADEO_LOGIN: ${{ secrets.NADEO_LOGIN }}
+          NADEO_PASSWORD: ${{ secrets.NADEO_PASSWORD }}
+          TM_CLIENT_ID: ${{ secrets.TM_CLIENT_ID }}
+          TM_CLIENT_SECRET: ${{ secrets.TM_CLIENT_SECRET }}
+          CONTACT: ${{ secrets.CONTACT }}
+        run: |
+          missing=0
+          check() {
+            if [ -z "$2" ]; then
+              echo "Missing secret: $1"
+              missing=1
+            fi
+          }
+          check NADEO_LOGIN "$NADEO_LOGIN"
+          check NADEO_PASSWORD "$NADEO_PASSWORD"
+          check TM_CLIENT_ID "$TM_CLIENT_ID"
+          check TM_CLIENT_SECRET "$TM_CLIENT_SECRET"
+          check CONTACT "$CONTACT"
+          exit "$missing"
 
       - name: Fetch leaderboards
         env:

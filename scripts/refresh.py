@@ -49,16 +49,25 @@ class ApiError(RuntimeError):
         self.status = status
 
 
+def unwrap(value: str) -> str:
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+        return value[1:-1]
+    return value
+
+
 def load_env() -> None:
     path = ROOT / ".env"
-    if not path.exists():
-        return
-    for raw in path.read_text(encoding="utf-8").splitlines():
-        line = raw.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+    if path.exists():
+        for raw in path.read_text(encoding="utf-8").splitlines():
+            line = raw.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            os.environ.setdefault(key.strip(), unwrap(value))
+    for key in ("NADEO_LOGIN", "NADEO_PASSWORD", "TM_CLIENT_ID", "TM_CLIENT_SECRET", "CONTACT"):
+        if key in os.environ:
+            os.environ[key] = unwrap(os.environ[key])
 
 
 def user_agent() -> str:
