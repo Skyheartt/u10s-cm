@@ -488,11 +488,21 @@ function chartCard() {
   card.append(
     el("div", { class: "chart-head" }, [
       el("h2", {}, ["Progress"]),
+      el("div", { class: "chart-actions" }, [
       el("div", { class: "tabs" }, [5, 10, 20].map((limit) => el("button", {
         class: "tab",
         "aria-selected": state.chartLimit === limit ? "true" : "false",
         onclick: () => { state.chartLimit = limit; render(); },
       }, [`Top ${limit}`]))),
+        el("button", {
+          class: "text-btn",
+          onclick: (event) => {
+            const card = event.currentTarget.closest(".chart-card");
+            if (document.fullscreenElement) document.exitFullscreen();
+            else card.requestFullscreen();
+          },
+        }, ["Full screen"]),
+      ]),
     ]),
     el("div", { class: "chart-controls" }, [
       el("input", {
@@ -520,9 +530,7 @@ function chartCard() {
   const tip = el("div", { class: "chart-tip", hidden: true });
   frame.append(svg, tip);
   drawChart(svg, tip, ids);
-  card.append(frame, chartLegend(ids), el("p", { class: "chart-note" }, [
-    "Saved for the top 100. Recent refreshes stay detailed; after 3 weeks, one point per day.",
-  ]));
+  card.append(frame, chartLegend(ids));
   return card;
 }
 
@@ -540,7 +548,9 @@ function chartLegend(ids) {
   const legend = el("div", { class: "legend" });
   ids.forEach((id, index) => {
     const name = state.history.names[id] || id;
+    const removable = state.chartExtra.has(id);
     const button = el("button", {
+      class: removable ? "legend-extra" : "",
       "aria-pressed": state.chartHidden.has(id) ? "false" : "true",
       onclick: () => {
         if (state.chartHidden.has(id)) state.chartHidden.delete(id);
@@ -551,6 +561,20 @@ function chartLegend(ids) {
     const swatch = el("span", { class: "swatch" });
     swatch.style.background = CHART_COLORS[index % CHART_COLORS.length];
     button.prepend(swatch);
+    if (removable) {
+      button.append(el("span", {
+        class: "legend-x",
+        role: "button",
+        "aria-label": `Remove ${name}`,
+        onclick: (event) => {
+          event.stopPropagation();
+          state.chartExtra.delete(id);
+          state.chartHidden.delete(id);
+          localStorage.setItem(CHART_KEY, JSON.stringify([...state.chartExtra]));
+          render();
+        },
+      }, ["×"]));
+    }
     legend.append(button);
   });
   return legend;
@@ -640,17 +664,19 @@ function drawChart(svg, tip, ids) {
       svg.append(node("circle", { cx: xOf(stamp), cy: yOf(count), r: "3.2", fill: item.color }));
     }
   }
-  [t0, t1].filter((stamp, index, list) => list.indexOf(stamp) === index).forEach((stamp, index, list) => {
+  const tickCount = t1 === t0 ? 1 : 4;
+  for (let index = 0; index < tickCount; index += 1) {
+    const stamp = t0 + ((t1 - t0) * index) / Math.max(1, tickCount - 1);
     const label = node("text", {
       x: xOf(stamp),
       y: height - 8,
       fill: "#b7b1a8",
       "font-size": "11",
-      "text-anchor": index === 0 && list.length > 1 ? "start" : "end",
+      "text-anchor": index === 0 ? "start" : index === tickCount - 1 ? "end" : "middle",
     });
     label.textContent = new Date(stamp * 1000).toLocaleDateString(undefined, { month: "short", day: "numeric" });
     svg.append(label);
-  });
+  }
   const overlay = node("rect", { x: pad.l, y: pad.t, width: plotW, height: plotH, fill: "transparent" });
   overlay.addEventListener("mousemove", (event) => {
     const rect = svg.getBoundingClientRect();

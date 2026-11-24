@@ -32,7 +32,6 @@ NAMES_PATH = ROOT / "data" / "names.json"
 OUT_PATH = ROOT / "web" / "data" / "standings.json"
 HISTORY_PATH = ROOT / "web" / "data" / "history.json"
 HISTORY_TOP = 100
-HISTORY_DETAIL_SECONDS = 21 * 24 * 60 * 60
 
 AUTHOR = "Everios96_2"
 MIN_AGE_SECONDS = 30 * 60
@@ -617,17 +616,16 @@ def publish(maps: list[dict], by_uid: dict[str, dict[str, int]], names: dict[str
     update_history(players, maps, updated_at)
 
 
-def downsample_history(points: list[list[int]], cutoff: int) -> list[list[int]]:
-    recent = [point for point in points if point[0] >= cutoff]
-    daily: dict[int, list[int]] = {}
-    for stamp, count in points:
-        if stamp >= cutoff:
-            continue
-        day = stamp // 86400
-        current = daily.get(day)
-        if current is None or stamp >= current[0]:
-            daily[day] = [stamp, count]
-    return [daily[day] for day in sorted(daily)] + recent
+def append_history_point(series: list[list[int]], stamp: int, count: int) -> None:
+    if series and series[-1][0] == stamp:
+        series[-1][1] = count
+        return
+    if series and series[-1][0] > stamp:
+        return
+    if len(series) >= 2 and series[-1][1] == count and series[-2][1] == count:
+        series[-1][0] = stamp
+        return
+    series.append([stamp, count])
 
 
 def update_history(players: list[dict], maps: list[dict], updated_at: str | None) -> None:
@@ -648,15 +646,11 @@ def update_history(players: list[dict], maps: list[dict], updated_at: str | None
         count = medal_count(player["records"], maps)
         history["names"][player["id"]] = player["name"]
         series = history["series"].setdefault(player["id"], [])
-        if series and series[-1][0] == stamp:
-            series[-1][1] = count
-        elif not series or series[-1][0] < stamp:
-            series.append([stamp, count])
-    cutoff = stamp - HISTORY_DETAIL_SECONDS
+        append_history_point(series, stamp, count)
     for account_id, series in list(history["series"].items()):
         cleaned = [point for point in series if isinstance(point, list) and len(point) == 2]
         cleaned.sort()
-        history["series"][account_id] = downsample_history(cleaned, cutoff)
+        history["series"][account_id] = cleaned
         if not history["series"][account_id]:
             history["series"].pop(account_id, None)
             history["names"].pop(account_id, None)
