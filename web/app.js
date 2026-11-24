@@ -20,6 +20,8 @@ const state = {
   chartExtra: loadChartIds(),
   chartHidden: new Set(),
   chartQuery: "",
+  chartExpanded: false,
+  chartAnimate: false,
 };
 
 const app = document.querySelector("#app");
@@ -38,6 +40,12 @@ Promise.all([
       series: history.series || {},
     };
     window.addEventListener("hashchange", onRoute);
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && state.chartExpanded) {
+        state.chartExpanded = false;
+        render();
+      }
+    });
     onRoute();
   })
   .catch((error) => {
@@ -90,6 +98,7 @@ function onRoute() {
   if (nextId !== state.playerId) {
     state.playerId = nextId;
     state.mapPage = 0;
+    if (nextId) state.chartExpanded = false;
   }
   render();
 }
@@ -100,6 +109,7 @@ function render() {
     ? [document.activeElement.selectionStart, document.activeElement.selectionEnd]
     : null;
   app.classList.toggle("wide", !state.playerId);
+  document.body.classList.toggle("chart-open", state.chartExpanded && !state.playerId);
   app.replaceChildren(header(), state.playerId ? playerView() : boardView(), footer());
   if (!focusId) return;
   const node = document.getElementById(focusId);
@@ -483,7 +493,7 @@ function loadFavorites() {
 }
 
 function chartCard() {
-  const card = el("section", { class: "panel chart-card" });
+  const card = el("section", { class: `panel chart-card${state.chartExpanded ? " expanded" : ""}${state.chartAnimate ? " opening" : ""}` });
   const ids = selectedChartIds();
   card.append(
     el("div", { class: "chart-head" }, [
@@ -496,12 +506,13 @@ function chartCard() {
       }, [`Top ${limit}`]))),
         el("button", {
           class: "text-btn",
-          onclick: (event) => {
-            const card = event.currentTarget.closest(".chart-card");
-            if (document.fullscreenElement) document.exitFullscreen();
-            else card.requestFullscreen();
+          onclick: () => {
+            state.chartExpanded = !state.chartExpanded;
+            state.chartAnimate = state.chartExpanded;
+            render();
+            if (state.chartAnimate) setTimeout(() => { state.chartAnimate = false; }, 480);
           },
-        }, ["Full screen"]),
+        }, [state.chartExpanded ? "Close" : "Full screen"]),
       ]),
     ]),
     el("div", { class: "chart-controls" }, [
