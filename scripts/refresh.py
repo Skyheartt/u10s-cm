@@ -30,6 +30,9 @@ CSV_PATH = ROOT / "u10s-cm-time.csv"
 MAPS_PATH = ROOT / "data" / "maps.json"
 NAMES_PATH = ROOT / "data" / "names.json"
 OUT_PATH = ROOT / "web" / "data" / "standings.json"
+HISTORY_PATH = ROOT / "web" / "data" / "history.json"
+HISTORY_TOP = 100
+HISTORY_DETAIL_SECONDS = 21 * 24 * 60 * 60
 
 AUTHOR = "Everios96_2"
 MIN_AGE_SECONDS = 30 * 60
@@ -611,6 +614,57 @@ def publish(maps: list[dict], by_uid: dict[str, dict[str, int]], names: dict[str
     temporary.write_text(json.dumps(payload, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
     temporary.replace(OUT_PATH)
     print(f"Wrote {OUT_PATH} ({len(players)} players, {len(maps)} maps)")
+    update_history(players, maps, updated_at)
+
+
+def downsample_history(points: list[list[int]], cutoff: int) -> list[list[int]]:
+    recent = [point for point in points if point[0] >= cutoff]
+    daily: dict[int, list[int]] = {}
+    for stamp, count in points:
+        if stamp >= cutoff:
+            continue
+        day = stamp // 86400
+        current = daily.get(day)
+        if current is None or stamp >= current[0]:
+            daily[day] = [stamp, count]
+    return [daily[day] for day in sorted(daily)] + recent
+
+
+def update_history(players: list[dict], maps: list[dict], updated_at: str | None) -> None:
+    if not updated_at:
+        return
+    stamp = int(calendar.timegm(time.strptime(updated_at, "%Y-%m-%dT%H:%M:%SZ")))
+    history = {"names": {}, "series": {}}
+    if HISTORY_PATH.exists():
+        try:
+            loaded = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+            if isinstance(loaded.get("names"), dict):
+                history["names"] = loaded["names"]
+            if isinstance(loaded.get("series"), dict):
+                history["series"] = loaded["series"]
+        except json.JSONDecodeError:
+            pass
+    for player in players[:HISTORY_TOP]:
+        count = medal_count(player["records"], maps)
+        history["names"][player["id"]] = player["name"]
+        series = history["series"].setdefault(player["id"], [])
+        if series and series[-1][0] == stamp:
+            series[-1][1] = count
+        elif not series or series[-1][0] < stamp:
+            series.append([stamp, count])
+    cutoff = stamp - HISTORY_DETAIL_SECONDS
+    for account_id, series in list(history["series"].items()):
+        cleaned = [point for point in series if isinstance(point, list) and len(point) == 2]
+        cleaned.sort()
+        history["series"][account_id] = downsample_history(cleaned, cutoff)
+        if not history["series"][account_id]:
+            history["series"].pop(account_id, None)
+            history["names"].pop(account_id, None)
+    HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    temporary = HISTORY_PATH.with_suffix(".json.tmp")
+    temporary.write_text(json.dumps(history, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+    temporary.replace(HISTORY_PATH)
+    print(f"Wrote {HISTORY_PATH} ({len(history['series'])} players)")
 
 
 def load_names() -> dict[str, str]:

@@ -62,7 +62,7 @@ jobs:
         run: |
           git config user.name "u10s-cm refresh"
           git config user.email "u10s-cm@users.noreply.github.com"
-          git add web/data/standings.json
+          git add web/data/standings.json web/data/history.json
           if [ -f data/names.json ]; then git add data/names.json; fi
           if [ -f data/maps.json ]; then git add data/maps.json; fi
           if git diff --cached --quiet; then

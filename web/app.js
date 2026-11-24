@@ -1,8 +1,12 @@
 const FAVORITES_KEY = "u10s-cm-favorites";
 const PAGE_SIZE = 50;
 
+const CHART_KEY = "u10s-cm-chart";
+const CHART_COLORS = ["#e7b3c0", "#8fd0b0", "#f0c36a", "#8eb8ef", "#d7b0ef", "#f0b09a", "#7dccc4", "#c9d67a", "#f2a3c0", "#a9c4f2"];
+
 const state = {
   data: null,
+  history: { names: {}, series: {} },
   tab: "all",
   query: "",
   page: 0,
@@ -12,17 +16,27 @@ const state = {
   mapQuery: "",
   mapPage: 0,
   mapSort: "number",
+  chartLimit: 10,
+  chartExtra: loadChartIds(),
+  chartHidden: new Set(),
+  chartQuery: "",
 };
 
 const app = document.querySelector("#app");
 
-fetch("data/standings.json", { cache: "no-store" })
-  .then((response) => {
+Promise.all([
+  fetch("data/standings.json", { cache: "no-store" }).then((response) => {
     if (!response.ok) throw new Error("The standings file is missing.");
     return response.json();
-  })
-  .then((data) => {
+  }),
+  fetch("data/history.json", { cache: "no-store" }).then((response) => (response.ok ? response.json() : { names: {}, series: {} })),
+])
+  .then(([data, history]) => {
     state.data = prepare(data);
+    state.history = {
+      names: history.names || {},
+      series: history.series || {},
+    };
     window.addEventListener("hashchange", onRoute);
     onRoute();
   })
@@ -85,6 +99,7 @@ function render() {
   const selection = focusId && document.activeElement.setSelectionRange
     ? [document.activeElement.selectionStart, document.activeElement.selectionEnd]
     : null;
+  app.classList.toggle("wide", !state.playerId);
   app.replaceChildren(header(), state.playerId ? playerView() : boardView(), footer());
   if (!focusId) return;
   const node = document.getElementById(focusId);
@@ -99,7 +114,7 @@ function header() {
   const copy = document.createElement("div");
   copy.append(
     el("h1", {}, ["U10S CM"]),
-    el("p", { class: "lede" }, [`Who has the champion medal on Everios's ${state.data.mapCount} U10S maps.`]),
+    el("p", { class: "lede" }, [`Champion medal leaderboard on Everios's U10S series.`]),
     el("p", { class: "meta" }, [updatedLabel()]),
   );
   block.append(copy);
@@ -112,7 +127,7 @@ function updatedLabel() {
   const stamp = Number.isNaN(when.getTime())
     ? state.data.updatedAt
     : when.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
-  return `Updated ${stamp}. Refreshed about every 3 hours.`;
+  return `Updated ${stamp}. Text skyheart_ on discord for an issue.`;
 }
 
 function boardView() {
@@ -124,7 +139,7 @@ function boardView() {
   const panel = el("section", { class: "panel" });
   panel.append(toolbar(players.length), playerRows(slice, players.length));
   if (players.length) panel.append(pager(start, slice.length, players.length, pages));
-  return panel;
+  return el("div", { class: "layout" }, [panel, chartCard()]);
 }
 
 function toolbar(shown) {
@@ -465,6 +480,206 @@ function loadFavorites() {
   } catch {
     return new Set();
   }
+}
+
+function chartCard() {
+  const card = el("section", { class: "panel chart-card" });
+  const ids = selectedChartIds();
+  card.append(
+    el("div", { class: "chart-head" }, [
+      el("h2", {}, ["Progress"]),
+      el("div", { class: "tabs" }, [5, 10, 20].map((limit) => el("button", {
+        class: "tab",
+        "aria-selected": state.chartLimit === limit ? "true" : "false",
+        onclick: () => { state.chartLimit = limit; render(); },
+      }, [`Top ${limit}`]))),
+    ]),
+    el("div", { class: "chart-controls" }, [
+      el("input", {
+        id: "chart-search",
+        class: "search chart-search",
+        type: "search",
+        placeholder: "Add a player",
+        value: state.chartQuery,
+        "aria-label": "Add a player to the chart",
+        oninput: (event) => { state.chartQuery = event.target.value; render(); },
+      }),
+      el("button", {
+        class: "text-btn",
+        onclick: () => addChartIds([...state.favorites]),
+      }, ["Add favorites"]),
+    ]),
+  );
+  const matches = chartMatches();
+  if (matches.length) card.append(el("div", { class: "chart-matches" }, matches));
+  const frame = el("div", { class: "chart-frame" });
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", "0 0 640 320");
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "Medal count over time");
+  const tip = el("div", { class: "chart-tip", hidden: true });
+  frame.append(svg, tip);
+  drawChart(svg, tip, ids);
+  card.append(frame, chartLegend(ids), el("p", { class: "chart-note" }, [
+    "Saved for the top 100. Recent refreshes stay detailed; after 3 weeks, one point per day.",
+  ]));
+  return card;
+}
+
+function chartMatches() {
+  const query = state.chartQuery.trim().toLowerCase();
+  if (!query) return [];
+  const chosen = new Set(selectedChartIds());
+  return Object.entries(state.history.names)
+    .filter(([id, name]) => state.history.series[id] && !chosen.has(id) && String(name).toLowerCase().includes(query))
+    .slice(0, 6)
+    .map(([id, name]) => el("button", { onclick: () => addChartIds([id]) }, [name]));
+}
+
+function chartLegend(ids) {
+  const legend = el("div", { class: "legend" });
+  ids.forEach((id, index) => {
+    const name = state.history.names[id] || id;
+    const button = el("button", {
+      "aria-pressed": state.chartHidden.has(id) ? "false" : "true",
+      onclick: () => {
+        if (state.chartHidden.has(id)) state.chartHidden.delete(id);
+        else state.chartHidden.add(id);
+        render();
+      },
+    }, [name]);
+    const swatch = el("span", { class: "swatch" });
+    swatch.style.background = CHART_COLORS[index % CHART_COLORS.length];
+    button.prepend(swatch);
+    legend.append(button);
+  });
+  return legend;
+}
+
+function selectedChartIds() {
+  const known = new Set(Object.keys(state.history.series || {}));
+  const ranked = state.data.players.filter((player) => known.has(player.id)).map((player) => player.id);
+  for (const id of known) if (!ranked.includes(id)) ranked.push(id);
+  const top = ranked.slice(0, state.chartLimit);
+  const extra = [...state.chartExtra].filter((id) => known.has(id) && !top.includes(id));
+  return [...top, ...extra];
+}
+
+function addChartIds(ids) {
+  let changed = false;
+  for (const id of ids) {
+    if (!state.history.series[id] || selectedChartIds().includes(id)) continue;
+    if (state.chartExtra.size >= 8) break;
+    state.chartExtra.add(id);
+    state.chartHidden.delete(id);
+    changed = true;
+  }
+  state.chartQuery = "";
+  if (changed) localStorage.setItem(CHART_KEY, JSON.stringify([...state.chartExtra]));
+  render();
+}
+
+function loadChartIds() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(CHART_KEY) || "[]");
+    return new Set(Array.isArray(parsed) ? parsed.filter((id) => typeof id === "string") : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function drawChart(svg, tip, ids) {
+  const width = 640;
+  const height = 320;
+  const pad = { l: 46, r: 14, t: 16, b: 34 };
+  const plotW = width - pad.l - pad.r;
+  const plotH = height - pad.t - pad.b;
+  const ns = "http://www.w3.org/2000/svg";
+  const node = (tag, attrs) => {
+    const element = document.createElementNS(ns, tag);
+    for (const [key, value] of Object.entries(attrs)) element.setAttribute(key, value);
+    return element;
+  };
+  const series = ids.map((id, index) => ({
+    id,
+    name: state.history.names[id] || id,
+    color: CHART_COLORS[index % CHART_COLORS.length],
+    points: state.chartHidden.has(id) ? [] : (state.history.series[id] || []),
+  }));
+  const stamps = [...new Set(series.flatMap((item) => item.points.map((point) => point[0])))].sort((a, b) => a - b);
+  if (!stamps.length) {
+    svg.append(node("text", { x: 24, y: 40, fill: "#b7b1a8", "font-size": "14" }));
+    svg.lastChild.textContent = "History appears after the next saved refresh.";
+    return;
+  }
+  const maxCount = niceMax(Math.max(...series.flatMap((item) => item.points.map((point) => point[1])), 10));
+  const t0 = stamps[0];
+  const t1 = stamps[stamps.length - 1];
+  const xOf = (stamp) => (t1 === t0 ? pad.l + plotW / 2 : pad.l + ((stamp - t0) / (t1 - t0)) * plotW);
+  const yOf = (count) => pad.t + (1 - count / maxCount) * plotH;
+  for (let step = 0; step <= 4; step += 1) {
+    const count = Math.round((maxCount * step) / 4);
+    const y = yOf(count);
+    svg.append(node("line", { x1: pad.l, x2: width - pad.r, y1: y, y2: y, stroke: "#322f2b" }));
+    const label = node("text", { x: pad.l - 8, y: y + 4, fill: "#b7b1a8", "font-size": "11", "text-anchor": "end" });
+    label.textContent = String(count);
+    svg.append(label);
+  }
+  for (const item of series) {
+    if (item.points.length >= 2) {
+      svg.append(node("polyline", {
+        points: item.points.map(([stamp, count]) => `${xOf(stamp)},${yOf(count)}`).join(" "),
+        fill: "none",
+        stroke: item.color,
+        "stroke-width": "2.4",
+        "stroke-linejoin": "round",
+        "stroke-linecap": "round",
+      }));
+    }
+    for (const [stamp, count] of item.points.length > 14 ? [item.points[item.points.length - 1]] : item.points) {
+      svg.append(node("circle", { cx: xOf(stamp), cy: yOf(count), r: "3.2", fill: item.color }));
+    }
+  }
+  [t0, t1].filter((stamp, index, list) => list.indexOf(stamp) === index).forEach((stamp, index, list) => {
+    const label = node("text", {
+      x: xOf(stamp),
+      y: height - 8,
+      fill: "#b7b1a8",
+      "font-size": "11",
+      "text-anchor": index === 0 && list.length > 1 ? "start" : "end",
+    });
+    label.textContent = new Date(stamp * 1000).toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    svg.append(label);
+  });
+  const overlay = node("rect", { x: pad.l, y: pad.t, width: plotW, height: plotH, fill: "transparent" });
+  overlay.addEventListener("mousemove", (event) => {
+    const rect = svg.getBoundingClientRect();
+    const local = ((event.clientX - rect.left) / rect.width) * width;
+    const ratio = Math.min(1, Math.max(0, (local - pad.l) / plotW));
+    const target = t0 + ratio * (t1 - t0);
+    const nearest = stamps.reduce((best, stamp) => Math.abs(stamp - target) < Math.abs(best - target) ? stamp : best);
+    const rows = series
+      .map((item) => {
+        const point = [...item.points].reverse().find(([stamp]) => stamp <= nearest);
+        return point ? `${item.name}  ${point[1]}` : null;
+      })
+      .filter(Boolean);
+    tip.replaceChildren(
+      el("strong", {}, [new Date(nearest * 1000).toLocaleString(undefined, { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })]),
+    );
+    for (const row of rows) tip.append(el("div", {}, [row]));
+    tip.hidden = false;
+    const left = Math.min(event.clientX - rect.left + 12, rect.width - 150);
+    tip.style.left = `${Math.max(8, left)}px`;
+    tip.style.top = `${Math.max(8, event.clientY - rect.top + 12)}px`;
+  });
+  overlay.addEventListener("mouseleave", () => { tip.hidden = true; });
+  svg.append(overlay);
+}
+
+function niceMax(value) {
+  const step = value <= 50 ? 10 : value <= 200 ? 25 : 50;
+  return Math.max(step, Math.ceil(value / step) * step);
 }
 
 function formatTime(ms) {

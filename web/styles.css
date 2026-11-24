@@ -38,6 +38,52 @@ button { cursor: pointer; }
   padding: 2.5rem 0 4rem;
 }
 
+.wrap.wide { width: min(1180px, calc(100% - 2rem)); }
+
+.layout { display: flex; flex-direction: column; gap: 1rem; }
+
+.chart-card { padding: 0.9rem 0.9rem 0.7rem; }
+.chart-head { display: flex; justify-content: space-between; gap: 0.75rem; align-items: center; margin-bottom: 0.65rem; }
+.chart-head h2 { font-size: 1rem; }
+.chart-controls { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; margin-bottom: 0.55rem; }
+.chart-search { width: 100%; }
+.chart-matches { display: flex; flex-direction: column; gap: 0.15rem; margin: 0.35rem 0; }
+.chart-matches button, .legend button, .chip {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 0.28rem 0.6rem;
+  text-align: left;
+}
+.legend { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.55rem; }
+.legend button { display: inline-flex; align-items: center; gap: 0.35rem; }
+.legend button[aria-pressed="false"] { opacity: 0.4; }
+.swatch { width: 0.55rem; height: 0.55rem; border-radius: 99px; display: inline-block; }
+.chart-frame { position: relative; }
+.chart-frame svg { width: 100%; height: auto; display: block; }
+.chart-tip {
+  position: absolute;
+  z-index: 2;
+  min-width: 8rem;
+  max-width: 14rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #242220;
+  color: var(--ink);
+  font-size: 0.75rem;
+  pointer-events: none;
+  box-shadow: var(--shadow);
+}
+.chart-tip[hidden] { display: none; }
+.chart-note { margin: 0.45rem 0 0; color: var(--muted); font-size: 0.75rem; }
+
+@media (min-width: 1080px) {
+  .layout { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(340px, 0.85fr); align-items: start; }
+  .chart-card { position: sticky; top: 1rem; }
+}
+
 .top {
   display: flex;
   justify-content: space-between;
