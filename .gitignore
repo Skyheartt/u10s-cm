@@ -4,3 +4,4 @@ __pycache__/
 data/state.json
 web/data/*.tmp
 data/*.tmp
+scheduler/.wrangler/
