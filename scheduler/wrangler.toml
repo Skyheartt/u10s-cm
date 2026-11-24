@@ -1,0 +1,6 @@
+name = "u10s-cm-clock"
+main = "index.js"
+compatibility_date = "2026-11-24"
+
+[triggers]
+crons = ["17 1,4,7,10,13,16,19,22 * * *"]

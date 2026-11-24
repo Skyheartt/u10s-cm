@@ -4,7 +4,7 @@ Static leaderboard of champion medals on the 700 Everios U10S maps.
 
 The site is the `web` folder. Favorites stay in the browser (`localStorage`). A Python script reads the Nadeo leaderboards and writes `web/data/standings.json`.
 
-A full pass takes about 30 minutes. The leaderboard scan is one request per second, then one more request per map fills in the personal bests of the top 100, including times slower than the champion medal. The script refuses to start again when the published file is under 30 minutes old. The scheduled job is registered for 02:17, 05:17, 08:17, 11:17, 14:17, 17:17, 20:17 and 23:17 Paris time. GitHub's clock has not started it on its own yet; the Actions tab has a Run workflow button for a manual start.
+A full pass takes about 30 minutes. The leaderboard scan is one request per second, then one more request per map fills in the personal bests of the top 100, including times slower than the champion medal. The script refuses to start again when the published file is under 30 minutes old. GitHub's own clock does not start this repository. A separate Cloudflare Worker, `scheduler/`, calls the workflow every 3 hours: 02:17, 05:17, 08:17, 11:17, 14:17, 17:17, 20:17 and 23:17 Paris time. It needs a fine-grained GitHub token stored as the Cloudflare secret `GITHUB_DISPATCH_TOKEN`, with Actions read and write on this repository only.
 
 ## Run it locally
 
